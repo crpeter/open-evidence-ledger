@@ -10,7 +10,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
-from build_index import BASE_URL, status_slug  # noqa: E402
+from build_index import BASE_URL, status_slug, topic_label  # noqa: E402
 from common import load_records  # noqa: E402
 
 
@@ -42,6 +42,16 @@ class PageMetadataParser(HTMLParser):
 
 
 class GeneratedSiteTests(unittest.TestCase):
+    def test_known_topic_names_have_public_display_labels(self) -> None:
+        expected = {
+            "icc": "ICC",
+            "icj": "ICJ",
+            "ohchr": "OHCHR",
+            "un-commission-of-inquiry": "UN Commission of Inquiry",
+            "south-africa-v-israel": "South Africa v. Israel",
+        }
+        self.assertEqual({slug: topic_label(slug) for slug in expected}, expected)
+
     def test_every_topic_and_status_has_an_index_page(self) -> None:
         records = [record for _, record in load_records()]
         topics = {tag for record in records for tag in record["tags"]}

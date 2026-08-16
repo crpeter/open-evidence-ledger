@@ -14,6 +14,13 @@ DIST = ROOT / "dist"
 DOCS = ROOT / "docs"
 BASE_URL = "https://crpeter.github.io/open-evidence-ledger"
 REPO_URL = "https://github.com/crpeter/open-evidence-ledger"
+TOPIC_LABELS = {
+    "icc": "ICC",
+    "icj": "ICJ",
+    "ohchr": "OHCHR",
+    "south-africa-v-israel": "South Africa v. Israel",
+    "un-commission-of-inquiry": "UN Commission of Inquiry",
+}
 
 
 def dump_json(value: object) -> str:
@@ -54,7 +61,7 @@ def record_page(record: dict) -> str:
 
 def topic_label(tag: str) -> str:
     """Turn the schema's machine-readable topic identifier into a heading."""
-    return tag.replace("-", " ").title()
+    return TOPIC_LABELS.get(tag, tag.replace("-", " ").title())
 
 
 def status_slug(status: str) -> str:
