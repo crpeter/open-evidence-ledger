@@ -13,7 +13,7 @@ This initial release proves the data model with six primary-source examples that
 * `scripts/validate.py` — required fields, formats, references, and duplicate checks
 * `scripts/build_index.py` — deterministic JSON, JSONL, CSV, HTML, and sitemap builder
 * `scripts/check_links.py` — optional live primary-source URL check
-* `dist/` and `site/` — generated artifacts committed for easy reuse and static hosting
+* `dist/` and `docs/` — generated artifacts committed for easy reuse and GitHub Pages hosting
 
 ## Build
 
