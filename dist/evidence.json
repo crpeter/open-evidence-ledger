@@ -1,0 +1,241 @@
+[
+  {
+    "id": "ohchr-detention-gaza-hostilities-2024-07-31",
+    "title": "OHCHR report on detention in the context of Gaza hostilities",
+    "event_date": null,
+    "publication_date": "2024-07-31",
+    "location": [
+      "Gaza Strip",
+      "Israel",
+      "West Bank, including East Jerusalem"
+    ],
+    "actors": [
+      "Israeli authorities",
+      "Palestinian armed groups"
+    ],
+    "affected_population": [
+      "Palestinian detainees",
+      "Israeli hostages"
+    ],
+    "category": "detention",
+    "summary": "OHCHR documented detention-related violations affecting Palestinians and abuses of Israeli hostages between 7 October 2023 and 30 June 2024.",
+    "claim": "OHCHR reported that thousands of Palestinians had been taken into custody since 7 October 2023, many arbitrarily and in secret and in some cases subjected to treatment that may amount to torture; it also stated that Palestinian armed groups' hostage-taking and treatment of hostages entailed violations of international humanitarian and human rights law.",
+    "legal_characterization": "OHCHR findings and documented concerns regarding arbitrary detention, torture or other ill-treatment, enforced disappearance, hostage-taking, and abuse; not a court judgment.",
+    "legal_status": "UN_FINDING",
+    "evidence_type": [
+      "official-report",
+      "witness-interview",
+      "document",
+      "medical-record"
+    ],
+    "source_organization": "Office of the United Nations High Commissioner for Human Rights",
+    "source_title": "Detention in the context of the escalation of hostilities in Gaza (7 October 2023 - 30 June 2024)",
+    "source_url": "https://www.ohchr.org/sites/default/files/documents/countries/opt/20240731-Thematic-report-Detention-context-Gaza-hostilities.pdf",
+    "source_document_id": "OHCHR-OPT-Detention-Thematic-Report-2024-07-31",
+    "source_page": "pp. 2-3, executive summary, paras. 2-8",
+    "source_quote": "Thousands of Palestinians have been taken into custody, mostly men, but also women and children",
+    "verification_notes": "Verified against the report's executive summary, scope, and methodology. The report covers 7 October 2023 to 30 June 2024 and says access restrictions limited OHCHR verification. This record preserves the report's qualified phrase ‘may amount to torture’ and includes its findings concerning both Palestinian detainees and Israeli hostages.",
+    "related_records": [
+      "un-coi-palestinian-armed-groups-2024-06-12",
+      "un-coi-israeli-operations-gaza-2024-06-12"
+    ],
+    "tags": [
+      "arbitrary-detention",
+      "detainees",
+      "hostages",
+      "ohchr",
+      "torture"
+    ],
+    "created_at": "2026-08-16T00:00:00Z",
+    "updated_at": "2026-08-16T00:00:00Z"
+  },
+  {
+    "id": "un-coi-israeli-operations-gaza-2024-06-12",
+    "title": "UN Commission findings on Israeli military operations in Gaza",
+    "event_date": null,
+    "publication_date": "2024-06-12",
+    "location": [
+      "Gaza Strip"
+    ],
+    "actors": [
+      "Israeli authorities",
+      "Israeli security forces"
+    ],
+    "affected_population": [
+      "Palestinian civilians in the Gaza Strip"
+    ],
+    "category": "attack-on-civilians",
+    "summary": "A UN Commission of Inquiry made factual and legal findings concerning Israeli authorities' and security forces' conduct in Gaza through 31 December 2023.",
+    "claim": "For the period 7 October through 31 December 2023, the Independent International Commission of Inquiry found that Israeli authorities were responsible for war crimes including starvation as a method of warfare, murder or wilful killing, intentionally directing attacks against civilians and civilian objects, forcible transfer, sexual violence, torture, and cruel or inhuman treatment; it also found crimes against humanity of extermination and gender persecution.",
+    "legal_characterization": "War-crime and crime-against-humanity findings by a UN commission of inquiry; not a final judicial determination of state or individual criminal responsibility.",
+    "legal_status": "UN_FINDING",
+    "evidence_type": [
+      "official-report",
+      "witness-interview",
+      "document",
+      "image",
+      "video",
+      "satellite-imagery",
+      "expert-analysis"
+    ],
+    "source_organization": "United Nations Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+    "source_title": "Report of the Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+    "source_url": "https://docs.un.org/en/A/HRC/56/26",
+    "source_document_id": "A/HRC/56/26",
+    "source_page": "pp. 17-18, paras. 101-105",
+    "source_quote": "The Commission finds that the immense numbers of civilian casualties in Gaza and widespread destruction of civilian objects and infrastructure were the inevitable result",
+    "verification_notes": "Verified against the report's conclusions and its express temporal scope ending 31 December 2023 (para. 2). The Commission applied a reasonable-grounds standard described in paragraph 6. The list in this record follows paragraph 105 and is attributed only to the Commission, not characterized as a court judgment.",
+    "related_records": [
+      "un-coi-palestinian-armed-groups-2024-06-12",
+      "icc-warrants-netanyahu-gallant-2024-11-21",
+      "ohchr-detention-gaza-hostilities-2024-07-31"
+    ],
+    "tags": [
+      "civilian-harm",
+      "crimes-against-humanity",
+      "gaza",
+      "israeli-forces",
+      "un-commission-of-inquiry",
+      "war-crimes"
+    ],
+    "created_at": "2026-08-16T00:00:00Z",
+    "updated_at": "2026-08-16T00:00:00Z"
+  },
+  {
+    "id": "un-coi-palestinian-armed-groups-2024-06-12",
+    "title": "UN Commission findings on 7 October attacks by Palestinian armed groups",
+    "event_date": "2023-10-07",
+    "publication_date": "2024-06-12",
+    "location": [
+      "Israel"
+    ],
+    "actors": [
+      "Hamas military wing",
+      "other Palestinian armed groups",
+      "Palestinian civilians who directly participated"
+    ],
+    "affected_population": [
+      "Israeli civilians",
+      "hostages",
+      "members of Israeli security forces hors de combat"
+    ],
+    "category": "attack-on-civilians",
+    "summary": "A UN Commission of Inquiry found that members of Palestinian armed groups committed war crimes during their 7 October 2023 attack in Israel.",
+    "claim": "The Independent International Commission of Inquiry found that members of the military wings of Hamas and other Palestinian armed groups committed war crimes on 7 October 2023, including intentionally directing attacks against civilians, murder or wilful killing, torture, inhuman or cruel treatment, and taking hostages.",
+    "legal_characterization": "War-crime findings by a UN commission of inquiry; not a judicial judgment assigning individual criminal liability.",
+    "legal_status": "UN_FINDING",
+    "evidence_type": [
+      "official-report",
+      "witness-interview",
+      "document",
+      "image",
+      "video",
+      "expert-analysis"
+    ],
+    "source_organization": "United Nations Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+    "source_title": "Report of the Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+    "source_url": "https://docs.un.org/en/A/HRC/56/26",
+    "source_document_id": "A/HRC/56/26",
+    "source_page": "p. 16, paras. 96-97",
+    "source_quote": "The Commission concludes that members of the military wings of Hamas and of other Palestinian armed groups committed the war crimes",
+    "verification_notes": "Verified against the Commission's conclusions and its methodology and evidentiary-standard sections (paras. 3-7). Paragraph 97 separately addresses Israeli civilians who directly participated. This record attributes findings to the Commission and does not present them as convictions of any named individual.",
+    "related_records": [
+      "un-coi-israeli-operations-gaza-2024-06-12"
+    ],
+    "tags": [
+      "7-october",
+      "attacks-on-civilians",
+      "hamas",
+      "hostages",
+      "un-commission-of-inquiry"
+    ],
+    "created_at": "2026-08-16T00:00:00Z",
+    "updated_at": "2026-08-16T00:00:00Z"
+  },
+  {
+    "id": "icc-warrants-netanyahu-gallant-2024-11-21",
+    "title": "ICC Pre-Trial Chamber issues warrants for Benjamin Netanyahu and Yoav Gallant",
+    "event_date": "2024-11-21",
+    "publication_date": "2024-11-21",
+    "location": [
+      "Gaza Strip"
+    ],
+    "actors": [
+      "Benjamin Netanyahu",
+      "Yoav Gallant"
+    ],
+    "affected_population": [
+      "civilians in the Gaza Strip"
+    ],
+    "category": "legal-proceeding",
+    "summary": "ICC Pre-Trial Chamber I announced arrest warrants after applying a reasonable-grounds threshold; the allegations have not been adjudicated at trial.",
+    "claim": "The Chamber stated that it found reasonable grounds to believe Benjamin Netanyahu and Yoav Gallant each bore criminal responsibility for the war crime of starvation as a method of warfare and crimes against humanity of murder, persecution, and other inhumane acts during the period addressed by the warrants.",
+    "legal_characterization": "Arrest-warrant allegations under the Rome Statute at the reasonable-grounds-to-believe threshold; not convictions or final findings.",
+    "legal_status": "COURT_ALLEGATION",
+    "evidence_type": [
+      "arrest-warrant"
+    ],
+    "source_organization": "International Criminal Court",
+    "source_title": "Situation in the State of Palestine: ICC Pre-Trial Chamber I rejects the State of Israel's challenges to jurisdiction and issues warrants of arrest for Benjamin Netanyahu and Yoav Gallant",
+    "source_url": "https://www.icc-cpi.int/news/situation-state-palestine-icc-pre-trial-chamber-i-rejects-state-israels-challenges",
+    "source_document_id": "ICC-2024-11-21-Palestine-warrants-Netanyahu-Gallant",
+    "source_page": "Web release, sections headed ‘The warrants of arrest’ and ‘Conduct alleged’",
+    "source_quote": "The Chamber found reasonable grounds to believe that Mr Netanyahu and Mr Gallant bear criminal responsibility",
+    "verification_notes": "Verified against the ICC's official announcement, including its stated evidentiary threshold, temporal scope, and notice that the warrants were classified secret when issued. The underlying allegations remain subject to adjudication and the record deliberately uses COURT_ALLEGATION rather than a court finding or conviction label.",
+    "related_records": [
+      "icj-provisional-measures-2024-01-26",
+      "un-coi-israeli-operations-gaza-2024-06-12"
+    ],
+    "tags": [
+      "arrest-warrants",
+      "icc",
+      "palestine-situation",
+      "starvation"
+    ],
+    "created_at": "2026-08-16T00:00:00Z",
+    "updated_at": "2026-08-16T00:00:00Z"
+  },
+  {
+    "id": "icj-provisional-measures-2024-01-26",
+    "title": "ICJ indicates provisional measures in South Africa v. Israel",
+    "event_date": "2024-01-26",
+    "publication_date": "2024-01-26",
+    "location": [
+      "Gaza Strip",
+      "Israel"
+    ],
+    "actors": [
+      "State of Israel",
+      "Republic of South Africa"
+    ],
+    "affected_population": [
+      "Palestinians in the Gaza Strip"
+    ],
+    "category": "legal-proceeding",
+    "summary": "The International Court of Justice indicated provisional measures while expressly stating that it was not deciding the merits of South Africa's genocide claims.",
+    "claim": "At the provisional-measures stage, the Court found that at least some rights South Africa claimed under the Genocide Convention were plausible and that there was a real and imminent risk of irreparable prejudice; it ordered Israel to take specified measures pending a merits decision.",
+    "legal_characterization": "Provisional measures under Article 41 of the ICJ Statute in proceedings under the Genocide Convention; no final determination that genocide occurred.",
+    "legal_status": "COURT_INTERIM_FINDING",
+    "evidence_type": [
+      "court-order"
+    ],
+    "source_organization": "International Court of Justice",
+    "source_title": "Order of 26 January 2024, Application of the Genocide Convention in the Gaza Strip (South Africa v. Israel)",
+    "source_url": "https://www.icj-cij.org/sites/default/files/case-related/192/192-20240126-ord-01-00-en.pdf",
+    "source_document_id": "ICJ-General-List-192-Order-2024-01-26",
+    "source_page": "pp. 24-26, paras. 54, 61-62; pp. 29-30, para. 86",
+    "source_quote": "The Court considers that there is urgency, in the sense that there is a real and imminent risk that irreparable prejudice will be caused",
+    "verification_notes": "Verified against the operative order and its jurisdiction, plausibility, prejudice, and operative sections. Paragraph 30 says the Court was not called upon at this stage to establish breaches of Genocide Convention obligations. The record therefore does not state that the Court found genocide, or that the merits have been decided.",
+    "related_records": [
+      "icc-warrants-netanyahu-gallant-2024-11-21"
+    ],
+    "tags": [
+      "genocide-convention",
+      "icj",
+      "provisional-measures",
+      "south-africa-v-israel"
+    ],
+    "created_at": "2026-08-16T00:00:00Z",
+    "updated_at": "2026-08-16T00:00:00Z"
+  }
+]
