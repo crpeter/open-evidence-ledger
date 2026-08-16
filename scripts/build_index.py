@@ -14,6 +14,13 @@ DIST = ROOT / "dist"
 DOCS = ROOT / "docs"
 BASE_URL = "https://crpeter.github.io/open-evidence-ledger"
 REPO_URL = "https://github.com/crpeter/open-evidence-ledger"
+TOPIC_LABELS = {
+    "icc": "ICC",
+    "icj": "ICJ",
+    "ohchr": "OHCHR",
+    "south-africa-v-israel": "South Africa v. Israel",
+    "un-commission-of-inquiry": "UN Commission of Inquiry",
+}
 
 
 def dump_json(value: object) -> str:
@@ -38,23 +45,64 @@ def record_page(record: dict) -> str:
     canonical = f"{BASE_URL}/records/{quote(rid)}.html"
     related = "".join(f'<li><a href="{quote(x)}.html">{html.escape(x)}</a></li>' for x in record["related_records"]) or "<li>None</li>"
     quote_html = f'<h2>Short source quotation</h2><blockquote>{html.escape(record["source_quote"])}</blockquote>' if record["source_quote"] else ""
-    body = f"""<p><a href="../index.html">← All records</a></p><article><span class="status">{html.escape(record['legal_status'])}</span><h1>{html.escape(record['title'])}</h1><p class="lede">{html.escape(record['summary'])}</p>
+    topics = ", ".join(
+        f'<a href="../topics/{quote(tag)}.html">{html.escape(topic_label(tag))}</a>'
+        for tag in record["tags"]
+    )
+    status_url = f'../legal-status/{quote(status_slug(record["legal_status"]))}.html'
+    body = f"""<p><a href="../index.html">← All records</a></p><article><a class="status" href="{status_url}">{html.escape(record['legal_status'])}</a><h1>{html.escape(record['title'])}</h1><p class="lede">{html.escape(record['summary'])}</p>
 <h2>Claim recorded</h2><p>{html.escape(record['claim'])}</p>
-<dl><dt>Legal characterization</dt><dd>{html.escape(record['legal_characterization'])}</dd><dt>Event date</dt><dd>{html.escape(record['event_date'] or 'Not a single-date event')}</dd><dt>Location</dt><dd>{html.escape(', '.join(record['location']))}</dd><dt>Actors</dt><dd>{html.escape(', '.join(record['actors']))}</dd><dt>Affected population</dt><dd>{html.escape(', '.join(record['affected_population']))}</dd></dl>
+<dl><dt>Legal characterization</dt><dd>{html.escape(record['legal_characterization'])}</dd><dt>Event date</dt><dd>{html.escape(record['event_date'] or 'Not a single-date event')}</dd><dt>Location</dt><dd>{html.escape(', '.join(record['location']))}</dd><dt>Actors</dt><dd>{html.escape(', '.join(record['actors']))}</dd><dt>Affected population</dt><dd>{html.escape(', '.join(record['affected_population']))}</dd><dt>Topics</dt><dd>{topics}</dd></dl>
 <h2>Primary source</h2><p><a rel="cite" href="{html.escape(record['source_url'], quote=True)}">{html.escape(record['source_title'])}</a>, {html.escape(record['source_organization'])} ({html.escape(record['publication_date'])}); document {html.escape(record['source_document_id'])}, {html.escape(record['source_page'] or 'page not specified')}.</p>
 {quote_html}<h2>Verification notes</h2><p>{html.escape(record['verification_notes'])}</p><h2>Related records</h2><ul>{related}</ul></article>"""
     structured = {"@context": "https://schema.org", "@type": "Report", "@id": canonical, "headline": record["title"], "description": record["summary"], "datePublished": record["publication_date"], "citation": record["source_url"], "identifier": rid, "keywords": record["tags"]}
     return page_shell(record["title"], record["summary"], canonical, body, structured)
 
 
+def topic_label(tag: str) -> str:
+    """Turn the schema's machine-readable topic identifier into a heading."""
+    return TOPIC_LABELS.get(tag, tag.replace("-", " ").title())
+
+
+def status_slug(status: str) -> str:
+    return status.lower().replace("_", "-")
+
+
+def record_cards(records: list[dict], prefix: str = "../records/") -> str:
+    return "".join(
+        f'''<article class="record"><span class="status">{html.escape(record["legal_status"])}</span><h3><a href="{prefix}{quote(record["id"])}.html">{html.escape(record["title"])}</a></h3><p>{html.escape(record["summary"])}</p><div class="source">{html.escape(record["source_organization"])} · {html.escape(record["publication_date"])}</div></article>'''
+        for record in records
+    )
+
+
+def collection_page(kind: str, label: str, slug: str, records: list[dict]) -> str:
+    plural = "Topics" if kind == "topics" else "Legal statuses"
+    canonical = f"{BASE_URL}/{kind}/{quote(slug)}.html"
+    description = f"Evidence records indexed under {label}. Includes {len(records)} provenance-first record{'s' if len(records) != 1 else ''}."
+    body = f'''<p><a href="index.html">← All {plural.lower()}</a></p><section class="hero"><div class="eyebrow">{html.escape(plural)} index</div><h1>{html.escape(label)}</h1><p class="lede">{html.escape(description)}</p></section><div class="records">{record_cards(records)}</div>'''
+    structured = {"@context": "https://schema.org", "@type": "CollectionPage", "@id": canonical, "name": label, "description": description, "mainEntity": {"@type": "ItemList", "numberOfItems": len(records), "itemListElement": [{"@type": "ListItem", "position": position, "url": f"{BASE_URL}/records/{record['id']}.html", "name": record["title"]} for position, record in enumerate(records, 1)]}}
+    return page_shell(f"{label} evidence records", description, canonical, body, structured)
+
+
+def collection_index(kind: str, groups: dict[str, list[dict]]) -> str:
+    is_topics = kind == "topics"
+    title = "Evidence topics" if is_topics else "Legal-status index"
+    description = "Browse evidence records by topic." if is_topics else "Browse evidence records by the legal posture assigned in the ledger. These labels preserve the cited institution's status and are not independent verdicts."
+    links = "".join(
+        f'<li><a href="{quote(slug)}.html">{html.escape(topic_label(slug) if is_topics else records[0]["legal_status"])}</a> <span>({len(records)} record{"s" if len(records) != 1 else ""})</span></li>'
+        for slug, records in groups.items()
+    )
+    canonical = f"{BASE_URL}/{kind}/"
+    body = f'''<p><a href="../index.html">← All records</a></p><section class="hero"><div class="eyebrow">Browse the ledger</div><h1>{html.escape(title)}</h1><p class="lede">{html.escape(description)}</p></section><article><ul>{links}</ul></article>'''
+    structured = {"@context": "https://schema.org", "@type": "CollectionPage", "@id": canonical, "name": title, "description": description}
+    return page_shell(title, description, canonical, body, structured)
+
+
 def homepage(records: list[dict]) -> str:
     statuses = Counter(record["legal_status"] for record in records)
     organizations = {record["source_organization"] for record in records}
-    cards = "".join(
-        f'''<article class="record"><span class="status">{html.escape(record["legal_status"])}</span><h3><a href="records/{quote(record["id"])}.html">{html.escape(record["title"])}</a></h3><p>{html.escape(record["summary"])}</p><div class="source">{html.escape(record["source_organization"])} · {html.escape(record["publication_date"])}</div></article>'''
-        for record in records
-    )
-    return f'''<section class="hero"><div class="eyebrow">Primary-source evidence index</div><h1>Open Evidence Ledger</h1><p class="lede">A machine-readable public record of carefully scoped claims concerning alleged and established violations of international humanitarian and human rights law in Israel/Palestine.</p><p class="hero-note">Each record preserves its source, legal posture, citation location, and verification notes. Status labels describe what the cited institution established or alleged; they are not independent verdicts by this project.</p></section><section class="stats"><div class="stat"><strong>{len(records)}</strong><span>reviewed pilot records</span></div><div class="stat"><strong>{len(statuses)}</strong><span>legal-status classifications</span></div><div class="stat"><strong>{len(organizations)}</strong><span>primary-source institutions</span></div></section><section><div class="section-head"><div><div class="eyebrow">Evidence records</div><h2>Current ledger</h2></div><p>The pilot focuses on demonstrating provenance, legal-status discipline, and reproducible sourcing before larger-scale ingestion.</p></div><div class="records">{cards}</div></section>'''
+    cards = record_cards(records, "records/")
+    return f'''<section class="hero"><div class="eyebrow">Primary-source evidence index</div><h1>Open Evidence Ledger</h1><p class="lede">A machine-readable public record of carefully scoped claims concerning alleged and established violations of international humanitarian and human rights law in Israel/Palestine.</p><p class="hero-note">Each record preserves its source, legal posture, citation location, and verification notes. Status labels describe what the cited institution established or alleged; they are not independent verdicts by this project.</p></section><section class="stats"><div class="stat"><strong>{len(records)}</strong><span>reviewed pilot records</span></div><div class="stat"><strong>{len(statuses)}</strong><span>legal-status classifications</span></div><div class="stat"><strong>{len(organizations)}</strong><span>primary-source institutions</span></div></section><section><div class="section-head"><div><div class="eyebrow">Evidence records</div><h2>Current ledger</h2></div><p>The pilot focuses on demonstrating provenance, legal-status discipline, and reproducible sourcing before larger-scale ingestion. Browse by <a href="topics/">topic</a> or <a href="legal-status/">legal status</a>.</p></div><div class="records">{cards}</div></section>'''
 
 
 def main() -> int:
@@ -79,9 +127,28 @@ def main() -> int:
         stale_page.unlink()
     for record in records:
         (records_dir / f"{record['id']}.html").write_text(record_page(record), encoding="utf-8")
+    topics: dict[str, list[dict]] = {}
+    statuses: dict[str, list[dict]] = {}
+    for record in records:
+        for tag in record["tags"]:
+            topics.setdefault(tag, []).append(record)
+        statuses.setdefault(status_slug(record["legal_status"]), []).append(record)
+    groups_by_kind = {"topics": dict(sorted(topics.items())), "legal-status": dict(sorted(statuses.items()))}
+    for kind, groups in groups_by_kind.items():
+        collection_dir = DOCS / kind
+        collection_dir.mkdir(parents=True, exist_ok=True)
+        for stale_page in collection_dir.glob("*.html"):
+            stale_page.unlink()
+        (collection_dir / "index.html").write_text(collection_index(kind, groups), encoding="utf-8")
+        for slug, grouped_records in groups.items():
+            label = topic_label(slug) if kind == "topics" else grouped_records[0]["legal_status"]
+            (collection_dir / f"{slug}.html").write_text(collection_page(kind, label, slug, grouped_records), encoding="utf-8")
     structured = {"@context": "https://schema.org", "@type": "DataCatalog", "name": "Open Evidence Ledger", "description": "Structured primary-source records concerning Israel/Palestine", "dataset": [{"@type": "Dataset", "name": r["title"], "url": f"{BASE_URL}/records/{r['id']}.html"} for r in records]}
     (DOCS / "index.html").write_text(page_shell("Open Evidence Ledger", "A structured, provenance-first evidence corpus concerning Israel/Palestine.", f"{BASE_URL}/", homepage(records), structured), encoding="utf-8")
     urls = [f"{BASE_URL}/"] + [f"{BASE_URL}/records/{r['id']}.html" for r in records]
+    for kind, groups in groups_by_kind.items():
+        urls.append(f"{BASE_URL}/{kind}/")
+        urls.extend(f"{BASE_URL}/{kind}/{slug}.html" for slug in groups)
     sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "".join(f"  <url><loc>{html.escape(url)}</loc></url>\n" for url in urls) + "</urlset>\n"
     (DOCS / "sitemap.xml").write_text(sitemap, encoding="utf-8")
     print(f"Built {len(records)} records into dist/ and docs/.")
