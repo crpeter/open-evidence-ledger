@@ -3,15 +3,32 @@
   "title": "UN Commission findings on 7 October attacks by Palestinian armed groups",
   "event_date": "2023-10-07",
   "publication_date": "2024-06-12",
-  "location": ["Israel"],
-  "actors": ["Hamas military wing", "other Palestinian armed groups", "Palestinian civilians who directly participated"],
-  "affected_population": ["Israeli civilians", "hostages", "members of Israeli security forces hors de combat"],
+  "location": [
+    "Israel"
+  ],
+  "actors": [
+    "Hamas military wing",
+    "other Palestinian armed groups",
+    "Palestinian civilians who directly participated"
+  ],
+  "affected_population": [
+    "Israeli civilians",
+    "hostages",
+    "members of Israeli security forces hors de combat"
+  ],
   "category": "attack-on-civilians",
   "summary": "A UN Commission of Inquiry found that members of Palestinian armed groups committed war crimes during their 7 October 2023 attack in Israel.",
   "claim": "The Independent International Commission of Inquiry found that members of the military wings of Hamas and other Palestinian armed groups committed war crimes on 7 October 2023, including intentionally directing attacks against civilians, murder or wilful killing, torture, inhuman or cruel treatment, and taking hostages.",
   "legal_characterization": "War-crime findings by a UN commission of inquiry; not a judicial judgment assigning individual criminal liability.",
   "legal_status": "UN_FINDING",
-  "evidence_type": ["official-report", "witness-interview", "document", "image", "video", "expert-analysis"],
+  "evidence_type": [
+    "official-report",
+    "witness-interview",
+    "document",
+    "image",
+    "video",
+    "expert-analysis"
+  ],
   "source_organization": "United Nations Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
   "source_title": "Report of the Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
   "source_url": "https://docs.un.org/en/A/HRC/56/26",
@@ -19,8 +36,17 @@
   "source_page": "p. 16, paras. 96-97",
   "source_quote": "The Commission concludes that members of the military wings of Hamas and of other Palestinian armed groups committed the war crimes",
   "verification_notes": "Verified against the Commission's conclusions and its methodology and evidentiary-standard sections (paras. 3-7). Paragraph 97 separately addresses Israeli civilians who directly participated. This record attributes findings to the Commission and does not present them as convictions of any named individual.",
-  "related_records": ["un-coi-israeli-operations-gaza-2024-06-12"],
-  "tags": ["7-october", "attacks-on-civilians", "hamas", "hostages", "un-commission-of-inquiry"],
+  "related_records": [
+    "ohchr-detention-gaza-hostilities-2024-07-31",
+    "un-coi-israeli-operations-gaza-2024-06-12"
+  ],
+  "tags": [
+    "7-october",
+    "attacks-on-civilians",
+    "hamas",
+    "hostages",
+    "un-commission-of-inquiry"
+  ],
   "created_at": "2026-08-16T00:00:00Z",
   "updated_at": "2026-08-16T00:00:00Z"
 }

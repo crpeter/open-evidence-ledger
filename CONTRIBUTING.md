@@ -14,8 +14,10 @@ Contributions from all perspectives are welcome when they improve accuracy, cove
 8. Run validation before committing, then rebuild and inspect the diff.
 
 ```sh
+python -m pip install -r requirements.txt
 python scripts/validate.py
 python scripts/build_index.py
+python -m unittest discover -s tests
 git diff --check
 ```
 
@@ -33,4 +35,3 @@ Reviewers ask:
 * Is language neutral and actor coverage driven by evidence rather than artificial symmetry?
 
 Submissions that fabricate sources, quotes, dates, figures, authors, organizations, or legal conclusions will be rejected.
-

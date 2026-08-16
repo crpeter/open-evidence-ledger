@@ -18,10 +18,10 @@
       "Israeli hostages"
     ],
     "category": "detention",
-    "summary": "OHCHR documented detention-related violations affecting Palestinians and abuses of Israeli hostages between 7 October 2023 and 30 June 2024.",
-    "claim": "OHCHR reported that thousands of Palestinians had been taken into custody since 7 October 2023, many arbitrarily and in secret and in some cases subjected to treatment that may amount to torture; it also stated that Palestinian armed groups' hostage-taking and treatment of hostages entailed violations of international humanitarian and human rights law.",
-    "legal_characterization": "OHCHR findings and documented concerns regarding arbitrary detention, torture or other ill-treatment, enforced disappearance, hostage-taking, and abuse; not a court judgment.",
-    "legal_status": "UN_FINDING",
+    "summary": "OHCHR documented accounts and other information concerning Palestinian detention and the treatment of Israeli hostages between 7 October 2023 and 30 June 2024.",
+    "claim": "OHCHR documented information that thousands of Palestinians had been taken into custody since 7 October 2023 and accounts of prolonged blindfolding, deprivation of food and sleep, beatings, electric shocks, and other ill-treatment; it also documented information concerning hostage-taking and reported ill-treatment of Israeli hostages by Palestinian armed groups.",
+    "legal_characterization": "Documented evidence and accounts relevant to alleged arbitrary detention, torture or other ill-treatment, enforced disappearance, hostage-taking, and abuse; not an adjudication of individual cases.",
+    "legal_status": "DOCUMENTED_EVIDENCE",
     "evidence_type": [
       "official-report",
       "witness-interview",
@@ -34,7 +34,7 @@
     "source_document_id": "OHCHR-OPT-Detention-Thematic-Report-2024-07-31",
     "source_page": "pp. 2-3, executive summary, paras. 2-8",
     "source_quote": "Thousands of Palestinians have been taken into custody, mostly men, but also women and children",
-    "verification_notes": "Verified against the report's executive summary, scope, and methodology. The report covers 7 October 2023 to 30 June 2024 and says access restrictions limited OHCHR verification. This record preserves the report's qualified phrase ‘may amount to torture’ and includes its findings concerning both Palestinian detainees and Israeli hostages.",
+    "verification_notes": "Verified against the report's executive summary, scope, and methodology. The report covers 7 October 2023 to 30 June 2024 and explains access and verification limitations. DOCUMENTED_EVIDENCE is used for the bounded claim about information and accounts OHCHR documented; it does not convert each reported incident into an adjudicated factual or legal finding.",
     "related_records": [
       "un-coi-palestinian-armed-groups-2024-06-12",
       "un-coi-israeli-operations-gaza-2024-06-12"
@@ -140,6 +140,7 @@
     "source_quote": "The Commission concludes that members of the military wings of Hamas and of other Palestinian armed groups committed the war crimes",
     "verification_notes": "Verified against the Commission's conclusions and its methodology and evidentiary-standard sections (paras. 3-7). Paragraph 97 separately addresses Israeli civilians who directly participated. This record attributes findings to the Commission and does not present them as convictions of any named individual.",
     "related_records": [
+      "ohchr-detention-gaza-hostilities-2024-07-31",
       "un-coi-israeli-operations-gaza-2024-06-12"
     ],
     "tags": [
@@ -191,6 +192,48 @@
       "icc",
       "palestine-situation",
       "starvation"
+    ],
+    "created_at": "2026-08-16T00:00:00Z",
+    "updated_at": "2026-08-16T00:00:00Z"
+  },
+  {
+    "id": "icj-advisory-opinion-occupation-2024-07-19",
+    "title": "ICJ advisory opinion on Israel's continued presence in the Occupied Palestinian Territory",
+    "event_date": "2024-07-19",
+    "publication_date": "2024-07-19",
+    "location": [
+      "Occupied Palestinian Territory"
+    ],
+    "actors": [
+      "State of Israel"
+    ],
+    "affected_population": [
+      "Palestinian people"
+    ],
+    "category": "legal-proceeding",
+    "summary": "In a final advisory opinion, the International Court of Justice concluded that Israel's continued presence in the Occupied Palestinian Territory is unlawful.",
+    "claim": "The Court concluded that Israel's continued presence in the Occupied Palestinian Territory is unlawful, that Israel is obligated to bring that presence to an end as rapidly as possible, and that it must cease new settlement activity and evacuate all settlers from the territory.",
+    "legal_characterization": "Final advisory opinion of the International Court of Justice; authoritative legal findings in non-binding advisory proceedings, not a contentious judgment imposing criminal liability.",
+    "legal_status": "COURT_FINAL_FINDING",
+    "evidence_type": [
+      "advisory-opinion"
+    ],
+    "source_organization": "International Court of Justice",
+    "source_title": "Legal Consequences arising from the Policies and Practices of Israel in the Occupied Palestinian Territory, including East Jerusalem, Advisory Opinion of 19 July 2024",
+    "source_url": "https://www.icj-cij.org/sites/default/files/case-related/186/186-20240719-adv-01-00-en.pdf",
+    "source_document_id": "ICJ-General-List-186-Advisory-Opinion-2024-07-19",
+    "source_page": "pp. 78-80, paras. 278-285; pp. 80-81, para. 285 (operative clause 3-4)",
+    "source_quote": "the State of Israel's continued presence in the Occupied Palestinian Territory is unlawful",
+    "verification_notes": "Verified against the reasoning and operative clause of the Court's advisory opinion. COURT_FINAL_FINDING denotes that this is the Court's completed advisory disposition, not that it is a binding contentious judgment or a determination of individual criminal responsibility. The record does not extend the opinion beyond the territory and questions before the Court.",
+    "related_records": [
+      "icj-provisional-measures-2024-01-26",
+      "un-coi-israeli-operations-gaza-2024-06-12"
+    ],
+    "tags": [
+      "advisory-opinion",
+      "icj",
+      "occupation",
+      "settlements"
     ],
     "created_at": "2026-08-16T00:00:00Z",
     "updated_at": "2026-08-16T00:00:00Z"

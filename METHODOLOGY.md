@@ -30,7 +30,7 @@ Facts within a source's recitation of party submissions are not recorded as that
 | `UN_FINDING` | A named UN investigative or expert body states a factual or legal finding. It is not a court judgment. |
 | `COURT_ALLEGATION` | A prosecutor or court process states allegations or a threshold such as reasonable grounds; there is no conviction/final merits ruling. |
 | `COURT_INTERIM_FINDING` | A court makes a provisional or interlocutory determination, not a final merits ruling. |
-| `COURT_FINAL_FINDING` | A court has reached a final merits finding, subject to the source's stated appeal posture. |
+| `COURT_FINAL_FINDING` | A court has completed the relevant merits or advisory disposition. The record must say whether it is a judgment or a non-binding advisory opinion and must preserve any appeal posture. |
 | `DISPUTED` | Reliable sources materially conflict and the record specifically identifies the dispute. |
 | `UNKNOWN` | Available material does not support a more precise status. |
 
@@ -42,11 +42,10 @@ Dates use ISO 8601. `publication_date` is mandatory for this corpus; if a genuin
 
 ## Verification and duplicate control
 
-Validation enforces required provenance, HTTPS URLs, controlled status, unique IDs, related-record integrity, and date/timestamp formats. Reuse of one source document across distinct claims is legitimate. The validator instead rejects conflicting title/organization/URL metadata for the same `source_document_id`, and rejects an identical normalized claim from that document.
+`schema/record.schema.json` is the authoritative per-record contract. The validator loads it with a Draft 2020-12 implementation and format checker, so required fields, unknown fields, types, enums, patterns, lengths, array constraints, and date/URI formats are not reimplemented in Python. Cross-record checks additionally enforce unique IDs, related-record integrity, filenames, consistent metadata for each `source_document_id`, and unique normalized claims within a document. Reuse of one source document across distinct claims remains legitimate.
 
 Link checking is separate from corpus validation because official sites can be temporarily unavailable or block automated requests. A failed live request requires manual review; it does not prove that a citation is invalid.
 
 ## Corrections and uncertainty
 
 Corrections are evidence, not politics: identify the record, exact disputed text, replacement, and source location. When scope, translation, attribution, or legal posture remains uncertain, record less, select the more conservative status, and state the uncertainty. Never fill a field by inference merely to make a record appear complete.
-

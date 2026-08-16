@@ -12,7 +12,7 @@ from common import ROOT, load_records, validate
 
 DIST = ROOT / "dist"
 SITE = ROOT / "site"
-BASE_URL = "https://open-evidence-ledger.github.io/open-evidence-ledger"
+BASE_URL = "https://crpeter.github.io/open-evidence-ledger"
 
 
 def dump_json(value: object) -> str:
@@ -56,12 +56,14 @@ def main() -> int:
     (DIST / "evidence.jsonl").write_text("".join(json.dumps(r, ensure_ascii=False) + "\n" for r in records), encoding="utf-8")
     columns = list(records[0])
     with (DIST / "evidence.csv").open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=columns)
+        writer = csv.DictWriter(handle, fieldnames=columns, lineterminator="\n")
         writer.writeheader()
         for record in records:
             writer.writerow({key: json.dumps(value, ensure_ascii=False) if isinstance(value, list) else value for key, value in record.items()})
     records_dir = SITE / "records"
     records_dir.mkdir(parents=True, exist_ok=True)
+    for stale_page in records_dir.glob("*.html"):
+        stale_page.unlink()
     for record in records:
         (records_dir / f"{record['id']}.html").write_text(record_page(record), encoding="utf-8")
     items = "".join(f'<li><a href="records/{quote(r["id"])}.html">{html.escape(r["title"])}</a> <span class="status">{r["legal_status"]}</span><br>{html.escape(r["summary"])}</li>' for r in records)

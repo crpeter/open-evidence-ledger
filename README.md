@@ -4,7 +4,7 @@ Open Evidence Ledger is an open, machine-readable repository of carefully scoped
 
 ## Status and scope
 
-This initial release proves the data model with five primary-source examples. A record reports what its named source supports. In particular, `COURT_INTERIM_FINDING` is not a final merits judgment, `COURT_ALLEGATION` is not a conviction, and `UN_FINDING` is not a judicial determination. See [METHODOLOGY.md](METHODOLOGY.md) before interpreting or contributing data.
+This initial release proves the data model with six primary-source examples that collectively exercise five legitimate statuses: `COURT_INTERIM_FINDING`, `COURT_FINAL_FINDING`, `COURT_ALLEGATION`, `UN_FINDING`, and `DOCUMENTED_EVIDENCE`. A record reports only what its named source supports. See [METHODOLOGY.md](METHODOLOGY.md) before interpreting or contributing data.
 
 ## Repository map
 
@@ -17,11 +17,13 @@ This initial release proves the data model with five primary-source examples. A 
 
 ## Build
 
-Requires Python 3.10+ and no third-party packages.
+Requires Python 3.10+. Install the single direct validation dependency first:
 
 ```sh
+python -m pip install -r requirements.txt
 python scripts/validate.py
 python scripts/build_index.py
+python -m unittest discover -s tests
 python scripts/check_links.py  # requires network access; servers may block automation
 ```
 
@@ -30,4 +32,3 @@ Generated HTML is usable without JavaScript. Each record page has a canonical UR
 ## Reuse and corrections
 
 Consume `dist/evidence.json`, `dist/evidence.jsonl`, or `dist/evidence.csv`. Treat `id` as the stable identifier and check `updated_at` when refreshing an index. Please submit corrections with precise primary-source support using [CONTRIBUTING.md](CONTRIBUTING.md).
-

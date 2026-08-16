@@ -3,15 +3,24 @@
   "title": "ICC Pre-Trial Chamber issues warrants for Benjamin Netanyahu and Yoav Gallant",
   "event_date": "2024-11-21",
   "publication_date": "2024-11-21",
-  "location": ["Gaza Strip"],
-  "actors": ["Benjamin Netanyahu", "Yoav Gallant"],
-  "affected_population": ["civilians in the Gaza Strip"],
+  "location": [
+    "Gaza Strip"
+  ],
+  "actors": [
+    "Benjamin Netanyahu",
+    "Yoav Gallant"
+  ],
+  "affected_population": [
+    "civilians in the Gaza Strip"
+  ],
   "category": "legal-proceeding",
   "summary": "ICC Pre-Trial Chamber I announced arrest warrants after applying a reasonable-grounds threshold; the allegations have not been adjudicated at trial.",
   "claim": "The Chamber stated that it found reasonable grounds to believe Benjamin Netanyahu and Yoav Gallant each bore criminal responsibility for the war crime of starvation as a method of warfare and crimes against humanity of murder, persecution, and other inhumane acts during the period addressed by the warrants.",
   "legal_characterization": "Arrest-warrant allegations under the Rome Statute at the reasonable-grounds-to-believe threshold; not convictions or final findings.",
   "legal_status": "COURT_ALLEGATION",
-  "evidence_type": ["arrest-warrant"],
+  "evidence_type": [
+    "arrest-warrant"
+  ],
   "source_organization": "International Criminal Court",
   "source_title": "Situation in the State of Palestine: ICC Pre-Trial Chamber I rejects the State of Israel's challenges to jurisdiction and issues warrants of arrest for Benjamin Netanyahu and Yoav Gallant",
   "source_url": "https://www.icc-cpi.int/news/situation-state-palestine-icc-pre-trial-chamber-i-rejects-state-israels-challenges",
@@ -19,8 +28,16 @@
   "source_page": "Web release, sections headed ‘The warrants of arrest’ and ‘Conduct alleged’",
   "source_quote": "The Chamber found reasonable grounds to believe that Mr Netanyahu and Mr Gallant bear criminal responsibility",
   "verification_notes": "Verified against the ICC's official announcement, including its stated evidentiary threshold, temporal scope, and notice that the warrants were classified secret when issued. The underlying allegations remain subject to adjudication and the record deliberately uses COURT_ALLEGATION rather than a court finding or conviction label.",
-  "related_records": ["icj-provisional-measures-2024-01-26", "un-coi-israeli-operations-gaza-2024-06-12"],
-  "tags": ["arrest-warrants", "icc", "palestine-situation", "starvation"],
+  "related_records": [
+    "icj-provisional-measures-2024-01-26",
+    "un-coi-israeli-operations-gaza-2024-06-12"
+  ],
+  "tags": [
+    "arrest-warrants",
+    "icc",
+    "palestine-situation",
+    "starvation"
+  ],
   "created_at": "2026-08-16T00:00:00Z",
   "updated_at": "2026-08-16T00:00:00Z"
 }
