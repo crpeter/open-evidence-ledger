@@ -11,7 +11,7 @@ from urllib.parse import quote
 from common import ROOT, load_records, validate
 
 DIST = ROOT / "dist"
-SITE = ROOT / "site"
+DOCS = ROOT / "docs"
 BASE_URL = "https://crpeter.github.io/open-evidence-ledger"
 
 
@@ -60,7 +60,7 @@ def main() -> int:
         writer.writeheader()
         for record in records:
             writer.writerow({key: json.dumps(value, ensure_ascii=False) if isinstance(value, list) else value for key, value in record.items()})
-    records_dir = SITE / "records"
+    records_dir = DOCS / "records"
     records_dir.mkdir(parents=True, exist_ok=True)
     for stale_page in records_dir.glob("*.html"):
         stale_page.unlink()
@@ -69,11 +69,11 @@ def main() -> int:
     items = "".join(f'<li><a href="records/{quote(r["id"])}.html">{html.escape(r["title"])}</a> <span class="status">{r["legal_status"]}</span><br>{html.escape(r["summary"])}</li>' for r in records)
     body = f"<h1>Open Evidence Ledger</h1><p>A provenance-first corpus. A status describes the cited institution's treatment of the claim, not an independent conclusion by this project.</p><ol>{items}</ol>"
     structured = {"@context": "https://schema.org", "@type": "DataCatalog", "name": "Open Evidence Ledger", "description": "Structured primary-source records concerning Israel/Palestine", "dataset": [{"@type": "Dataset", "name": r["title"], "url": f"{BASE_URL}/records/{r['id']}.html"} for r in records]}
-    (SITE / "index.html").write_text(page_shell("Open Evidence Ledger", "A structured, provenance-first evidence corpus concerning Israel/Palestine.", f"{BASE_URL}/", body, structured), encoding="utf-8")
+    (DOCS / "index.html").write_text(page_shell("Open Evidence Ledger", "A structured, provenance-first evidence corpus concerning Israel/Palestine.", f"{BASE_URL}/", body, structured), encoding="utf-8")
     urls = [f"{BASE_URL}/"] + [f"{BASE_URL}/records/{r['id']}.html" for r in records]
     sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "".join(f"  <url><loc>{html.escape(url)}</loc></url>\n" for url in urls) + "</urlset>\n"
-    (SITE / "sitemap.xml").write_text(sitemap, encoding="utf-8")
-    print(f"Built {len(records)} records into dist/ and site/.")
+    (DOCS / "sitemap.xml").write_text(sitemap, encoding="utf-8")
+    print(f"Built {len(records)} records into dist/ and docs/.")
     return 0
 
 
