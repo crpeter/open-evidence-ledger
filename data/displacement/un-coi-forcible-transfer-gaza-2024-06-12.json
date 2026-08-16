@@ -1,0 +1,48 @@
+{
+  "id": "un-coi-forcible-transfer-gaza-2024-06-12",
+  "title": "UN Commission finding on forcible transfer in Gaza",
+  "event_date": null,
+  "publication_date": "2024-06-12",
+  "location": [
+    "Gaza Strip"
+  ],
+  "actors": [
+    "Israeli authorities",
+    "Israeli security forces"
+  ],
+  "affected_population": [
+    "Palestinian civilians in the Gaza Strip"
+  ],
+  "category": "displacement",
+  "summary": "The Commission assessed evacuation orders and mass displacement in Gaza through 31 December 2023.",
+  "claim": "The Commission found that Israeli evacuation orders were at times insufficient, unclear and conflicting, and that the forced displacement of civilians in the circumstances amounted to forcible transfer.",
+  "legal_characterization": "Factual and war-crime finding by a UN commission of inquiry; not a judicial judgment.",
+  "legal_status": "UN_FINDING",
+  "evidence_type": [
+    "official-report",
+    "witness-interview",
+    "document",
+    "image",
+    "video",
+    "expert-analysis"
+  ],
+  "source_organization": "United Nations Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+  "source_title": "Report of the Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+  "source_url": "https://docs.un.org/en/A/HRC/56/26",
+  "source_document_id": "A/HRC/56/26",
+  "source_page": "pp. 11-12, paras. 57-63; p. 18, para. 105",
+  "source_quote": null,
+  "verification_notes": "Verified against the cited paragraphs of A/HRC/56/26 and the Commission methodology in paragraphs 3-7, including its reasonable-grounds standard. This is attributed to the Commission and is not a court judgment or an individual conviction. Classification judgment: this record uses displacement for a finding the report legally characterizes as forcible transfer; manual review is requested.",
+  "related_records": [
+    "un-coi-israeli-operations-gaza-2024-06-12"
+  ],
+  "tags": [
+    "displacement",
+    "forcible-transfer",
+    "gaza",
+    "israeli-forces",
+    "un-commission-of-inquiry"
+  ],
+  "created_at": "2026-08-16T00:00:00Z",
+  "updated_at": "2026-08-16T00:00:00Z"
+}

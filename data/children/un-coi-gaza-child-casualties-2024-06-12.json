@@ -1,0 +1,47 @@
+{
+  "id": "un-coi-gaza-child-casualties-2024-06-12",
+  "title": "UN Commission finding on child casualties in Gaza",
+  "event_date": null,
+  "publication_date": "2024-06-12",
+  "location": [
+    "Gaza Strip"
+  ],
+  "actors": [
+    "Israeli security forces"
+  ],
+  "affected_population": [
+    "Palestinian children"
+  ],
+  "category": "children",
+  "summary": "The Commission addressed the scale and effects of child casualties caused during Israeli operations in Gaza.",
+  "claim": "The Commission found that Israeli attacks in Gaza resulted in thousands of children killed and injured and that children were disproportionately affected by the hostilities.",
+  "legal_characterization": "Factual finding by a UN commission of inquiry; not a judicial judgment.",
+  "legal_status": "UN_FINDING",
+  "evidence_type": [
+    "official-report",
+    "witness-interview",
+    "document",
+    "image",
+    "video",
+    "expert-analysis"
+  ],
+  "source_organization": "United Nations Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+  "source_title": "Report of the Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+  "source_url": "https://docs.un.org/en/A/HRC/56/26",
+  "source_document_id": "A/HRC/56/26",
+  "source_page": "pp. 14-15, paras. 78-82",
+  "source_quote": null,
+  "verification_notes": "Verified against the cited paragraphs of A/HRC/56/26 and the Commission methodology in paragraphs 3-7, including its reasonable-grounds standard. This is attributed to the Commission and is not a court judgment or an individual conviction.",
+  "related_records": [
+    "un-coi-israeli-operations-gaza-2024-06-12"
+  ],
+  "tags": [
+    "children",
+    "civilian-harm",
+    "gaza",
+    "israeli-forces",
+    "un-commission-of-inquiry"
+  ],
+  "created_at": "2026-08-16T00:00:00Z",
+  "updated_at": "2026-08-16T00:00:00Z"
+}

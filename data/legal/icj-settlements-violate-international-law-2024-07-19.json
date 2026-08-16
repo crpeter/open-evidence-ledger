@@ -1,0 +1,41 @@
+{
+  "id": "icj-settlements-violate-international-law-2024-07-19",
+  "title": "ICJ advisory finding on Israeli settlements",
+  "event_date": null,
+  "publication_date": "2024-07-19",
+  "location": [
+    "West Bank, including East Jerusalem"
+  ],
+  "actors": [
+    "State of Israel"
+  ],
+  "affected_population": [
+    "Palestinian people"
+  ],
+  "category": "legal-proceeding",
+  "summary": "The Court made a completed advisory finding on Israel’s settlement policy in occupied territory.",
+  "claim": "The Court reaffirmed that Israeli settlements in the West Bank and East Jerusalem, and the regime associated with them, have been established and are being maintained in violation of international law.",
+  "legal_characterization": "Final finding in a non-binding ICJ advisory opinion; not a criminal judgment.",
+  "legal_status": "COURT_FINAL_FINDING",
+  "evidence_type": [
+    "advisory-opinion"
+  ],
+  "source_organization": "International Court of Justice",
+  "source_title": "Legal Consequences arising from the Policies and Practices of Israel in the Occupied Palestinian Territory, including East Jerusalem, Advisory Opinion of 19 July 2024",
+  "source_url": "https://www.icj-cij.org/sites/default/files/case-related/186/186-20240719-adv-01-00-en.pdf",
+  "source_document_id": "ICJ-General-List-186-Advisory-Opinion-2024-07-19",
+  "source_page": "pp. 41-44, paras. 115-126",
+  "source_quote": "the Israeli settlements in the West Bank and East Jerusalem, and the régime associated with them, have been established and are being maintained in violation of international law",
+  "verification_notes": "Verified against the cited reasoning and operative clause of the ICJ advisory opinion. COURT_FINAL_FINDING refers to the completed, non-binding advisory disposition; it is not a contentious judgment or a criminal determination.",
+  "related_records": [
+    "icj-advisory-opinion-occupation-2024-07-19"
+  ],
+  "tags": [
+    "advisory-opinion",
+    "icj",
+    "occupation",
+    "settlements"
+  ],
+  "created_at": "2026-08-16T00:00:00Z",
+  "updated_at": "2026-08-16T00:00:00Z"
+}

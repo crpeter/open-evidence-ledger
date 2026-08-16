@@ -1,0 +1,48 @@
+{
+  "id": "un-coi-sexual-violence-hostages-2024-06-12",
+  "title": "UN Commission finding on sexual violence against hostages",
+  "event_date": null,
+  "publication_date": "2024-06-12",
+  "location": [
+    "Gaza Strip"
+  ],
+  "actors": [
+    "Hamas military wing",
+    "other Palestinian armed groups"
+  ],
+  "affected_population": [
+    "hostages held in Gaza"
+  ],
+  "category": "detention",
+  "summary": "The Commission addressed sexual and gender-based violence against hostages held in Gaza.",
+  "claim": "The Commission found reasonable grounds to conclude that members of the military wings of Hamas and other Palestinian armed groups committed sexual and gender-based violence against hostages, including sexualized torture and cruel or inhuman treatment.",
+  "legal_characterization": "Factual and legal finding by a UN commission applying a reasonable-grounds standard; not a judicial judgment or conviction.",
+  "legal_status": "UN_FINDING",
+  "evidence_type": [
+    "official-report",
+    "witness-interview",
+    "document",
+    "image",
+    "video",
+    "expert-analysis"
+  ],
+  "source_organization": "United Nations Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+  "source_title": "Report of the Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+  "source_url": "https://docs.un.org/en/A/HRC/56/26",
+  "source_document_id": "A/HRC/56/26",
+  "source_page": "p. 16, para. 96",
+  "source_quote": null,
+  "verification_notes": "Verified against the cited paragraphs of A/HRC/56/26 and the Commission methodology in paragraphs 3-7, including its reasonable-grounds standard. This is attributed to the Commission and is not a court judgment or an individual conviction.",
+  "related_records": [
+    "un-coi-hostage-taking-2024-06-12"
+  ],
+  "tags": [
+    "hamas",
+    "hostages",
+    "sexual-violence",
+    "torture",
+    "un-commission-of-inquiry"
+  ],
+  "created_at": "2026-08-16T00:00:00Z",
+  "updated_at": "2026-08-16T00:00:00Z"
+}

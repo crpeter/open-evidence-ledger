@@ -1,0 +1,49 @@
+{
+  "id": "un-coi-hostage-taking-2024-06-12",
+  "title": "UN Commission finding on hostage-taking on 7 October",
+  "event_date": "2023-10-07",
+  "publication_date": "2024-06-12",
+  "location": [
+    "Israel",
+    "Gaza Strip"
+  ],
+  "actors": [
+    "Hamas military wing",
+    "other Palestinian armed groups"
+  ],
+  "affected_population": [
+    "Israeli and foreign hostages"
+  ],
+  "category": "hostages",
+  "summary": "The Commission made a focused finding concerning people seized and taken to Gaza on 7 October 2023.",
+  "claim": "The Commission found that members of the military wings of Hamas and other Palestinian armed groups committed the war crime of taking hostages on 7 October 2023.",
+  "legal_characterization": "War-crime finding by a UN commission of inquiry; not a judicial judgment or conviction.",
+  "legal_status": "UN_FINDING",
+  "evidence_type": [
+    "official-report",
+    "witness-interview",
+    "document",
+    "image",
+    "video",
+    "expert-analysis"
+  ],
+  "source_organization": "United Nations Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+  "source_title": "Report of the Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+  "source_url": "https://docs.un.org/en/A/HRC/56/26",
+  "source_document_id": "A/HRC/56/26",
+  "source_page": "p. 16, para. 96",
+  "source_quote": null,
+  "verification_notes": "Verified against the cited paragraphs of A/HRC/56/26 and the Commission methodology in paragraphs 3-7, including its reasonable-grounds standard. This is attributed to the Commission and is not a court judgment or an individual conviction.",
+  "related_records": [
+    "un-coi-palestinian-armed-groups-2024-06-12"
+  ],
+  "tags": [
+    "7-october",
+    "hamas",
+    "hostages",
+    "un-commission-of-inquiry",
+    "war-crimes"
+  ],
+  "created_at": "2026-08-16T00:00:00Z",
+  "updated_at": "2026-08-16T00:00:00Z"
+}
