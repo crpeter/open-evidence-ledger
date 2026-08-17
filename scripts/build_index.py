@@ -32,6 +32,7 @@ def page_shell(title: str, description: str, canonical: str, body: str, structur
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{html.escape(title)}</title><meta name="description" content="{html.escape(description, quote=True)}">
 <link rel="canonical" href="{html.escape(canonical, quote=True)}">
+<link rel="alternate" type="application/json" title="Open Evidence Ledger dataset (JSON)" href="{BASE_URL}/data/evidence.json">
 <script type="application/ld+json">{json.dumps(structured, ensure_ascii=False).replace('</', '<\\/')}</script>
 <style>
 :root{{--bg:#f6f7f5;--surface:#fff;--text:#17201d;--muted:#64706b;--line:#dfe4e1;--accent:#155d47;--accent-soft:#e6f0ec;--dark:#10231d}}
@@ -102,7 +103,31 @@ def homepage(records: list[dict]) -> str:
     statuses = Counter(record["legal_status"] for record in records)
     organizations = {record["source_organization"] for record in records}
     cards = record_cards(records, "records/")
-    return f'''<section class="hero"><div class="eyebrow">Primary-source evidence index</div><h1>Open Evidence Ledger</h1><p class="lede">A machine-readable public record of carefully scoped claims concerning alleged and established violations of international humanitarian and human rights law in Israel/Palestine.</p><p class="hero-note">Each record preserves its source, legal posture, citation location, and verification notes. Status labels describe what the cited institution established or alleged; they are not independent verdicts by this project.</p></section><section class="stats"><div class="stat"><strong>{len(records)}</strong><span>reviewed pilot records</span></div><div class="stat"><strong>{len(statuses)}</strong><span>legal-status classifications</span></div><div class="stat"><strong>{len(organizations)}</strong><span>primary-source institutions</span></div></section><section><div class="section-head"><div><div class="eyebrow">Evidence records</div><h2>Current ledger</h2></div><p>The pilot focuses on demonstrating provenance, legal-status discipline, and reproducible sourcing before larger-scale ingestion. Browse by <a href="topics/">topic</a> or <a href="legal-status/">legal status</a>.</p></div><div class="records">{cards}</div></section>'''
+    return f'''<section class="hero"><div class="eyebrow">Primary-source evidence index</div><h1>Open Evidence Ledger</h1><p class="lede">A machine-readable public record of carefully scoped claims concerning alleged and established violations of international humanitarian and human rights law in Israel/Palestine.</p><p class="hero-note">Each record preserves its source, legal posture, citation location, and verification notes. Status labels describe what the cited institution established or alleged; they are not independent verdicts by this project.</p></section><section class="stats"><div class="stat"><strong>{len(records)}</strong><span>reviewed pilot records</span></div><div class="stat"><strong>{len(statuses)}</strong><span>legal-status classifications</span></div><div class="stat"><strong>{len(organizations)}</strong><span>primary-source institutions</span></div></section><section><div class="section-head"><div><div class="eyebrow">Data and downloads</div><h2>Use the ledger</h2></div><p>Stable GitHub Pages exports are available as <a href="data/evidence.json">JSON</a>, <a href="data/evidence.jsonl">JSON Lines</a>, and <a href="data/evidence.csv">CSV</a>. See the <a href="data/">data guide and source manifest</a>.</p></div></section><section><div class="section-head"><div><div class="eyebrow">Evidence records</div><h2>Current ledger</h2></div><p>The pilot focuses on demonstrating provenance, legal-status discipline, and reproducible sourcing before larger-scale ingestion. Browse by <a href="topics/">topic</a> or <a href="legal-status/">legal status</a>.</p></div><div class="records">{cards}</div></section>'''
+
+
+def source_manifest(records: list[dict]) -> list[dict]:
+    """Return one metadata entry per source document, with sorted record IDs."""
+    sources: dict[str, dict] = {}
+    for record in records:
+        document_id = record["source_document_id"]
+        entry = sources.setdefault(document_id, {
+            "source_document_id": document_id,
+            "source_organization": record["source_organization"],
+            "source_title": record["source_title"],
+            "source_url": record["source_url"],
+            "publication_date": record["publication_date"],
+            "record_ids": [],
+        })
+        entry["record_ids"].append(record["id"])
+    return [dict(sources[key], record_ids=sorted(sources[key]["record_ids"])) for key in sorted(sources)]
+
+
+def data_index() -> str:
+    canonical = f"{BASE_URL}/data/"
+    body = '''<section class="hero"><div class="eyebrow">Machine-readable data</div><h1>Data downloads</h1><p class="lede">Deterministic exports of the same validated evidence records used to build this site.</p></section><article><h2>Available formats</h2><ul><li><a href="evidence.json">JSON</a></li><li><a href="evidence.jsonl">JSON Lines</a></li><li><a href="evidence.csv">CSV</a></li><li><a href="sources.json">Source manifest (JSON)</a></li></ul><h2>Using the data</h2><p>Every record has a stable <code>id</code> used by its public record page. Legal-status values describe the posture of the cited institution and are not independent verdicts by this project. Source and legal classifications are attributed to that cited institution.</p><p>The <code>updated_at</code> field records when a ledger record was last updated; it is not the source publication date or the event date.</p></article>'''
+    structured = {"@context": "https://schema.org", "@type": "Dataset", "@id": canonical, "name": "Open Evidence Ledger machine-readable data", "url": f"{BASE_URL}/data/evidence.json"}
+    return page_shell("Open Evidence Ledger data", "Machine-readable Open Evidence Ledger downloads and usage notes.", canonical, body, structured)
 
 
 def main() -> int:
@@ -121,6 +146,12 @@ def main() -> int:
         writer.writeheader()
         for record in records:
             writer.writerow({key: json.dumps(value, ensure_ascii=False) if isinstance(value, list) else value for key, value in record.items()})
+    data_dir = DOCS / "data"
+    data_dir.mkdir(parents=True, exist_ok=True)
+    for name in ("evidence.json", "evidence.jsonl", "evidence.csv"):
+        (data_dir / name).write_bytes((DIST / name).read_bytes())
+    (data_dir / "sources.json").write_text(dump_json(source_manifest(records)), encoding="utf-8")
+    (data_dir / "index.html").write_text(data_index(), encoding="utf-8")
     records_dir = DOCS / "records"
     records_dir.mkdir(parents=True, exist_ok=True)
     for stale_page in records_dir.glob("*.html"):
@@ -145,7 +176,7 @@ def main() -> int:
             (collection_dir / f"{slug}.html").write_text(collection_page(kind, label, slug, grouped_records), encoding="utf-8")
     structured = {"@context": "https://schema.org", "@type": "DataCatalog", "name": "Open Evidence Ledger", "description": "Structured primary-source records concerning Israel/Palestine", "dataset": [{"@type": "Dataset", "name": r["title"], "url": f"{BASE_URL}/records/{r['id']}.html"} for r in records]}
     (DOCS / "index.html").write_text(page_shell("Open Evidence Ledger", "A structured, provenance-first evidence corpus concerning Israel/Palestine.", f"{BASE_URL}/", homepage(records), structured), encoding="utf-8")
-    urls = [f"{BASE_URL}/"] + [f"{BASE_URL}/records/{r['id']}.html" for r in records]
+    urls = [f"{BASE_URL}/", f"{BASE_URL}/data/"] + [f"{BASE_URL}/records/{r['id']}.html" for r in records]
     for kind, groups in groups_by_kind.items():
         urls.append(f"{BASE_URL}/{kind}/")
         urls.extend(f"{BASE_URL}/{kind}/{slug}.html" for slug in groups)
