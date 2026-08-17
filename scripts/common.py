@@ -65,14 +65,14 @@ def _error_path(error: object) -> str:
     return ".".join(parts) if parts else "<record>"
 
 
-def validate(records: list[tuple[Path, dict]]) -> list[str]:
+def validate(records: list[tuple[Path, dict]], root: Path = ROOT) -> list[str]:
     errors: list[str] = []
     validator = schema_validator()
     ids: dict[str, Path] = {}
     documents: dict[str, tuple[str, str, str, str]] = {}
     fingerprints: dict[tuple[str, str], str] = {}
     for path, record in records:
-        label = str(path.relative_to(ROOT))
+        label = str(path.relative_to(root))
         schema_errors = sorted(
             validator.iter_errors(record),
             key=lambda error: (list(error.absolute_path), error.message),
@@ -80,7 +80,7 @@ def validate(records: list[tuple[Path, dict]]) -> list[str]:
         errors.extend(f"{label}: {_error_path(error)}: {error.message}" for error in schema_errors)
         rid = record.get("id")
         if rid in ids:
-            errors.append(f"{label}: duplicate id {rid!r} (also {ids[rid].relative_to(ROOT)})")
+            errors.append(f"{label}: duplicate id {rid!r} (also {ids[rid].relative_to(root)})")
         elif isinstance(rid, str):
             ids[rid] = path
         if path.stem != rid:
@@ -105,5 +105,5 @@ def validate(records: list[tuple[Path, dict]]) -> list[str]:
     for path, record in records:
         for related in record.get("related_records", []):
             if related not in known:
-                errors.append(f"{path.relative_to(ROOT)}: unknown related record {related!r}")
+                errors.append(f"{path.relative_to(root)}: unknown related record {related!r}")
     return errors

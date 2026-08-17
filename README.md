@@ -13,7 +13,11 @@ The ledger currently contains 75 carefully scoped primary-source records that co
 * `scripts/validate.py` — required fields, formats, references, and duplicate checks
 * `scripts/build_index.py` — deterministic JSON, JSONL, CSV, HTML, and sitemap builder
 * `scripts/check_links.py` — optional live primary-source URL check
+* `sources/registry.json` — trusted official discovery locations (not a claim that feeds exist)
+* `review/` — internal discovered-document and provisional-candidate queues
 * `dist/` and `docs/` — generated artifacts committed for easy reuse and GitHub Pages hosting
+
+See [REVIEW_WORKFLOW.md](REVIEW_WORKFLOW.md) for the human-reviewed discovery, candidate, verification, and explicit-promotion workflow. Automation may assist discovery and extraction; only humans approve claims and legal posture, and only `data/` is public ledger truth.
 
 ## Build
 

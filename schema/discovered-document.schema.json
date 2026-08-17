@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Discovered official document",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "source_registry_id", "source_organization", "title", "publication_date", "source_url", "source_document_id", "discovered_at", "discovery_method", "status", "notes"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^document-[a-f0-9]{16}$"},
+    "source_registry_id": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+    "source_organization": {"type": "string", "minLength": 2},
+    "title": {"type": "string", "minLength": 5},
+    "publication_date": {"type": "string", "format": "date"},
+    "source_url": {"type": "string", "format": "uri", "pattern": "^https://"},
+    "source_document_id": {"type": "string", "minLength": 2},
+    "discovered_at": {"type": "string", "format": "date-time"},
+    "discovery_method": {"type": "string", "enum": ["MANUAL", "MACHINE_READABLE"]},
+    "status": {"type": "string", "enum": ["NEW", "REVIEWED", "IGNORED", "CANDIDATES_CREATED"]},
+    "notes": {"type": "string"}
+  }
+}

@@ -19,7 +19,8 @@ jobs:
           cache: pip
       - run: python -m pip install -r requirements.txt
       - run: python scripts/validate.py
-      - run: python -m unittest discover -s tests
+      - run: python scripts/validate_candidates.py
       - run: python scripts/build_index.py
+      - run: python -m unittest discover -s tests
       - name: Check generated output is committed
         run: git diff --exit-code -- docs/ dist/
