@@ -1,0 +1,48 @@
+{
+  "id": "un-coi-gaza-siege-starvation-2024-06-12",
+  "title": "UN Commission finding on siege and starvation in Gaza",
+  "event_date": null,
+  "publication_date": "2024-06-12",
+  "location": [
+    "Gaza Strip"
+  ],
+  "actors": [
+    "Israeli authorities"
+  ],
+  "affected_population": [
+    "Palestinian civilians in the Gaza Strip"
+  ],
+  "category": "humanitarian-aid",
+  "summary": "The Commission assessed restrictions on goods indispensable to civilian survival during the period through 31 December 2023.",
+  "claim": "The Commission found that Israeli authorities used starvation as a method of warfare through a total siege that cut off supplies essential for civilian life, including water, food, electricity, fuel and humanitarian assistance.",
+  "legal_characterization": "War-crime finding by a UN commission of inquiry; not a court judgment or final determination of state or individual criminal responsibility.",
+  "legal_status": "UN_FINDING",
+  "evidence_type": [
+    "official-report",
+    "witness-interview",
+    "document",
+    "image",
+    "video",
+    "expert-analysis"
+  ],
+  "source_organization": "United Nations Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+  "source_title": "Report of the Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+  "source_url": "https://docs.un.org/en/A/HRC/56/26",
+  "source_document_id": "A/HRC/56/26",
+  "source_page": "pp. 10-11, paras. 49-55; p. 18, para. 105",
+  "source_quote": null,
+  "verification_notes": "Verified against the cited paragraphs of A/HRC/56/26 and the Commission methodology in paragraphs 3-7, including its reasonable-grounds standard. This is attributed to the Commission and is not a court judgment or an individual conviction.",
+  "related_records": [
+    "un-coi-israeli-operations-gaza-2024-06-12",
+    "icc-warrants-netanyahu-gallant-2024-11-21"
+  ],
+  "tags": [
+    "gaza",
+    "humanitarian-aid",
+    "israeli-authorities",
+    "starvation",
+    "un-commission-of-inquiry"
+  ],
+  "created_at": "2026-08-16T00:00:00Z",
+  "updated_at": "2026-08-16T00:00:00Z"
+}

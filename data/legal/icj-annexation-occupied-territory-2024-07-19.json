@@ -1,0 +1,41 @@
+{
+  "id": "icj-annexation-occupied-territory-2024-07-19",
+  "title": "ICJ advisory finding on annexation",
+  "event_date": null,
+  "publication_date": "2024-07-19",
+  "location": [
+    "Occupied Palestinian Territory"
+  ],
+  "actors": [
+    "State of Israel"
+  ],
+  "affected_population": [
+    "Palestinian people"
+  ],
+  "category": "legal-proceeding",
+  "summary": "The Court assessed policies and practices that extend Israeli sovereignty over occupied territory.",
+  "claim": "The Court considered that Israel’s policies and practices, including maintenance and expansion of settlements, construction of associated infrastructure and application of Israeli law, entrenched its control and amounted to annexation of large parts of the Occupied Palestinian Territory.",
+  "legal_characterization": "Final finding in a non-binding ICJ advisory opinion; not a criminal judgment.",
+  "legal_status": "COURT_FINAL_FINDING",
+  "evidence_type": [
+    "advisory-opinion"
+  ],
+  "source_organization": "International Court of Justice",
+  "source_title": "Legal Consequences arising from the Policies and Practices of Israel in the Occupied Palestinian Territory, including East Jerusalem, Advisory Opinion of 19 July 2024",
+  "source_url": "https://www.icj-cij.org/sites/default/files/case-related/186/186-20240719-adv-01-00-en.pdf",
+  "source_document_id": "ICJ-General-List-186-Advisory-Opinion-2024-07-19",
+  "source_page": "pp. 62-64, paras. 163-179",
+  "source_quote": null,
+  "verification_notes": "Verified against the cited reasoning and operative clause of the ICJ advisory opinion. COURT_FINAL_FINDING refers to the completed, non-binding advisory disposition; it is not a contentious judgment or a criminal determination. Classification judgment: this record condenses several policies the Court assessed together; manual review is requested.",
+  "related_records": [
+    "icj-advisory-opinion-occupation-2024-07-19"
+  ],
+  "tags": [
+    "advisory-opinion",
+    "annexation",
+    "icj",
+    "occupation"
+  ],
+  "created_at": "2026-08-16T00:00:00Z",
+  "updated_at": "2026-08-16T00:00:00Z"
+}

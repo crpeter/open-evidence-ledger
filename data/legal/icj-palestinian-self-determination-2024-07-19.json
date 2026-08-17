@@ -1,0 +1,41 @@
+{
+  "id": "icj-palestinian-self-determination-2024-07-19",
+  "title": "ICJ advisory finding on Palestinian self-determination",
+  "event_date": null,
+  "publication_date": "2024-07-19",
+  "location": [
+    "Occupied Palestinian Territory"
+  ],
+  "actors": [
+    "State of Israel"
+  ],
+  "affected_population": [
+    "Palestinian people"
+  ],
+  "category": "legal-proceeding",
+  "summary": "The Court addressed the effect of Israel’s policies and practices on Palestinian self-determination.",
+  "claim": "The Court concluded that Israel’s prolonged occupation, settlement policy, annexation and related policies and practices obstruct the Palestinian people’s exercise of its right to self-determination.",
+  "legal_characterization": "Final finding in a non-binding ICJ advisory opinion.",
+  "legal_status": "COURT_FINAL_FINDING",
+  "evidence_type": [
+    "advisory-opinion"
+  ],
+  "source_organization": "International Court of Justice",
+  "source_title": "Legal Consequences arising from the Policies and Practices of Israel in the Occupied Palestinian Territory, including East Jerusalem, Advisory Opinion of 19 July 2024",
+  "source_url": "https://www.icj-cij.org/sites/default/files/case-related/186/186-20240719-adv-01-00-en.pdf",
+  "source_document_id": "ICJ-General-List-186-Advisory-Opinion-2024-07-19",
+  "source_page": "pp. 71-73, paras. 230-243",
+  "source_quote": null,
+  "verification_notes": "Verified against the cited reasoning and operative clause of the ICJ advisory opinion. COURT_FINAL_FINDING refers to the completed, non-binding advisory disposition; it is not a contentious judgment or a criminal determination.",
+  "related_records": [
+    "icj-advisory-opinion-occupation-2024-07-19"
+  ],
+  "tags": [
+    "advisory-opinion",
+    "icj",
+    "occupation",
+    "self-determination"
+  ],
+  "created_at": "2026-08-16T00:00:00Z",
+  "updated_at": "2026-08-16T00:00:00Z"
+}

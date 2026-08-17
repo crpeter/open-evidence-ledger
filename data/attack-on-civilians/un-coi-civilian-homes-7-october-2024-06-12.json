@@ -1,0 +1,47 @@
+{
+  "id": "un-coi-civilian-homes-7-october-2024-06-12",
+  "title": "UN Commission finding on attacks at civilian locations",
+  "event_date": "2023-10-07",
+  "publication_date": "2024-06-12",
+  "location": [
+    "Southern Israel"
+  ],
+  "actors": [
+    "Hamas military wing",
+    "other Palestinian armed groups"
+  ],
+  "affected_population": [
+    "Israeli civilians"
+  ],
+  "category": "attack-on-civilians",
+  "summary": "The Commission examined attacks at civilian communities and other civilian locations on 7 October.",
+  "claim": "The Commission found that members of Palestinian armed groups deliberately killed, injured, mistreated and took hostages among civilians at locations in southern Israel on 7 October 2023.",
+  "legal_characterization": "Factual finding by a UN commission of inquiry; not a judicial judgment or individual conviction.",
+  "legal_status": "UN_FINDING",
+  "evidence_type": [
+    "official-report",
+    "witness-interview",
+    "document",
+    "image",
+    "video",
+    "expert-analysis"
+  ],
+  "source_organization": "United Nations Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+  "source_title": "Report of the Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+  "source_url": "https://docs.un.org/en/A/HRC/56/26",
+  "source_document_id": "A/HRC/56/26",
+  "source_page": "pp. 6-9, paras. 24-41",
+  "source_quote": null,
+  "verification_notes": "Verified against the cited paragraphs of A/HRC/56/26 and the Commission methodology in paragraphs 3-7, including its reasonable-grounds standard. This is attributed to the Commission and is not a court judgment or an individual conviction.",
+  "related_records": [
+    "un-coi-palestinian-armed-groups-2024-06-12"
+  ],
+  "tags": [
+    "7-october",
+    "attacks-on-civilians",
+    "hamas",
+    "un-commission-of-inquiry"
+  ],
+  "created_at": "2026-08-16T00:00:00Z",
+  "updated_at": "2026-08-16T00:00:00Z"
+}

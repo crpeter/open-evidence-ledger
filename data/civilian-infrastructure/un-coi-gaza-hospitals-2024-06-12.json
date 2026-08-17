@@ -1,0 +1,49 @@
+{
+  "id": "un-coi-gaza-hospitals-2024-06-12",
+  "title": "UN Commission finding on damage to Gaza health care",
+  "event_date": null,
+  "publication_date": "2024-06-12",
+  "location": [
+    "Gaza Strip"
+  ],
+  "actors": [
+    "Israeli security forces"
+  ],
+  "affected_population": [
+    "patients",
+    "medical personnel",
+    "displaced civilians"
+  ],
+  "category": "civilian-infrastructure",
+  "summary": "The Commission examined the effect of Israeli military operations on Gaza’s health-care facilities and services through 31 December 2023.",
+  "claim": "The Commission found that Israeli attacks severely damaged Gaza’s health-care infrastructure, reducing the availability and accessibility of health services.",
+  "legal_characterization": "Factual finding by a UN commission of inquiry; this record does not characterize attacks on hospitals as a specific war crime and is not a judicial judgment.",
+  "legal_status": "UN_FINDING",
+  "evidence_type": [
+    "official-report",
+    "witness-interview",
+    "document",
+    "image",
+    "video",
+    "expert-analysis"
+  ],
+  "source_organization": "United Nations Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+  "source_title": "Report of the Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+  "source_url": "https://docs.un.org/en/A/HRC/56/26",
+  "source_document_id": "A/HRC/56/26",
+  "source_page": "pp. 13-14, paras. 70-75",
+  "source_quote": null,
+  "verification_notes": "Verified against the health-care discussion in paragraphs 70-75 of A/HRC/56/26 and the Commission’s reasonable-grounds standard in paragraph 6. The claim is limited to the reported damage and effect on health services; it does not combine those passages with the report’s general legal finding about attacks on civilian objects or assert a hospital-specific war-crime finding.",
+  "related_records": [
+    "un-coi-israeli-operations-gaza-2024-06-12"
+  ],
+  "tags": [
+    "civilian-infrastructure",
+    "gaza",
+    "hospitals",
+    "israeli-forces",
+    "un-commission-of-inquiry"
+  ],
+  "created_at": "2026-08-16T00:00:00Z",
+  "updated_at": "2026-08-16T00:00:00Z"
+}

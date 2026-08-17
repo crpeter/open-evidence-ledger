@@ -1,0 +1,46 @@
+{
+  "id": "ohchr-hostage-treatment-2024-07-31",
+  "title": "OHCHR documentation of hostage treatment in Gaza",
+  "event_date": null,
+  "publication_date": "2024-07-31",
+  "location": [
+    "Gaza Strip"
+  ],
+  "actors": [
+    "Hamas",
+    "other Palestinian armed groups"
+  ],
+  "affected_population": [
+    "Israeli and foreign hostages"
+  ],
+  "category": "hostages",
+  "summary": "OHCHR reviewed information about hostages held in Gaza between 7 October 2023 and 30 June 2024.",
+  "claim": "OHCHR documented released hostages’ accounts of inadequate food, water and medical care, poor sanitary conditions, beatings and other ill-treatment while held by Palestinian armed groups in Gaza.",
+  "legal_characterization": "Documented accounts relevant to hostage-taking and alleged cruel, inhuman or degrading treatment; not a judicial finding or conviction.",
+  "legal_status": "DOCUMENTED_EVIDENCE",
+  "evidence_type": [
+    "official-report",
+    "witness-interview",
+    "document",
+    "medical-record"
+  ],
+  "source_organization": "Office of the United Nations High Commissioner for Human Rights",
+  "source_title": "Detention in the context of the escalation of hostilities in Gaza (7 October 2023 - 30 June 2024)",
+  "source_url": "https://www.ohchr.org/sites/default/files/documents/countries/opt/20240731-Thematic-report-Detention-context-Gaza-hostilities.pdf",
+  "source_document_id": "OHCHR-OPT-Detention-Thematic-Report-2024-07-31",
+  "source_page": "pp. 20-22, paras. 83-94",
+  "source_quote": null,
+  "verification_notes": "Verified against the cited sections of the OHCHR thematic report, including its scope and methodology. OHCHR documents accounts and information; this record does not treat every reported incident as an adjudicated finding.",
+  "related_records": [
+    "ohchr-detention-gaza-hostilities-2024-07-31",
+    "un-coi-hostage-taking-2024-06-12"
+  ],
+  "tags": [
+    "hamas",
+    "hostages",
+    "ill-treatment",
+    "ohchr"
+  ],
+  "created_at": "2026-08-16T00:00:00Z",
+  "updated_at": "2026-08-16T00:00:00Z"
+}

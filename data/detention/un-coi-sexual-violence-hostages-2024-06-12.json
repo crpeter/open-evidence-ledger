@@ -1,0 +1,49 @@
+{
+  "id": "un-coi-sexual-violence-hostages-2024-06-12",
+  "title": "UN Commission finding on sexual violence during abductions",
+  "event_date": "2023-10-07",
+  "publication_date": "2024-06-12",
+  "location": [
+    "Israel"
+  ],
+  "actors": [
+    "Hamas military wing",
+    "other Palestinian armed groups"
+  ],
+  "affected_population": [
+    "people abducted during the 7 October attacks"
+  ],
+  "category": "hostages",
+  "summary": "The Commission addressed sexual and gender-based violence committed during abductions in the 7 October attacks.",
+  "claim": "The Commission found reasonable grounds to conclude that members of Palestinian armed groups committed sexual and gender-based violence during the abduction of people in Israel on 7 October 2023.",
+  "legal_characterization": "Factual finding by a UN commission applying a reasonable-grounds standard; it concerns violence during abduction, not treatment in captivity, and is not a judicial judgment or conviction.",
+  "legal_status": "UN_FINDING",
+  "evidence_type": [
+    "official-report",
+    "witness-interview",
+    "document",
+    "image",
+    "video",
+    "expert-analysis"
+  ],
+  "source_organization": "United Nations Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+  "source_title": "Report of the Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+  "source_url": "https://docs.un.org/en/A/HRC/56/26",
+  "source_document_id": "A/HRC/56/26",
+  "source_page": "pp. 8-9, paras. 40-44",
+  "source_quote": null,
+  "verification_notes": "Verified against the Commission’s discussion of sexual and gender-based violence in paragraphs 40-44 of A/HRC/56/26 and its reasonable-grounds standard in paragraph 6. The claim is limited to violence during abduction on 7 October; it makes no finding about hostage treatment in captivity and does not import findings about Israeli security forces’ treatment of Palestinian detainees.",
+  "related_records": [
+    "un-coi-hostage-taking-2024-06-12"
+  ],
+  "tags": [
+    "7-october",
+    "abduction",
+    "hamas",
+    "hostages",
+    "sexual-violence",
+    "un-commission-of-inquiry"
+  ],
+  "created_at": "2026-08-16T00:00:00Z",
+  "updated_at": "2026-08-16T00:00:00Z"
+}

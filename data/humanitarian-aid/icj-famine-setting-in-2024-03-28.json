@@ -1,0 +1,42 @@
+{
+  "id": "icj-famine-setting-in-2024-03-28",
+  "title": "ICJ interim assessment that famine was setting in",
+  "event_date": "2024-03-28",
+  "publication_date": "2024-03-28",
+  "location": [
+    "Gaza Strip"
+  ],
+  "actors": [
+    "State of Israel"
+  ],
+  "affected_population": [
+    "Palestinians in the Gaza Strip"
+  ],
+  "category": "humanitarian-aid",
+  "summary": "The Court assessed the deterioration in living conditions before modifying provisional measures.",
+  "claim": "At the provisional-measures stage, the Court observed that Palestinians in Gaza were no longer facing only a risk of famine, but that famine was setting in.",
+  "legal_characterization": "Interim factual assessment supporting modified provisional measures; not a final merits finding.",
+  "legal_status": "COURT_INTERIM_FINDING",
+  "evidence_type": [
+    "court-order"
+  ],
+  "source_organization": "International Court of Justice",
+  "source_title": "Order of 28 March 2024, Application of the Genocide Convention in the Gaza Strip (South Africa v. Israel)",
+  "source_url": "https://www.icj-cij.org/sites/default/files/case-related/192/192-20240328-ord-01-00-en.pdf",
+  "source_document_id": "ICJ-General-List-192-Order-2024-03-28",
+  "source_page": "pp. 17-18, paras. 27-31",
+  "source_quote": "famine is setting in",
+  "verification_notes": "Verified against the cited ICJ order, including its operative clause. This is a binding provisional measure at an interim stage; it is not a final merits finding that genocide occurred. Classification judgment: the statement is an interim assessment rather than an operative legal determination; manual review is requested.",
+  "related_records": [
+    "icj-humanitarian-aid-order-2024-03-28"
+  ],
+  "tags": [
+    "famine",
+    "gaza",
+    "humanitarian-aid",
+    "icj",
+    "provisional-measures"
+  ],
+  "created_at": "2026-08-16T00:00:00Z",
+  "updated_at": "2026-08-16T00:00:00Z"
+}
