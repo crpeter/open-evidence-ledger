@@ -47,6 +47,108 @@
     "updated_at": "2026-08-16T00:00:00Z"
   },
   {
+    "id": "un-coi-hind-rajab-ambulance-attack-2024-09-11",
+    "title": "UN Commission finding on the Hind Rajab family and ambulance attack",
+    "event_date": "2024-01-29",
+    "publication_date": "2024-09-11",
+    "location": [
+      "Gaza City",
+      "Gaza Strip"
+    ],
+    "actors": [
+      "Israeli security forces",
+      "162 Division"
+    ],
+    "affected_population": [
+      "Palestinian civilians",
+      "Palestinian children",
+      "Palestine Red Crescent Society paramedics"
+    ],
+    "category": "attack-on-civilians",
+    "summary": "The Commission investigated the killing of a family in a vehicle and two paramedics in a dispatched ambulance on 29 January 2024.",
+    "claim": "The Commission concluded on reasonable grounds that the Israeli 162 Division was operating in the area and was responsible for killing the family of seven, including five children, and shelling the ambulance, killing two paramedics.",
+    "legal_characterization": "UN Commission finding that the actions constituted war crimes of wilful killing and an attack against civilian objects; not a judicial judgment.",
+    "legal_status": "UN_FINDING",
+    "evidence_type": [
+      "official-report",
+      "witness-interview",
+      "document",
+      "image",
+      "video",
+      "expert-analysis"
+    ],
+    "source_organization": "United Nations Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+    "source_title": "Report of the Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+    "source_url": "https://docs.un.org/en/A/79/232",
+    "source_document_id": "A/79/232",
+    "source_page": "para. 95; see also para. 11",
+    "source_quote": null,
+    "verification_notes": "Verified against paragraph 95 and the underlying factual discussion in paragraph 11 of A/79/232. Attribution and the reasonable-grounds standard are preserved; this is not presented as an individual criminal conviction.",
+    "related_records": [
+      "un-coi-israeli-operations-gaza-2024-06-12"
+    ],
+    "tags": [
+      "attacks-on-civilians",
+      "children",
+      "gaza",
+      "israeli-forces",
+      "un-commission-of-inquiry",
+      "war-crimes"
+    ],
+    "created_at": "2026-08-16T00:00:00Z",
+    "updated_at": "2026-08-16T00:00:00Z"
+  },
+  {
+    "id": "un-coi-sexual-gender-violence-method-of-war-2025-03-13",
+    "title": "UN Commission finding on sexual and gender-based violence as a method of war",
+    "event_date": null,
+    "publication_date": "2025-03-13",
+    "location": [
+      "Occupied Palestinian Territory"
+    ],
+    "actors": [
+      "Israeli security forces"
+    ],
+    "affected_population": [
+      "Palestinian civilians"
+    ],
+    "category": "attack-on-civilians",
+    "summary": "The Commission assessed the frequency, prevalence and severity of sexual and gender-based crimes across the Occupied Palestinian Territory.",
+    "claim": "The Commission concluded that sexual and gender-based violence was increasingly used as a method of war by Israel to destabilize, dominate, oppress and destroy the Palestinian people.",
+    "legal_characterization": "UN Commission finding based on a documented pattern that included acts it characterized as war crimes and crimes against humanity; not a judicial judgment.",
+    "legal_status": "UN_FINDING",
+    "evidence_type": [
+      "official-report",
+      "witness-interview",
+      "document",
+      "image",
+      "video",
+      "medical-record",
+      "expert-analysis"
+    ],
+    "source_organization": "United Nations Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+    "source_title": "“More than a human can bear”: Israel’s systematic use of sexual, reproductive and other forms of gender-based violence since 7 October 2023",
+    "source_url": "https://docs.un.org/en/A/HRC/58/CRP.6",
+    "source_document_id": "A/HRC/58/CRP.6",
+    "source_page": "para. 223",
+    "source_quote": null,
+    "verification_notes": "Verified against paragraph 223 of A/HRC/58/CRP.6. The record reproduces the Commission's institutional conclusion and does not convert it into a court finding or a finding of individual criminal liability.",
+    "related_records": [
+      "un-coi-palestinian-detainee-sexualized-torture-2024-09-11",
+      "un-coi-israeli-operations-gaza-2024-06-12"
+    ],
+    "tags": [
+      "attacks-on-civilians",
+      "israeli-forces",
+      "sexual-violence",
+      "torture",
+      "un-commission-of-inquiry",
+      "war-crimes"
+    ],
+    "created_at": "2026-08-16T00:00:00Z",
+    "updated_at": "2026-08-16T00:00:00Z"
+  },
+  {
     "id": "un-coi-children-killed-7-october-2024-06-12",
     "title": "UN Commission finding on children killed on 7 October",
     "event_date": "2023-10-07",
@@ -141,6 +243,209 @@
     "updated_at": "2026-08-16T00:00:00Z"
   },
   {
+    "id": "un-coi-west-bank-education-settler-attacks-2025-05-06",
+    "title": "UN Commission finding on West Bank education and settler attacks",
+    "event_date": null,
+    "publication_date": "2025-05-06",
+    "location": [
+      "West Bank, including East Jerusalem"
+    ],
+    "actors": [
+      "Israeli security forces",
+      "Israeli settlers",
+      "Israeli authorities"
+    ],
+    "affected_population": [
+      "Palestinian children",
+      "Palestinian students",
+      "education personnel"
+    ],
+    "category": "children",
+    "summary": "The Commission assessed the effects of military operations, access restrictions, demolitions and settler attacks on Palestinian education in the West Bank.",
+    "claim": "The Commission found that more than 806,000 students were affected and that Israel had done little to prevent or prosecute settlers who intentionally targeted educational facilities to terrorize communities and force them from their homes.",
+    "legal_characterization": "Factual and legal finding by a UN commission of inquiry concerning the occupying Power's protection obligations; not a judicial judgment.",
+    "legal_status": "UN_FINDING",
+    "evidence_type": [
+      "official-report",
+      "witness-interview",
+      "document",
+      "image",
+      "video"
+    ],
+    "source_organization": "United Nations Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+    "source_title": "Report of the Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+    "source_url": "https://docs.un.org/en/A/HRC/59/26",
+    "source_document_id": "A/HRC/59/26",
+    "source_page": "paras. 82-83",
+    "source_quote": null,
+    "verification_notes": "Verified against paragraphs 82-83 of A/HRC/59/26. The record attributes the protection-obligation finding to the Commission and keeps the scope limited to education-related harms discussed there.",
+    "related_records": [
+      "icj-settler-violence-protection-2024-07-19",
+      "un-coi-gaza-education-system-destruction-2025-05-06"
+    ],
+    "tags": [
+      "children",
+      "occupation",
+      "settler-violence",
+      "un-commission-of-inquiry"
+    ],
+    "created_at": "2026-08-16T00:00:00Z",
+    "updated_at": "2026-08-16T00:00:00Z"
+  },
+  {
+    "id": "un-coi-gaza-education-system-destruction-2025-05-06",
+    "title": "UN Commission finding on destruction of Gaza's education system",
+    "event_date": null,
+    "publication_date": "2025-05-06",
+    "location": [
+      "Gaza Strip"
+    ],
+    "actors": [
+      "Israeli security forces"
+    ],
+    "affected_population": [
+      "Palestinian children",
+      "Palestinian students",
+      "education personnel"
+    ],
+    "category": "civilian-infrastructure",
+    "summary": "The Commission assessed damage to schools and universities and the long-term effects on education in Gaza.",
+    "claim": "The Commission found that Israeli attacks since October 2023 effectively destroyed Gaza's education system and that deliberate, unnecessary burning and demolition of schools violated international humanitarian law principles.",
+    "legal_characterization": "Factual and legal findings by a UN commission of inquiry; not a judicial judgment.",
+    "legal_status": "UN_FINDING",
+    "evidence_type": [
+      "official-report",
+      "document",
+      "image",
+      "video",
+      "satellite-imagery",
+      "expert-analysis"
+    ],
+    "source_organization": "United Nations Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+    "source_title": "Report of the Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+    "source_url": "https://docs.un.org/en/A/HRC/59/26",
+    "source_document_id": "A/HRC/59/26",
+    "source_page": "paras. 76-80",
+    "source_quote": null,
+    "verification_notes": "Verified against paragraphs 76-80 of A/HRC/59/26. The record is limited to the Commission's education-system findings and does not independently infer legal responsibility beyond the report.",
+    "related_records": [
+      "un-coi-gaza-child-casualties-2024-06-12",
+      "un-coi-israeli-operations-gaza-2024-06-12"
+    ],
+    "tags": [
+      "children",
+      "civilian-infrastructure",
+      "gaza",
+      "israeli-forces",
+      "un-commission-of-inquiry"
+    ],
+    "created_at": "2026-08-16T00:00:00Z",
+    "updated_at": "2026-08-16T00:00:00Z"
+  },
+  {
+    "id": "un-coi-gaza-healthcare-destruction-policy-2024-09-11",
+    "title": "UN Commission finding on policy to destroy Gaza health care",
+    "event_date": null,
+    "publication_date": "2024-09-11",
+    "location": [
+      "Gaza Strip"
+    ],
+    "actors": [
+      "State of Israel",
+      "Israeli security forces"
+    ],
+    "affected_population": [
+      "Palestinian civilians",
+      "medical personnel",
+      "patients"
+    ],
+    "category": "civilian-infrastructure",
+    "summary": "The Commission made a focused finding concerning the destruction of Gaza's health-care system and treatment of medical personnel.",
+    "claim": "The Commission found that Israel implemented a concerted policy to destroy Gaza's health-care system and that Israeli security forces deliberately killed, wounded, detained, mistreated and tortured medical personnel and targeted medical vehicles.",
+    "legal_characterization": "UN Commission finding that included war-crime and crime-against-humanity characterizations; not a judicial judgment.",
+    "legal_status": "UN_FINDING",
+    "evidence_type": [
+      "official-report",
+      "witness-interview",
+      "document",
+      "image",
+      "video",
+      "expert-analysis"
+    ],
+    "source_organization": "United Nations Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+    "source_title": "Report of the Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+    "source_url": "https://docs.un.org/en/A/79/232",
+    "source_document_id": "A/79/232",
+    "source_page": "para. 89",
+    "source_quote": null,
+    "verification_notes": "Verified against paragraph 89 of A/79/232. The record attributes the policy and legal characterizations to the Commission and does not present them as findings of a court or as individual criminal convictions.",
+    "related_records": [
+      "un-coi-gaza-hospitals-2024-06-12",
+      "un-coi-israeli-operations-gaza-2024-06-12"
+    ],
+    "tags": [
+      "civilian-infrastructure",
+      "gaza",
+      "hospitals",
+      "israeli-forces",
+      "un-commission-of-inquiry",
+      "war-crimes"
+    ],
+    "created_at": "2026-08-16T00:00:00Z",
+    "updated_at": "2026-08-16T00:00:00Z"
+  },
+  {
+    "id": "un-coi-gaza-hospital-attacks-war-crimes-2024-09-11",
+    "title": "UN Commission findings on attacks against four Gaza hospitals",
+    "event_date": null,
+    "publication_date": "2024-09-11",
+    "location": [
+      "Gaza Strip"
+    ],
+    "actors": [
+      "Israeli security forces"
+    ],
+    "affected_population": [
+      "Palestinian civilians",
+      "patients",
+      "medical personnel"
+    ],
+    "category": "civilian-infrastructure",
+    "summary": "The Commission assessed Israeli attacks on Nasr, Shifa, Awdah and Turkish-Palestinian Friendship hospitals.",
+    "claim": "The Commission found that Israeli security forces failed to adhere to precaution, distinction and proportionality in attacks on four Gaza hospitals, constituting war crimes of wilful killing and attacks against protected objects.",
+    "legal_characterization": "War-crime finding by a UN commission of inquiry under its evidentiary standard; not a judicial judgment or conviction.",
+    "legal_status": "UN_FINDING",
+    "evidence_type": [
+      "official-report",
+      "witness-interview",
+      "document",
+      "image",
+      "video",
+      "expert-analysis"
+    ],
+    "source_organization": "United Nations Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+    "source_title": "Report of the Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+    "source_url": "https://docs.un.org/en/A/79/232",
+    "source_document_id": "A/79/232",
+    "source_page": "paras. 91-92",
+    "source_quote": null,
+    "verification_notes": "Verified against paragraphs 91-92 of A/79/232. Unlike the earlier A/HRC/56/26 health-system record, this later report expressly makes hospital-specific legal findings. The record preserves the Commission's status and does not convert the finding into a court judgment.",
+    "related_records": [
+      "un-coi-gaza-hospitals-2024-06-12",
+      "un-coi-gaza-healthcare-destruction-policy-2024-09-11"
+    ],
+    "tags": [
+      "civilian-infrastructure",
+      "gaza",
+      "hospitals",
+      "israeli-forces",
+      "un-commission-of-inquiry",
+      "war-crimes"
+    ],
+    "created_at": "2026-08-16T00:00:00Z",
+    "updated_at": "2026-08-16T00:00:00Z"
+  },
+  {
     "id": "un-coi-gaza-hospitals-2024-06-12",
     "title": "UN Commission finding on damage to Gaza health care",
     "event_date": null,
@@ -184,6 +489,152 @@
       "gaza",
       "hospitals",
       "israeli-forces",
+      "un-commission-of-inquiry"
+    ],
+    "created_at": "2026-08-16T00:00:00Z",
+    "updated_at": "2026-08-16T00:00:00Z"
+  },
+  {
+    "id": "un-coi-hamas-school-military-use-2025-05-06",
+    "title": "UN Commission finding on Hamas military use of a Gaza school",
+    "event_date": null,
+    "publication_date": "2025-05-06",
+    "location": [
+      "Gaza City",
+      "Gaza Strip"
+    ],
+    "actors": [
+      "Hamas military wing"
+    ],
+    "affected_population": [
+      "Palestinian civilians",
+      "Palestinian students"
+    ],
+    "category": "civilian-infrastructure",
+    "summary": "The Commission verified one instance in which Hamas used a school in Gaza City for military purposes.",
+    "claim": "The Commission verified that the Hamas military wing used the Anas Bin-Malik basic school for boys for military purposes, including placing improvised explosive devices in the school for an ambush against approaching Israeli forces.",
+    "legal_characterization": "Verified factual finding by a UN commission of inquiry; the Commission stated that military use of educational facilities violates the requirement to distinguish civilian objects from military objectives.",
+    "legal_status": "UN_FINDING",
+    "evidence_type": [
+      "official-report",
+      "video",
+      "document"
+    ],
+    "source_organization": "United Nations Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+    "source_title": "Report of the Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+    "source_url": "https://docs.un.org/en/A/HRC/59/26",
+    "source_document_id": "A/HRC/59/26",
+    "source_page": "paras. 23 and 81",
+    "source_quote": null,
+    "verification_notes": "Verified against paragraphs 23 and 81 of A/HRC/59/26. The claim is deliberately limited to the single school use that the Commission says it verified and does not generalize military use to other schools without evidence.",
+    "related_records": [
+      "un-coi-palestinian-armed-groups-2024-06-12",
+      "un-coi-gaza-education-system-destruction-2025-05-06"
+    ],
+    "tags": [
+      "civilian-infrastructure",
+      "gaza",
+      "hamas",
+      "un-commission-of-inquiry"
+    ],
+    "created_at": "2026-08-16T00:00:00Z",
+    "updated_at": "2026-08-16T00:00:00Z"
+  },
+  {
+    "id": "un-coi-reproductive-capacity-birth-prevention-2025-03-13",
+    "title": "UN Commission finding on destruction of reproductive capacity in Gaza",
+    "event_date": null,
+    "publication_date": "2025-03-13",
+    "location": [
+      "Gaza Strip"
+    ],
+    "actors": [
+      "Israeli authorities",
+      "Israeli security forces"
+    ],
+    "affected_population": [
+      "Palestinians in the Gaza Strip",
+      "Palestinian women and girls"
+    ],
+    "category": "civilian-infrastructure",
+    "summary": "The Commission assessed systematic destruction of sexual and reproductive health-care facilities and restrictions on reproductive care in Gaza.",
+    "claim": "The Commission found that Israeli authorities destroyed in part the reproductive capacity of Palestinians in Gaza as a group, including by imposing measures intended to prevent births.",
+    "legal_characterization": "UN Commission finding identifying measures intended to prevent births as a category of genocidal acts under the Genocide Convention and Rome Statute; not a court judgment.",
+    "legal_status": "UN_FINDING",
+    "evidence_type": [
+      "official-report",
+      "witness-interview",
+      "document",
+      "medical-record",
+      "expert-analysis"
+    ],
+    "source_organization": "United Nations Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+    "source_title": "“More than a human can bear”: Israel’s systematic use of sexual, reproductive and other forms of gender-based violence since 7 October 2023",
+    "source_url": "https://docs.un.org/en/A/HRC/58/CRP.6",
+    "source_document_id": "A/HRC/58/CRP.6",
+    "source_page": "para. 218",
+    "source_quote": null,
+    "verification_notes": "Verified against paragraph 218 of A/HRC/58/CRP.6. The genocidal-act characterization is the Commission's finding under its mandate; this record does not describe it as a final ICJ merits judgment or independent conclusion of the ledger.",
+    "related_records": [
+      "un-coi-gaza-healthcare-destruction-policy-2024-09-11",
+      "un-coi-gaza-hospitals-2024-06-12"
+    ],
+    "tags": [
+      "gaza",
+      "genocide-convention",
+      "hospitals",
+      "israeli-authorities",
+      "reproductive-violence",
+      "un-commission-of-inquiry"
+    ],
+    "created_at": "2026-08-16T00:00:00Z",
+    "updated_at": "2026-08-16T00:00:00Z"
+  },
+  {
+    "id": "un-coi-reproductive-harm-conditions-of-life-2025-03-13",
+    "title": "UN Commission finding on reproductive harm and conditions of life in Gaza",
+    "event_date": null,
+    "publication_date": "2025-03-13",
+    "location": [
+      "Gaza Strip"
+    ],
+    "actors": [
+      "Israeli authorities",
+      "Israeli security forces"
+    ],
+    "affected_population": [
+      "Palestinian women and girls",
+      "Palestinians in the Gaza Strip"
+    ],
+    "category": "civilian-infrastructure",
+    "summary": "The Commission assessed the physical and mental effects of the collapse of sexual and reproductive health care on Palestinians in Gaza.",
+    "claim": "The Commission found that the lack of access to sexual and reproductive health care caused immediate and long-term physical and mental harm and that the underlying acts deliberately inflicted conditions of life calculated to bring about the physical destruction of Palestinians as a group.",
+    "legal_characterization": "UN Commission finding identifying crimes against humanity and a category of genocidal acts; not a final judicial determination.",
+    "legal_status": "UN_FINDING",
+    "evidence_type": [
+      "official-report",
+      "witness-interview",
+      "document",
+      "medical-record",
+      "expert-analysis"
+    ],
+    "source_organization": "United Nations Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+    "source_title": "“More than a human can bear”: Israel’s systematic use of sexual, reproductive and other forms of gender-based violence since 7 October 2023",
+    "source_url": "https://docs.un.org/en/A/HRC/58/CRP.6",
+    "source_document_id": "A/HRC/58/CRP.6",
+    "source_page": "para. 219",
+    "source_quote": null,
+    "verification_notes": "Verified against paragraph 219 of A/HRC/58/CRP.6. The legal characterization is attributed to the Commission and is not presented as an ICJ merits judgment or an independent legal conclusion by the ledger.",
+    "related_records": [
+      "un-coi-reproductive-capacity-birth-prevention-2025-03-13",
+      "un-coi-gaza-healthcare-destruction-policy-2024-09-11"
+    ],
+    "tags": [
+      "gaza",
+      "genocide-convention",
+      "hospitals",
+      "israeli-authorities",
+      "reproductive-violence",
       "un-commission-of-inquiry"
     ],
     "created_at": "2026-08-16T00:00:00Z",
@@ -329,6 +780,151 @@
     "updated_at": "2026-08-16T00:00:00Z"
   },
   {
+    "id": "un-coi-detainees-human-shields-2024-09-11",
+    "title": "UN Commission finding on detainees used as human shields",
+    "event_date": null,
+    "publication_date": "2024-09-11",
+    "location": [
+      "Gaza Strip",
+      "West Bank"
+    ],
+    "actors": [
+      "Israeli security forces"
+    ],
+    "affected_population": [
+      "Palestinian detainees"
+    ],
+    "category": "detention",
+    "summary": "The Commission examined instances in which Palestinian detainees were placed ahead of Israeli military personnel or vehicles during operations.",
+    "claim": "The Commission found that Israeli security forces used detainees as human shields in several instances in the West Bank and Gaza, including forcing detainees into tunnels and buildings ahead of military personnel.",
+    "legal_characterization": "War-crime finding by a UN commission of inquiry; not a judicial judgment or individual conviction.",
+    "legal_status": "UN_FINDING",
+    "evidence_type": [
+      "official-report",
+      "witness-interview",
+      "document",
+      "image",
+      "video"
+    ],
+    "source_organization": "United Nations Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+    "source_title": "Report of the Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+    "source_url": "https://docs.un.org/en/A/79/232",
+    "source_document_id": "A/79/232",
+    "source_page": "para. 107",
+    "source_quote": null,
+    "verification_notes": "Verified against paragraph 107 of A/79/232. The legal characterization is explicitly attributed to the Commission and does not assign criminal liability to a named individual.",
+    "related_records": [
+      "ohchr-detention-gaza-hostilities-2024-07-31",
+      "un-coi-israeli-operations-gaza-2024-06-12"
+    ],
+    "tags": [
+      "detainees",
+      "gaza",
+      "israeli-forces",
+      "torture",
+      "un-commission-of-inquiry",
+      "war-crimes"
+    ],
+    "created_at": "2026-08-16T00:00:00Z",
+    "updated_at": "2026-08-16T00:00:00Z"
+  },
+  {
+    "id": "un-coi-detention-gender-violence-policy-2025-03-13",
+    "title": "UN Commission finding on gender-based violence policy in detention",
+    "event_date": null,
+    "publication_date": "2025-03-13",
+    "location": [
+      "Israel",
+      "Occupied Palestinian Territory"
+    ],
+    "actors": [
+      "Israeli authorities"
+    ],
+    "affected_population": [
+      "Palestinian detainees"
+    ],
+    "category": "detention",
+    "summary": "The Commission assessed widespread sexual and gender-based violence against Palestinian detainees across multiple facilities and stages of custody.",
+    "claim": "The Commission found that mistreatment of Palestinian detainees by Israeli authorities resulted from an intentional policy using sexual, reproductive and other forms of gender-based violence to humiliate and degrade Palestinians in detention.",
+    "legal_characterization": "Policy finding by a UN commission of inquiry; not a judicial judgment or assignment of individual criminal responsibility.",
+    "legal_status": "UN_FINDING",
+    "evidence_type": [
+      "official-report",
+      "witness-interview",
+      "document",
+      "medical-record"
+    ],
+    "source_organization": "United Nations Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+    "source_title": "“More than a human can bear”: Israel’s systematic use of sexual, reproductive and other forms of gender-based violence since 7 October 2023",
+    "source_url": "https://docs.un.org/en/A/HRC/58/CRP.6",
+    "source_document_id": "A/HRC/58/CRP.6",
+    "source_page": "para. 222",
+    "source_quote": null,
+    "verification_notes": "Verified against paragraph 222 of A/HRC/58/CRP.6. The record is limited to the Commission's finding about an intentional detention policy and does not assign criminal responsibility to a named individual.",
+    "related_records": [
+      "un-coi-palestinian-detainee-sexualized-torture-2024-09-11",
+      "ohchr-palestinian-detainee-treatment-2024-07-31"
+    ],
+    "tags": [
+      "detainees",
+      "israeli-authorities",
+      "sexual-violence",
+      "torture",
+      "un-commission-of-inquiry"
+    ],
+    "created_at": "2026-08-16T00:00:00Z",
+    "updated_at": "2026-08-16T00:00:00Z"
+  },
+  {
+    "id": "un-coi-palestinian-detainee-sexualized-torture-2024-09-11",
+    "title": "UN Commission finding on sexualized torture of Palestinian detainees",
+    "event_date": null,
+    "publication_date": "2024-09-11",
+    "location": [
+      "Israel",
+      "Occupied Palestinian Territory"
+    ],
+    "actors": [
+      "Israeli security forces"
+    ],
+    "affected_population": [
+      "Palestinian detainees",
+      "Palestinian men"
+    ],
+    "category": "detention",
+    "summary": "The Commission made findings concerning sexualized torture and sexual violence against Palestinian male detainees.",
+    "claim": "The Commission found that persecutory acts continued in detention as sexualized torture and that male detainees were subjected to attacks on sexual and reproductive organs and to rape.",
+    "legal_characterization": "UN Commission finding that included war-crime and crime-against-humanity characterizations for rape, sexual violence and torture; not a judicial judgment.",
+    "legal_status": "UN_FINDING",
+    "evidence_type": [
+      "official-report",
+      "witness-interview",
+      "document",
+      "medical-record"
+    ],
+    "source_organization": "United Nations Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+    "source_title": "Report of the Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+    "source_url": "https://docs.un.org/en/A/79/232",
+    "source_document_id": "A/79/232",
+    "source_page": "para. 108",
+    "source_quote": null,
+    "verification_notes": "Verified against paragraph 108 of A/79/232. This later report expressly supports the sexualized-torture formulation. The record attributes all factual and legal findings to the Commission and does not present them as court convictions.",
+    "related_records": [
+      "ohchr-palestinian-detainee-treatment-2024-07-31",
+      "ohchr-detention-gaza-hostilities-2024-07-31"
+    ],
+    "tags": [
+      "detainees",
+      "israeli-forces",
+      "sexual-violence",
+      "torture",
+      "un-commission-of-inquiry",
+      "war-crimes"
+    ],
+    "created_at": "2026-08-16T00:00:00Z",
+    "updated_at": "2026-08-16T00:00:00Z"
+  },
+  {
     "id": "un-coi-sexual-violence-hostages-2024-06-12",
     "title": "UN Commission finding on sexual violence during abductions",
     "event_date": "2023-10-07",
@@ -460,6 +1056,53 @@
       "un-coi-israeli-operations-gaza-2024-06-12"
     ],
     "tags": [
+      "displacement",
+      "forcible-transfer",
+      "gaza",
+      "israeli-forces",
+      "un-commission-of-inquiry"
+    ],
+    "created_at": "2026-08-16T00:00:00Z",
+    "updated_at": "2026-08-16T00:00:00Z"
+  },
+  {
+    "id": "un-coi-released-detainees-forced-displacement-2024-09-11",
+    "title": "UN Commission finding on displacement of released Gaza detainees",
+    "event_date": null,
+    "publication_date": "2024-09-11",
+    "location": [
+      "Gaza Strip"
+    ],
+    "actors": [
+      "Israeli security forces"
+    ],
+    "affected_population": [
+      "released Palestinian detainees",
+      "Palestinian civilians"
+    ],
+    "category": "displacement",
+    "summary": "The Commission assessed restrictions on released detainees returning to northern Gaza and attacks on civilians attempting to return.",
+    "claim": "The Commission found that prohibiting released detainees from returning to northern Gaza constituted forced displacement and that attacks on civilians attempting to return to their families amounted to forcible transfer.",
+    "legal_characterization": "War-crime and crime-against-humanity findings by a UN commission of inquiry; not a judicial judgment.",
+    "legal_status": "UN_FINDING",
+    "evidence_type": [
+      "official-report",
+      "witness-interview",
+      "document"
+    ],
+    "source_organization": "United Nations Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+    "source_title": "Report of the Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+    "source_url": "https://docs.un.org/en/A/79/232",
+    "source_document_id": "A/79/232",
+    "source_page": "para. 110",
+    "source_quote": null,
+    "verification_notes": "Verified against paragraph 110 of A/79/232. The record preserves the Commission's legal characterization and does not present the finding as a court judgment.",
+    "related_records": [
+      "un-coi-forcible-transfer-gaza-2024-06-12",
+      "ohchr-detention-gaza-hostilities-2024-07-31"
+    ],
+    "tags": [
+      "detainees",
       "displacement",
       "forcible-transfer",
       "gaza",
@@ -620,6 +1263,57 @@
     "updated_at": "2026-08-16T00:00:00Z"
   },
   {
+    "id": "un-coi-hostage-mistreatment-2024-09-11",
+    "title": "UN Commission finding on intentional mistreatment of hostages",
+    "event_date": null,
+    "publication_date": "2024-09-11",
+    "location": [
+      "Gaza Strip"
+    ],
+    "actors": [
+      "Hamas",
+      "other Palestinian armed groups"
+    ],
+    "affected_population": [
+      "Israeli and foreign hostages"
+    ],
+    "category": "hostages",
+    "summary": "The Commission assessed physical and psychological mistreatment of hostages held in Gaza.",
+    "claim": "The Commission found that hostages were intentionally mistreated to inflict physical pain and severe mental suffering, including physical violence, sexual violence, forced isolation, deprivation, threats and humiliation.",
+    "legal_characterization": "Factual and legal finding by a UN commission of inquiry; not a judicial judgment or individual conviction.",
+    "legal_status": "UN_FINDING",
+    "evidence_type": [
+      "official-report",
+      "witness-interview",
+      "document",
+      "image",
+      "video",
+      "medical-record"
+    ],
+    "source_organization": "United Nations Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+    "source_title": "Report of the Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+    "source_url": "https://docs.un.org/en/A/79/232",
+    "source_document_id": "A/79/232",
+    "source_page": "para. 111",
+    "source_quote": null,
+    "verification_notes": "Verified against paragraph 111 of A/79/232. The record is limited to the Commission's finding about intentional mistreatment and keeps that institutional attribution explicit.",
+    "related_records": [
+      "un-coi-hostage-taking-2024-06-12",
+      "ohchr-hostage-treatment-2024-07-31",
+      "un-coi-sexual-violence-hostages-2024-06-12"
+    ],
+    "tags": [
+      "hamas",
+      "hostages",
+      "ill-treatment",
+      "sexual-violence",
+      "torture",
+      "un-commission-of-inquiry"
+    ],
+    "created_at": "2026-08-16T00:00:00Z",
+    "updated_at": "2026-08-16T00:00:00Z"
+  },
+  {
     "id": "un-coi-hostage-taking-2024-06-12",
     "title": "UN Commission finding on hostage-taking on 7 October",
     "event_date": "2023-10-07",
@@ -662,6 +1356,57 @@
       "7-october",
       "hamas",
       "hostages",
+      "un-commission-of-inquiry",
+      "war-crimes"
+    ],
+    "created_at": "2026-08-16T00:00:00Z",
+    "updated_at": "2026-08-16T00:00:00Z"
+  },
+  {
+    "id": "un-coi-hostage-war-crimes-2024-09-11",
+    "title": "UN Commission findings on crimes against hostages in Gaza",
+    "event_date": null,
+    "publication_date": "2024-09-11",
+    "location": [
+      "Gaza Strip"
+    ],
+    "actors": [
+      "Hamas",
+      "other Palestinian armed groups"
+    ],
+    "affected_population": [
+      "Israeli and foreign hostages",
+      "families of hostages"
+    ],
+    "category": "hostages",
+    "summary": "The Commission made legal findings concerning torture, cruel treatment, sexual violence and enforced disappearance of hostages.",
+    "claim": "The Commission found that Hamas and other Palestinian armed groups committed war crimes including torture, inhuman or cruel treatment, rape and sexual violence against hostages and committed crimes against humanity including torture and enforced disappearance.",
+    "legal_characterization": "War-crime and crime-against-humanity findings by a UN commission of inquiry; not a court judgment or conviction.",
+    "legal_status": "UN_FINDING",
+    "evidence_type": [
+      "official-report",
+      "witness-interview",
+      "document",
+      "image",
+      "video",
+      "medical-record"
+    ],
+    "source_organization": "United Nations Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+    "source_title": "Report of the Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+    "source_url": "https://docs.un.org/en/A/79/232",
+    "source_document_id": "A/79/232",
+    "source_page": "para. 112",
+    "source_quote": null,
+    "verification_notes": "Verified against paragraph 112 of A/79/232. The record attributes the legal findings solely to the Commission and does not imply a criminal conviction of any named individual.",
+    "related_records": [
+      "un-coi-hostage-mistreatment-2024-09-11",
+      "un-coi-hostage-taking-2024-06-12"
+    ],
+    "tags": [
+      "hamas",
+      "hostages",
+      "sexual-violence",
+      "torture",
       "un-commission-of-inquiry",
       "war-crimes"
     ],
@@ -1258,6 +2003,240 @@
       "icj",
       "nonrecognition",
       "occupation"
+    ],
+    "created_at": "2026-08-16T00:00:00Z",
+    "updated_at": "2026-08-16T00:00:00Z"
+  },
+  {
+    "id": "un-coi-cultural-education-self-determination-2025-05-06",
+    "title": "UN Commission finding on cultural destruction and self-determination",
+    "event_date": null,
+    "publication_date": "2025-05-06",
+    "location": [
+      "Occupied Palestinian Territory"
+    ],
+    "actors": [
+      "Israeli authorities",
+      "Israeli security forces",
+      "Israeli settlers"
+    ],
+    "affected_population": [
+      "Palestinian people"
+    ],
+    "category": "legal-proceeding",
+    "summary": "The Commission assessed the combined effect of attacks on education, cultural and religious sites on Palestinian collective identity and self-determination.",
+    "claim": "The Commission concluded on reasonable grounds that destruction of education and cultural and religious sites, restrictions on access and erasure of heterogeneous history violated the Palestinian people's right to self-determination.",
+    "legal_characterization": "International-law finding by a UN commission of inquiry; not a judicial judgment.",
+    "legal_status": "UN_FINDING",
+    "evidence_type": [
+      "official-report",
+      "document",
+      "image",
+      "video",
+      "satellite-imagery",
+      "expert-analysis"
+    ],
+    "source_organization": "United Nations Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+    "source_title": "Report of the Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+    "source_url": "https://docs.un.org/en/A/HRC/59/26",
+    "source_document_id": "A/HRC/59/26",
+    "source_page": "para. 97",
+    "source_quote": null,
+    "verification_notes": "Verified against paragraph 97 of A/HRC/59/26. The record preserves the Commission's reasonable-grounds wording and does not present the conclusion as a court judgment or extend it beyond the report's stated scope.",
+    "related_records": [
+      "icj-palestinian-self-determination-2024-07-19",
+      "un-coi-gaza-education-system-destruction-2025-05-06"
+    ],
+    "tags": [
+      "advisory-opinion",
+      "occupation",
+      "self-determination",
+      "un-commission-of-inquiry"
+    ],
+    "created_at": "2026-08-16T00:00:00Z",
+    "updated_at": "2026-08-16T00:00:00Z"
+  },
+  {
+    "id": "un-coi-genocidal-acts-gaza-2025-09-16",
+    "title": "UN Commission finding on four genocidal acts in Gaza",
+    "event_date": null,
+    "publication_date": "2025-09-16",
+    "location": [
+      "Gaza Strip"
+    ],
+    "actors": [
+      "Israeli authorities",
+      "Israeli security forces"
+    ],
+    "affected_population": [
+      "Palestinians in the Gaza Strip"
+    ],
+    "category": "legal-proceeding",
+    "summary": "The Commission published a Genocide Convention legal analysis of Israeli authorities' and security forces' conduct in Gaza since October 2023.",
+    "claim": "The Commission concluded on reasonable grounds that Israeli authorities and security forces committed and continued to commit four genocidal acts: killing, serious bodily or mental harm, destructive conditions of life and measures intended to prevent births.",
+    "legal_characterization": "Genocide-related legal finding by a UN commission of inquiry under its reasonable-grounds standard; not an ICJ judgment or final judicial determination of state responsibility.",
+    "legal_status": "UN_FINDING",
+    "evidence_type": [
+      "official-report",
+      "document",
+      "expert-analysis"
+    ],
+    "source_organization": "United Nations Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+    "source_title": "Legal analysis of the conduct of Israel in Gaza pursuant to the Convention on the Prevention and Punishment of the Crime of Genocide",
+    "source_url": "https://docs.un.org/en/A/HRC/60/CRP.3",
+    "source_document_id": "A/HRC/60/CRP.3",
+    "source_page": "para. 252",
+    "source_quote": null,
+    "verification_notes": "Verified against paragraph 252 of A/HRC/60/CRP.3. UN_FINDING is deliberate: this is the Commission's conclusion under its reasonable-grounds standard, not a final merits judgment by the International Court of Justice and not an independent conclusion by this ledger.",
+    "related_records": [
+      "un-coi-reproductive-capacity-birth-prevention-2025-03-13",
+      "icj-provisional-measures-2024-01-26"
+    ],
+    "tags": [
+      "gaza",
+      "genocide-convention",
+      "israeli-authorities",
+      "israeli-forces",
+      "un-commission-of-inquiry"
+    ],
+    "created_at": "2026-08-16T00:00:00Z",
+    "updated_at": "2026-08-16T00:00:00Z"
+  },
+  {
+    "id": "un-coi-genocidal-intent-gaza-2025-09-16",
+    "title": "UN Commission finding on genocidal intent in Gaza",
+    "event_date": null,
+    "publication_date": "2025-09-16",
+    "location": [
+      "Gaza Strip"
+    ],
+    "actors": [
+      "Israeli authorities",
+      "Israeli security forces"
+    ],
+    "affected_population": [
+      "Palestinians in the Gaza Strip"
+    ],
+    "category": "legal-proceeding",
+    "summary": "The Commission assessed direct statements and the overall pattern of conduct in determining the mens rea element of genocide.",
+    "claim": "The Commission concluded that statements by Israeli authorities were direct evidence of genocidal intent and that the total pattern of conduct supported genocidal intent as the only reasonable inference.",
+    "legal_characterization": "Mens rea finding by a UN commission of inquiry in its Genocide Convention analysis; not an ICJ merits judgment or final judicial determination.",
+    "legal_status": "UN_FINDING",
+    "evidence_type": [
+      "official-report",
+      "document",
+      "expert-analysis"
+    ],
+    "source_organization": "United Nations Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+    "source_title": "Legal analysis of the conduct of Israel in Gaza pursuant to the Convention on the Prevention and Punishment of the Crime of Genocide",
+    "source_url": "https://docs.un.org/en/A/HRC/60/CRP.3",
+    "source_document_id": "A/HRC/60/CRP.3",
+    "source_page": "para. 254",
+    "source_quote": null,
+    "verification_notes": "Verified against paragraph 254 of A/HRC/60/CRP.3. The ledger records the Commission's conclusion and uses UN_FINDING to prevent it from being confused with a final judgment of the International Court of Justice.",
+    "related_records": [
+      "un-coi-genocidal-acts-gaza-2025-09-16",
+      "un-coi-incitement-genocide-officials-2025-09-16"
+    ],
+    "tags": [
+      "gaza",
+      "genocide-convention",
+      "israeli-authorities",
+      "israeli-forces",
+      "un-commission-of-inquiry"
+    ],
+    "created_at": "2026-08-16T00:00:00Z",
+    "updated_at": "2026-08-16T00:00:00Z"
+  },
+  {
+    "id": "un-coi-state-responsibility-genocide-gaza-2025-09-16",
+    "title": "UN Commission conclusion on State responsibility for genocide in Gaza",
+    "event_date": null,
+    "publication_date": "2025-09-16",
+    "location": [
+      "Gaza Strip"
+    ],
+    "actors": [
+      "State of Israel"
+    ],
+    "affected_population": [
+      "Palestinians in the Gaza Strip"
+    ],
+    "category": "legal-proceeding",
+    "summary": "The Commission stated its conclusion on State responsibility after applying its Genocide Convention analysis to conduct in Gaza.",
+    "claim": "The Commission concluded that the State of Israel bears responsibility for failure to prevent genocide, commission of genocide and failure to punish genocide against Palestinians in the Gaza Strip.",
+    "legal_characterization": "State-responsibility conclusion by a UN commission of inquiry; not a final merits judgment of the International Court of Justice.",
+    "legal_status": "UN_FINDING",
+    "evidence_type": [
+      "official-report",
+      "document",
+      "expert-analysis"
+    ],
+    "source_organization": "United Nations Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+    "source_title": "Legal analysis of the conduct of Israel in Gaza pursuant to the Convention on the Prevention and Punishment of the Crime of Genocide",
+    "source_url": "https://docs.un.org/en/A/HRC/60/CRP.3",
+    "source_document_id": "A/HRC/60/CRP.3",
+    "source_page": "para. 255",
+    "source_quote": null,
+    "verification_notes": "Verified against paragraph 255 of A/HRC/60/CRP.3. UN_FINDING is intentionally used because this is the Commission's conclusion, not a final ICJ merits ruling in South Africa v. Israel and not an independent conclusion by this ledger.",
+    "related_records": [
+      "un-coi-genocidal-acts-gaza-2025-09-16",
+      "un-coi-genocidal-intent-gaza-2025-09-16",
+      "icj-provisional-measures-2024-01-26"
+    ],
+    "tags": [
+      "gaza",
+      "genocide-convention",
+      "israeli-authorities",
+      "un-commission-of-inquiry"
+    ],
+    "created_at": "2026-08-16T00:00:00Z",
+    "updated_at": "2026-08-16T00:00:00Z"
+  },
+  {
+    "id": "un-coi-incitement-genocide-officials-2025-09-16",
+    "title": "UN Commission finding on incitement to genocide by Israeli officials",
+    "event_date": null,
+    "publication_date": "2025-09-16",
+    "location": [
+      "Israel",
+      "Gaza Strip"
+    ],
+    "actors": [
+      "Isaac Herzog",
+      "Benjamin Netanyahu",
+      "Yoav Gallant",
+      "Israeli authorities"
+    ],
+    "affected_population": [
+      "Palestinians in the Gaza Strip"
+    ],
+    "category": "statement",
+    "summary": "The Commission assessed statements by senior Israeli political officials as part of its Genocide Convention legal analysis.",
+    "claim": "The Commission concluded that President Isaac Herzog, Prime Minister Benjamin Netanyahu and then Defence Minister Yoav Gallant had incited the commission of genocide and that Israeli authorities failed to take action to punish the incitement.",
+    "legal_characterization": "Incitement-to-genocide finding by a UN commission of inquiry; not a criminal conviction or judicial judgment against the named individuals.",
+    "legal_status": "UN_FINDING",
+    "evidence_type": [
+      "official-report",
+      "document",
+      "expert-analysis"
+    ],
+    "source_organization": "United Nations Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+    "source_title": "Legal analysis of the conduct of Israel in Gaza pursuant to the Convention on the Prevention and Punishment of the Crime of Genocide",
+    "source_url": "https://docs.un.org/en/A/HRC/60/CRP.3",
+    "source_document_id": "A/HRC/60/CRP.3",
+    "source_page": "para. 253",
+    "source_quote": null,
+    "verification_notes": "Verified against paragraph 253 of A/HRC/60/CRP.3. The named-person characterization is explicitly a UN Commission finding; the record does not present it as an ICC or domestic criminal conviction or as an ICJ judgment.",
+    "related_records": [
+      "un-coi-genocidal-acts-gaza-2025-09-16",
+      "icc-warrants-netanyahu-gallant-2024-11-21"
+    ],
+    "tags": [
+      "genocide-convention",
+      "israeli-authorities",
+      "statements",
+      "un-commission-of-inquiry"
     ],
     "created_at": "2026-08-16T00:00:00Z",
     "updated_at": "2026-08-16T00:00:00Z"
