@@ -1,0 +1,29 @@
+{
+  "created_at": "2026-08-17T01:35:10Z",
+  "extraction_notes": "This is a direct bounded verification figure from paragraph 104 of the Secretary-General’s report. It does not infer that denial of access was the most prevalent violation and does not assign individual criminal responsibility. Human review must confirm the exact quotation, geographic scope and actor terminology and assess overlap with the published 2023 record.",
+  "id": "candidate-11f8ca774eb16e04",
+  "proposed_category": "humanitarian-aid",
+  "proposed_claim": "The United Nations verified 5,091 denials of humanitarian access by Israeli armed and security forces in the West Bank, including East Jerusalem, and the Gaza Strip during 2024.",
+  "proposed_event_date": null,
+  "proposed_legal_status": "DOCUMENTED_EVIDENCE",
+  "proposed_record": null,
+  "publication_date": "2025-06-17",
+  "published_record_id": null,
+  "related_published_records": [
+    "un-sg-denial-humanitarian-access-children-2023-2024-06-03"
+  ],
+  "review_flags": [
+    "ATTRIBUTION_REVIEW",
+    "PUBLISHED_OVERLAP_REVIEW"
+  ],
+  "review_notes": null,
+  "review_status": "NEEDS_REVIEW",
+  "reviewed_at": null,
+  "reviewed_by": null,
+  "source_document_id": "A/79/878-S/2025/247",
+  "source_organization": "United Nations",
+  "source_page": "para. 104",
+  "source_title": "Children and armed conflict: Report of the Secretary-General",
+  "source_url": "https://docs.un.org/en/A/79/878",
+  "supporting_passage": "The United Nations verified the denial of humanitarian access (5,091) by Israeli armed and security forces in the occupied West Bank, including East Jerusalem, and the Gaza Strip."
+}
