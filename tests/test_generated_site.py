@@ -10,7 +10,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
-from build_index import BASE_URL, status_slug, topic_label  # noqa: E402
+from build_index import BASE_URL, dump_json, source_manifest, status_slug, topic_label  # noqa: E402
 from common import load_records  # noqa: E402
 
 
@@ -21,6 +21,7 @@ class PageMetadataParser(HTMLParser):
         self.description = ""
         self.canonical = ""
         self.structured = ""
+        self.alternates: list[dict[str, str | None]] = []
         self._element = ""
 
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
@@ -30,6 +31,8 @@ class PageMetadataParser(HTMLParser):
             self.description = values.get("content", "")
         if tag == "link" and values.get("rel") == "canonical":
             self.canonical = values.get("href", "")
+        if tag == "link" and values.get("rel") == "alternate":
+            self.alternates.append(values)
 
     def handle_endtag(self, tag: str) -> None:
         self._element = ""
@@ -42,6 +45,38 @@ class PageMetadataParser(HTMLParser):
 
 
 class GeneratedSiteTests(unittest.TestCase):
+    def test_pages_exports_exactly_match_dist_exports(self) -> None:
+        for name in ("evidence.json", "evidence.jsonl", "evidence.csv"):
+            with self.subTest(name=name):
+                self.assertEqual((ROOT / "docs/data" / name).read_bytes(), (ROOT / "dist" / name).read_bytes())
+
+    def test_source_manifest_covers_every_record_and_is_deterministic(self) -> None:
+        records = [record for _, record in load_records()]
+        manifest_path = ROOT / "docs/data/sources.json"
+        manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+        self.assertEqual(manifest_path.read_text(encoding="utf-8"), dump_json(source_manifest(records)))
+        manifested_ids = [record_id for source in manifest for record_id in source["record_ids"]]
+        self.assertCountEqual(manifested_ids, [record["id"] for record in records])
+        self.assertEqual(len(manifested_ids), len(set(manifested_ids)))
+
+    def test_source_metadata_is_consistent_with_records(self) -> None:
+        records = [record for _, record in load_records()]
+        manifest = json.loads((ROOT / "docs/data/sources.json").read_text(encoding="utf-8"))
+        by_document = {source["source_document_id"]: source for source in manifest}
+        keys = ("source_organization", "source_title", "source_url", "publication_date")
+        for record in records:
+            with self.subTest(record=record["id"]):
+                source = by_document[record["source_document_id"]]
+                self.assertEqual({key: source[key] for key in keys}, {key: record[key] for key in keys})
+
+    def test_homepage_and_record_pages_link_json_dataset(self) -> None:
+        pages = [ROOT / "docs/index.html", *(ROOT / "docs/records").glob("*.html")]
+        expected = f"{BASE_URL}/data/evidence.json"
+        for page in pages:
+            parser = PageMetadataParser()
+            parser.feed(page.read_text(encoding="utf-8"))
+            self.assertTrue(any(link.get("type") == "application/json" and link.get("href") == expected for link in parser.alternates), page)
+
     def test_known_topic_names_have_public_display_labels(self) -> None:
         expected = {
             "icc": "ICC",

@@ -69,7 +69,7 @@ def validate(records: list[tuple[Path, dict]]) -> list[str]:
     errors: list[str] = []
     validator = schema_validator()
     ids: dict[str, Path] = {}
-    documents: dict[str, tuple[str, str, str]] = {}
+    documents: dict[str, tuple[str, str, str, str]] = {}
     fingerprints: dict[tuple[str, str], str] = {}
     for path, record in records:
         label = str(path.relative_to(ROOT))
@@ -86,7 +86,12 @@ def validate(records: list[tuple[Path, dict]]) -> list[str]:
         if path.stem != rid:
             errors.append(f"{label}: filename must match id")
         doc_id = record.get("source_document_id")
-        metadata = (record.get("source_organization", ""), record.get("source_title", ""), record.get("source_url", ""))
+        metadata = (
+            record.get("source_organization", ""),
+            record.get("source_title", ""),
+            record.get("source_url", ""),
+            record.get("publication_date", ""),
+        )
         if doc_id in documents and documents[doc_id] != metadata:
             errors.append(f"{label}: source document {doc_id!r} has conflicting metadata")
         elif isinstance(doc_id, str):
