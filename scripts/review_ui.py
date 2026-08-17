@@ -25,6 +25,10 @@ EDITABLE_CANDIDATE_FIELDS = {
     "supporting_passage", "source_page", "extraction_notes", "related_published_records",
     "review_flags", "review_notes",
 }
+RECORD_SENSITIVE_CANDIDATE_FIELDS = {
+    "proposed_event_date", "proposed_category", "proposed_claim", "proposed_legal_status",
+    "source_page", "related_published_records",
+}
 RECORD_EDIT_FIELDS = {
     "id", "title", "location", "actors", "affected_population", "summary",
     "legal_characterization", "evidence_type", "source_quote", "verification_notes", "tags",
@@ -143,6 +147,7 @@ class ReviewStore:
             candidate["review_notes"] = payload.get("review_notes") or candidate.get("review_notes")
             return self._commit(old_path, old_bytes, candidate)
 
+        record_sensitive_before = {key: candidate.get(key) for key in RECORD_SENSITIVE_CANDIDATE_FIELDS}
         fields = payload.get("candidate", {})
         if not isinstance(fields, dict):
             raise ReviewUIError("candidate fields must be an object")
@@ -151,6 +156,10 @@ class ReviewStore:
                 candidate[key] = fields[key]
         candidate["related_published_records"] = split_csv(candidate.get("related_published_records", []))
         candidate["review_flags"] = split_csv(candidate.get("review_flags", []))
+        if candidate.get("proposed_record") is not None and any(
+            candidate.get(key) != record_sensitive_before[key] for key in RECORD_SENSITIVE_CANDIDATE_FIELDS
+        ):
+            candidate["proposed_record"] = None
 
         new_id = candidate_id(candidate["source_document_id"], candidate["proposed_claim"])
         candidate["id"] = new_id
