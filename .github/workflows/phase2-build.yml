@@ -21,8 +21,8 @@ jobs:
           cache: pip
       - run: python -m pip install -r requirements.txt
       - run: python scripts/validate.py
-      - run: python -m unittest discover -s tests
       - run: python scripts/build_index.py
+      - run: python -m unittest discover -s tests
       - name: Commit generated artifacts when needed
         run: |
           if ! git diff --quiet -- docs/ dist/; then
