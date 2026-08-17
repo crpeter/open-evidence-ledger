@@ -1,6 +1,6 @@
 {
   "id": "un-coi-gaza-hospitals-2024-06-12",
-  "title": "UN Commission finding on attacks affecting Gaza hospitals",
+  "title": "UN Commission finding on damage to Gaza health care",
   "event_date": null,
   "publication_date": "2024-06-12",
   "location": [
@@ -15,9 +15,9 @@
     "displaced civilians"
   ],
   "category": "civilian-infrastructure",
-  "summary": "The Commission examined Israeli military operations affecting hospitals during the period through 31 December 2023.",
-  "claim": "The Commission found that attacks on and the siege of health-care facilities impaired Gaza’s health system and access to medical care, and that the Israeli security forces’ conduct constituted the war crime of intentionally directing attacks against civilian objects.",
-  "legal_characterization": "War-crime finding by a UN commission of inquiry; not a judicial judgment.",
+  "summary": "The Commission examined the effect of Israeli military operations on Gaza’s health-care facilities and services through 31 December 2023.",
+  "claim": "The Commission found that Israeli attacks severely damaged Gaza’s health-care infrastructure, reducing the availability and accessibility of health services.",
+  "legal_characterization": "Factual finding by a UN commission of inquiry; this record does not characterize attacks on hospitals as a specific war crime and is not a judicial judgment.",
   "legal_status": "UN_FINDING",
   "evidence_type": [
     "official-report",
@@ -31,9 +31,9 @@
   "source_title": "Report of the Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
   "source_url": "https://docs.un.org/en/A/HRC/56/26",
   "source_document_id": "A/HRC/56/26",
-  "source_page": "pp. 13-14, paras. 70-77; p. 18, para. 105",
+  "source_page": "pp. 13-14, paras. 70-75",
   "source_quote": null,
-  "verification_notes": "Verified against the cited paragraphs of A/HRC/56/26 and the Commission methodology in paragraphs 3-7, including its reasonable-grounds standard. This is attributed to the Commission and is not a court judgment or an individual conviction. Classification judgment: the report discusses multiple health facilities and legal rules; manual review should confirm this narrowly combined formulation.",
+  "verification_notes": "Verified against the health-care discussion in paragraphs 70-75 of A/HRC/56/26 and the Commission’s reasonable-grounds standard in paragraph 6. The claim is limited to the reported damage and effect on health services; it does not combine those passages with the report’s general legal finding about attacks on civilian objects or assert a hospital-specific war-crime finding.",
   "related_records": [
     "un-coi-israeli-operations-gaza-2024-06-12"
   ],
