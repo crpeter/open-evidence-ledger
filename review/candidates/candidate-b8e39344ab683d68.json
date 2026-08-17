@@ -1,0 +1,29 @@
+{
+  "created_at": "2026-08-17T01:35:09Z",
+  "extraction_notes": "Provisional transcription of the report's aggregate verification figure. Human review must check the figure, geographic and reporting-period scope, breakdown by affected children, and distinction between verified incidents and children affected.",
+  "id": "candidate-b8e39344ab683d68",
+  "proposed_category": "children",
+  "proposed_claim": "The Secretary-General reported that the United Nations verified 8,554 grave violations against 2,959 children in Israel and the Occupied Palestinian Territory during 2024.",
+  "proposed_event_date": null,
+  "proposed_legal_status": "DOCUMENTED_EVIDENCE",
+  "proposed_record": null,
+  "publication_date": "2025-06-17",
+  "published_record_id": null,
+  "related_published_records": [
+    "un-sg-verified-child-killings-2023-2024-06-03"
+  ],
+  "review_flags": [
+    "ATTRIBUTION_REVIEW",
+    "PUBLISHED_OVERLAP_REVIEW"
+  ],
+  "review_notes": null,
+  "review_status": "NEEDS_REVIEW",
+  "reviewed_at": null,
+  "reviewed_by": null,
+  "source_document_id": "A/79/878-S/2025/247",
+  "source_organization": "United Nations",
+  "source_page": "paras. 98–101",
+  "source_title": "Children and armed conflict: Report of the Secretary-General",
+  "source_url": "https://docs.un.org/en/A/79/878",
+  "supporting_passage": null
+}

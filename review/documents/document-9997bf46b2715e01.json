@@ -1,0 +1,13 @@
+{
+  "discovered_at": "2026-08-17T00:00:00Z",
+  "discovery_method": "MANUAL",
+  "id": "document-9997bf46b2715e01",
+  "notes": "Source-metadata review only: official dual UN symbol, title, publication date, Secretary-General attribution and stable UN document URL were checked for candidate creation. No reported violation or figure has been human-approved.",
+  "publication_date": "2025-06-17",
+  "source_document_id": "A/79/878-S/2025/247",
+  "source_organization": "United Nations",
+  "source_registry_id": "un-documents",
+  "source_url": "https://docs.un.org/en/A/79/878",
+  "status": "CANDIDATES_CREATED",
+  "title": "Children and armed conflict: Report of the Secretary-General"
+}

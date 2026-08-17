@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-08-17T01:35:06Z",
+  "extraction_notes": "This is a procedural case-management order only. It does not decide Colombia's intervention, the merits, or any party's criminal responsibility; a human should confirm the operative wording and whether a later order changed the time-limits.",
+  "id": "candidate-cee885387827841e",
+  "proposed_category": "legal-proceeding",
+  "proposed_claim": "The ICJ fixed time-limits for South Africa and Israel to submit written observations on Colombia's declaration of intervention in the pending Genocide Convention case.",
+  "proposed_event_date": null,
+  "proposed_legal_status": "DOCUMENTED_EVIDENCE",
+  "proposed_record": null,
+  "publication_date": "2024-06-06",
+  "published_record_id": null,
+  "related_published_records": [],
+  "review_flags": [
+    "LATER_PROCEDURAL_POSTURE_REVIEW"
+  ],
+  "review_notes": null,
+  "review_status": "NEEDS_REVIEW",
+  "reviewed_at": null,
+  "reviewed_by": null,
+  "source_document_id": "ICJ-General-List-192-Order-2024-06-06",
+  "source_organization": "International Court of Justice",
+  "source_page": "pp. 3–4, operative clause",
+  "source_title": "Order of 6 June 2024, Application of the Convention on the Prevention and Punishment of the Crime of Genocide in the Gaza Strip (South Africa v. Israel)",
+  "source_url": "https://www.icj-cij.org/sites/default/files/case-related/192/192-20240606-ord-01-00-en.pdf",
+  "supporting_passage": null
+}

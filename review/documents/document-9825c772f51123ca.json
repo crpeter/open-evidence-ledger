@@ -1,0 +1,13 @@
+{
+  "discovered_at": "2026-08-17T00:00:00Z",
+  "discovery_method": "MANUAL",
+  "id": "document-9825c772f51123ca",
+  "notes": "Source-metadata review only: official ICJ case document identity, date, title, case number and stable PDF URL were checked for candidate creation. No evidentiary claim or legal characterization has been human-approved.",
+  "publication_date": "2024-06-06",
+  "source_document_id": "ICJ-General-List-192-Order-2024-06-06",
+  "source_organization": "International Court of Justice",
+  "source_registry_id": "icj-cases",
+  "source_url": "https://www.icj-cij.org/sites/default/files/case-related/192/192-20240606-ord-01-00-en.pdf",
+  "status": "CANDIDATES_CREATED",
+  "title": "Order of 6 June 2024, Application of the Convention on the Prevention and Punishment of the Crime of Genocide in the Gaza Strip (South Africa v. Israel)"
+}

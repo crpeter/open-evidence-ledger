@@ -1,0 +1,30 @@
+{
+  "created_at": "2026-08-17T01:35:08Z",
+  "extraction_notes": "The claim remains attributed to the Special Rapporteur and retains the report's reported posture. Human review must check the underlying citations, the precise temporal scope, and whether this materially overlaps published displacement records.",
+  "id": "candidate-340d5a8a93b8f7bd",
+  "proposed_category": "displacement",
+  "proposed_claim": "The Special Rapporteur reported that Israel's post-7 October 2023 evacuation orders displaced Palestinians into progressively smaller and unsafe areas of Gaza.",
+  "proposed_event_date": null,
+  "proposed_legal_status": "DOCUMENTED_EVIDENCE",
+  "proposed_record": null,
+  "publication_date": "2024-10-01",
+  "published_record_id": null,
+  "related_published_records": [
+    "un-coi-forcible-transfer-gaza-2024-06-12"
+  ],
+  "review_flags": [
+    "ATTRIBUTION_REVIEW",
+    "UN_FINDING_SCOPE_REVIEW",
+    "PUBLISHED_OVERLAP_REVIEW"
+  ],
+  "review_notes": null,
+  "review_status": "NEEDS_REVIEW",
+  "reviewed_at": null,
+  "reviewed_by": null,
+  "source_document_id": "A/79/384",
+  "source_organization": "United Nations Special Procedures",
+  "source_page": "paras. 25–27",
+  "source_title": "Genocide as colonial erasure: Report of the Special Rapporteur on the situation of human rights in the Palestinian territories occupied since 1967",
+  "source_url": "https://docs.un.org/en/A/79/384",
+  "supporting_passage": null
+}
