@@ -6,12 +6,38 @@ The only supported lifecycle is:
 
 Automation assists discovery and extraction. Humans approve the bounded evidentiary claim and its exact legal/procedural posture. A candidate is provisional material, not evidence, even when tooling extracted it. **Only validated records in `data/` are public ledger truth.** Review material is never copied to `dist/` or `docs/`.
 
+## Local review UI
+
+Run:
+
+```bash
+python scripts/review_ui.py
+```
+
+The reviewer opens at `http://127.0.0.1:8765/` and binds only to the IPv4 loopback interface. There is deliberately no remote listener or authentication layer. A random per-process session token protects write requests, and the browser UI has no endpoint that can promote or publish a candidate.
+
+The UI supports:
+
+- source metadata and an **Open official source** link;
+- pinpoint, supporting passage, proposed claim, category and legal-status review;
+- review flags and related published-record context;
+- reviewer name and substantive notes;
+- a structured final-record form;
+- `NEEDS_REVIEW`, `REJECTED`, and `VERIFIED` decisions;
+- deterministic candidate renaming when a proposed claim is rewritten;
+- reopening a `VERIFIED` or `REJECTED` candidate before further edits.
+
+Incomplete final-record drafts stay in browser `localStorage`; they are not written into the repository. Clicking **Verify candidate** validates the complete final record and candidate queue before saving `VERIFIED`. It still does not write anything to `data/`. Git commits and pull requests remain the audit boundary for review changes.
+
+Use `python scripts/review_ui.py --no-browser` to start without opening a browser automatically, or `--port PORT` to use another local port.
+
 ## Commands and review gate
 
 1. Run `python scripts/discover_sources.py`. Adapters are deliberately modular. Every initial official endpoint currently uses the `manual` adapter because no reliable machine-readable mechanism is assumed; the command reports this as “manual required,” never as evidence that no document exists. A reviewer may add schema-valid document JSON to `review/documents/` with a deterministic ID produced by `review_pipeline.document_id`.
 2. Set a queued document's `status` to `REVIEWED` after checking its identity and metadata. Then run `python scripts/create_candidate.py SOURCE_DOCUMENT_ID --claim 'A bounded proposed claim…' --legal-status DOCUMENTED_EVIDENCE --category statement --extraction-notes 'How the passage was selected' --passage 'Exact supporting text' --source-page 'p. 1'`. The tool cannot set `VERIFIED` and does not infer absent values.
-3. Run `python scripts/validate_candidates.py`. Review any deterministic posture or overlap flags. A human edits the candidate, supplies a complete `proposed_record`, and sets `review_status`, `reviewed_at`, `reviewed_by`, and substantive `review_notes`. Use `NEEDS_REVIEW` when uncertain. `REJECTED` requires notes.
-4. Promote only with `python scripts/promote_candidate.py review/candidates/CANDIDATE_ID.json --approve`. The command rejects anything other than a fully reviewed `VERIFIED` candidate, applies the published schema and corpus invariants, writes `data/<category>/<record-id>.json`, then changes the candidate to `PUBLISHED` and records `published_record_id`. There is no discovery, extraction, build, or CI path that promotes automatically.
-5. Run `python scripts/validate.py`, `python scripts/validate_candidates.py`, `python scripts/build_index.py`, and `python -m unittest discover -s tests`.
+3. Run `python scripts/review_ui.py` for browser-based review, or edit the candidate JSON manually. Review any deterministic posture or overlap flags. A human supplies the final record, reviewer identity and substantive `review_notes`. Use `NEEDS_REVIEW` when uncertain. `REJECTED` requires notes. `VERIFIED` requires a complete schema-valid `proposed_record`.
+4. Run `python scripts/validate_candidates.py` before promotion.
+5. Promote only with `python scripts/promote_candidate.py review/candidates/CANDIDATE_ID.json --approve`. The command rejects anything other than a fully reviewed `VERIFIED` candidate, applies the published schema and corpus invariants, writes `data/<category>/<record-id>.json`, then changes the candidate to `PUBLISHED` and records `published_record_id`. There is no discovery, extraction, build, UI, or CI path that promotes automatically.
+6. Run `python scripts/validate.py`, `python scripts/validate_candidates.py`, `python scripts/build_index.py`, and `python -m unittest discover -s tests`.
 
 Reviewers must preserve attribution and procedural distinctions: allegation is not finding; an ICC warrant is not conviction; an ICJ provisional measure is not a final merits judgment; a UN finding is not a court judgment; and an advisory opinion is not a criminal judgment. Never infer or fabricate quotations, citations, dates, identifiers, figures, or legal conclusions. Flag uncertainty for review.
