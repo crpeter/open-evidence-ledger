@@ -57,8 +57,8 @@ def validate_review(root=ROOT) -> list[str]:
         (path, json.loads(path.read_text(encoding="utf-8"))) for path in sorted((root / "data").glob("*/*.json"))
     ])
     for source_id, label in queued_doc_ids.items():
-        if source_id in published_documents:
-            errors.append(f"{label}: source document is already represented in published records")
+        if source_id in published_documents and document_metadata[source_id] != published_documents[source_id]:
+            errors.append(f"{label}: queued and published source metadata are inconsistent")
     candidate_validator = validator(schema_dir / "candidate.schema.json")
     record_validator = schema_validator() if root == ROOT else validator(schema_dir / "record.schema.json")
     seen_ids, fingerprints = {}, {}
@@ -107,7 +107,7 @@ def validate_review(root=ROOT) -> list[str]:
             errors.append(f"{label}: only PUBLISHED may set published_record_id")
         if status in ("CANDIDATE", "NEEDS_REVIEW") and any(candidate.get(k) for k in ("reviewed_at", "reviewed_by")):
             errors.append(f"{label}: unreviewed candidate cannot carry human verification metadata")
-        if overlap_flags(candidate, published) and "PUBLISHED_OVERLAP_REVIEW" not in candidate.get("review_flags", []):
+        if status != "PUBLISHED" and overlap_flags(candidate, published) and "PUBLISHED_OVERLAP_REVIEW" not in candidate.get("review_flags", []):
             errors.append(f"{label}: published overlap must be flagged for review")
     return errors
 

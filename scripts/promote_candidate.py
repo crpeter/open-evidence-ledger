@@ -7,7 +7,8 @@ import json
 from pathlib import Path
 
 from common import ROOT, validate
-from review_pipeline import canonical_json, normalize_claim, source_metadata
+from review_pipeline import (candidate_id, canonical_json, document_id, normalize_claim,
+                             source_metadata, validator)
 
 
 class PromotionError(ValueError):
@@ -17,7 +18,42 @@ class PromotionError(ValueError):
 def promote(candidate_path: Path, *, root: Path = ROOT, approve: bool = False) -> Path:
     if not approve:
         raise PromotionError("promotion requires explicit --approve")
-    candidate = json.loads(candidate_path.read_text(encoding="utf-8"))
+    root = root.resolve()
+    queue = (root / "review/candidates").resolve()
+    try:
+        resolved_candidate = candidate_path.resolve(strict=True)
+    except FileNotFoundError as exc:
+        raise PromotionError("candidate file does not exist") from exc
+    if resolved_candidate.parent != queue:
+        raise PromotionError("candidate must be a queued file directly inside review/candidates")
+    candidate_path = resolved_candidate
+    try:
+        candidate = json.loads(candidate_path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError) as exc:
+        raise PromotionError("candidate is not valid readable JSON") from exc
+    candidate_schema = root / "schema/candidate.schema.json"
+    schema_errors = sorted(validator(candidate_schema).iter_errors(candidate), key=lambda error: (list(error.absolute_path), error.message))
+    if schema_errors:
+        raise PromotionError("candidate schema validation failed: " + "; ".join(error.message for error in schema_errors))
+    expected_id = candidate_id(candidate["source_document_id"], candidate["proposed_claim"])
+    if candidate["id"] != expected_id or candidate_path.stem != expected_id:
+        raise PromotionError("candidate id and filename must match the deterministic source/claim fingerprint")
+    expected_source = source_metadata(candidate)
+    provenance_valid = False
+    document_schema = validator(root / "schema/discovered-document.schema.json")
+    for path in sorted((root / "review/documents").glob("*.json")):
+        document = json.loads(path.read_text(encoding="utf-8"))
+        if document.get("source_document_id") != candidate["source_document_id"]:
+            continue
+        valid_id = document.get("id") == document_id(document.get("source_registry_id", ""), document.get("source_document_id", ""), document.get("source_url", ""))
+        metadata = (document.get("source_organization"), document.get("title"), document.get("source_url"), document.get("publication_date"))
+        provenance_valid = not list(document_schema.iter_errors(document)) and path.stem == document.get("id") and valid_id and metadata == expected_source
+        break
+    existing_records = [(path, json.loads(path.read_text(encoding="utf-8"))) for path in sorted((root / "data").glob("*/*.json"))]
+    if not provenance_valid:
+        provenance_valid = any(item.get("source_document_id") == candidate["source_document_id"] and source_metadata(item) == expected_source for _, item in existing_records)
+    if not provenance_valid:
+        raise PromotionError("candidate source_document_id has no valid, metadata-consistent pipeline provenance")
     if candidate.get("review_status") != "VERIFIED":
         raise PromotionError("candidate must have review_status VERIFIED")
     if not all(candidate.get(key) for key in ("reviewed_by", "reviewed_at", "review_notes")):
@@ -30,7 +66,7 @@ def promote(candidate_path: Path, *, root: Path = ROOT, approve: bool = False) -
         raise PromotionError("candidate and final record source metadata are inconsistent")
     if record.get("claim") != candidate.get("proposed_claim") or record.get("category") != candidate.get("proposed_category") or record.get("legal_status") != candidate.get("proposed_legal_status"):
         raise PromotionError("final claim, category, and legal status must equal the human-reviewed proposals")
-    loaded = [(path, json.loads(path.read_text(encoding="utf-8"))) for path in sorted((root / "data").glob("*/*.json"))]
+    loaded = existing_records
     ids = {item["id"] for _, item in loaded}
     if record.get("id") in ids:
         raise PromotionError("published record id already exists")
