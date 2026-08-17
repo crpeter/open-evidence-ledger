@@ -1,0 +1,43 @@
+{
+  "id": "un-sg-attacks-schools-hospitals-2023-2024-06-03",
+  "title": "UN verifies attacks on schools and hospitals affecting children",
+  "event_date": null,
+  "publication_date": "2024-06-03",
+  "location": [
+    "Israel",
+    "Occupied Palestinian Territory"
+  ],
+  "actors": [
+    "Israeli forces",
+    "Hamas and other Palestinian armed groups"
+  ],
+  "affected_population": [
+    "Palestinian children",
+    "Israeli children"
+  ],
+  "category": "civilian-infrastructure",
+  "summary": "The report records verified attacks on protected civilian facilities in Israel and the occupied Palestinian territory.",
+  "claim": "The United Nations verified attacks on schools and hospitals by parties to the conflict during 2023.",
+  "legal_characterization": "UN-verified grave-violation evidence attributed to the Secretary-General’s reporting mechanism; not a court judgment.",
+  "legal_status": "DOCUMENTED_EVIDENCE",
+  "evidence_type": [
+    "official-report"
+  ],
+  "source_organization": "United Nations Secretary-General",
+  "source_title": "Children and armed conflict in Israel and the Occupied Palestinian Territory",
+  "source_url": "https://docs.un.org/en/S/2024/384",
+  "source_document_id": "S/2024/384",
+  "source_page": "paras. 27-30",
+  "source_quote": null,
+  "verification_notes": "Verified against the cited section of the Secretary-General’s dedicated report. Wording preserves the report’s verification posture and does not attribute unverified incidents.",
+  "related_records": [
+    "un-coi-gaza-child-casualties-2024-06-12"
+  ],
+  "tags": [
+    "children",
+    "united-nations",
+    "schools"
+  ],
+  "created_at": "2026-08-17T00:00:00Z",
+  "updated_at": "2026-08-17T00:00:00Z"
+}

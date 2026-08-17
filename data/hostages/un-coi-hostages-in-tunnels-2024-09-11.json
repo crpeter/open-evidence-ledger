@@ -1,0 +1,42 @@
+{
+  "id": "un-coi-hostages-in-tunnels-2024-09-11",
+  "title": "UN Commission documents hostages held in tunnels with little food",
+  "event_date": null,
+  "publication_date": "2024-09-11",
+  "location": [
+    "Gaza Strip",
+    "Israel"
+  ],
+  "actors": [
+    "Hamas and other Palestinian armed groups"
+  ],
+  "affected_population": [
+    "hostages held in the Gaza Strip"
+  ],
+  "category": "hostages",
+  "summary": "The Commission documented released-hostage accounts concerning conditions of captivity.",
+  "claim": "The Commission documented accounts that some hostages held by Palestinian armed groups in Gaza tunnels received little food and were held in poor conditions.",
+  "legal_characterization": "Finding of a United Nations commission of inquiry; not a court judgment.",
+  "legal_status": "UN_FINDING",
+  "evidence_type": [
+    "official-report",
+    "witness-interview"
+  ],
+  "source_organization": "United Nations Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+  "source_title": "Report of the Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+  "source_url": "https://docs.un.org/en/A/79/232",
+  "source_document_id": "A/79/232",
+  "source_page": "paras. 73-76",
+  "source_quote": null,
+  "verification_notes": "Verified against the cited paragraphs and attributed only to the Commission. Qualified language is preserved where the Commission could not verify broader claims.",
+  "related_records": [
+    "un-coi-gaza-healthcare-destruction-policy-2024-09-11"
+  ],
+  "tags": [
+    "un-commission-of-inquiry",
+    "gaza",
+    "hostage-treatment"
+  ],
+  "created_at": "2026-08-17T00:00:00Z",
+  "updated_at": "2026-08-17T00:00:00Z"
+}

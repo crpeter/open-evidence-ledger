@@ -1,0 +1,43 @@
+{
+  "id": "un-sg-palestinian-groups-child-recruitment-2023-2024-06-03",
+  "title": "UN verifies recruitment or use of children by Palestinian armed groups",
+  "event_date": null,
+  "publication_date": "2024-06-03",
+  "location": [
+    "Israel",
+    "Occupied Palestinian Territory"
+  ],
+  "actors": [
+    "Israeli forces",
+    "Hamas and other Palestinian armed groups"
+  ],
+  "affected_population": [
+    "Palestinian children",
+    "Israeli children"
+  ],
+  "category": "children",
+  "summary": "The report records verified recruitment and use of children as a grave violation.",
+  "claim": "The United Nations verified cases of recruitment or use of Palestinian children by Palestinian armed groups during 2023.",
+  "legal_characterization": "UN-verified grave-violation evidence attributed to the Secretary-General’s reporting mechanism; not a court judgment.",
+  "legal_status": "DOCUMENTED_EVIDENCE",
+  "evidence_type": [
+    "official-report"
+  ],
+  "source_organization": "United Nations Secretary-General",
+  "source_title": "Children and armed conflict in Israel and the Occupied Palestinian Territory",
+  "source_url": "https://docs.un.org/en/S/2024/384",
+  "source_document_id": "S/2024/384",
+  "source_page": "paras. 24-26",
+  "source_quote": null,
+  "verification_notes": "Verified against the cited section of the Secretary-General’s dedicated report. Wording preserves the report’s verification posture and does not attribute unverified incidents.",
+  "related_records": [
+    "un-coi-gaza-child-casualties-2024-06-12"
+  ],
+  "tags": [
+    "children",
+    "united-nations",
+    "child-recruitment"
+  ],
+  "created_at": "2026-08-17T00:00:00Z",
+  "updated_at": "2026-08-17T00:00:00Z"
+}

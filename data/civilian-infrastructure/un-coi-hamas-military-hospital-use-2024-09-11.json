@@ -1,0 +1,42 @@
+{
+  "id": "un-coi-hamas-military-hospital-use-2024-09-11",
+  "title": "UN Commission finds indications of Hamas military use of a hospital",
+  "event_date": null,
+  "publication_date": "2024-09-11",
+  "location": [
+    "Gaza Strip",
+    "Israel"
+  ],
+  "actors": [
+    "Hamas and other Palestinian armed groups"
+  ],
+  "affected_population": [
+    "Palestinians in the Gaza Strip"
+  ],
+  "category": "civilian-infrastructure",
+  "summary": "The Commission considered claims concerning use of Gaza hospitals by Palestinian armed groups.",
+  "claim": "The Commission found indications that Hamas military wings used a hospital for military purposes, but stated that it could not verify broader claims about command-and-control centres in hospitals.",
+  "legal_characterization": "Finding of a United Nations commission of inquiry; not a court judgment.",
+  "legal_status": "UN_FINDING",
+  "evidence_type": [
+    "official-report",
+    "witness-interview"
+  ],
+  "source_organization": "United Nations Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+  "source_title": "Report of the Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+  "source_url": "https://docs.un.org/en/A/79/232",
+  "source_document_id": "A/79/232",
+  "source_page": "paras. 45-48",
+  "source_quote": null,
+  "verification_notes": "Verified against the cited paragraphs and attributed only to the Commission. Qualified language is preserved where the Commission could not verify broader claims.",
+  "related_records": [
+    "un-coi-gaza-healthcare-destruction-policy-2024-09-11"
+  ],
+  "tags": [
+    "un-commission-of-inquiry",
+    "gaza",
+    "hospitals"
+  ],
+  "created_at": "2026-08-17T00:00:00Z",
+  "updated_at": "2026-08-17T00:00:00Z"
+}

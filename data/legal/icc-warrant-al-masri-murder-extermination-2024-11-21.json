@@ -1,0 +1,44 @@
+{
+  "id": "icc-warrant-al-masri-murder-extermination-2024-11-21",
+  "title": "ICC chamber issues Al-Masri warrant on murder and extermination allegations",
+  "event_date": null,
+  "publication_date": "2024-11-21",
+  "location": [
+    "Israel",
+    "Gaza Strip"
+  ],
+  "actors": [
+    "Mohammed Diab Ibrahim Al-Masri (Deif)"
+  ],
+  "affected_population": [
+    "civilians in Israel",
+    "hostages held in the Gaza Strip"
+  ],
+  "category": "legal-proceeding",
+  "summary": "The Chamber announced a warrant applying the reasonable-grounds threshold to alleged conduct on and after 7 October 2023.",
+  "claim": "The Chamber stated that it found reasonable grounds to believe Al-Masri was responsible for the crimes against humanity of murder and extermination.",
+  "legal_characterization": "Arrest-warrant allegations at the reasonable-grounds-to-believe threshold; not a conviction.",
+  "legal_status": "COURT_ALLEGATION",
+  "evidence_type": [
+    "arrest-warrant"
+  ],
+  "source_organization": "International Criminal Court",
+  "source_title": "Situation in the State of Palestine: ICC Pre-Trial Chamber I issues warrant of arrest for Mohammed Diab Ibrahim Al-Masri (Deif)",
+  "source_url": "https://www.icc-cpi.int/news/situation-state-palestine-icc-pre-trial-chamber-i-issues-warrant-arrest-mohammed-diab-ibrahim",
+  "source_document_id": "ICC-2024-11-21-Palestine-warrant-Al-Masri",
+  "source_page": "Web release, section headed “The warrant of arrest”",
+  "source_quote": null,
+  "verification_notes": "Verified against the ICC’s official warrant announcement and its stated reasonable-grounds threshold. The record does not treat the warrant as a conviction.",
+  "related_records": [
+    "icc-warrants-netanyahu-gallant-2024-11-21"
+  ],
+  "tags": [
+    "icc",
+    "palestine-situation",
+    "arrest-warrants",
+    "murder",
+    "extermination"
+  ],
+  "created_at": "2026-08-17T00:00:00Z",
+  "updated_at": "2026-08-17T00:00:00Z"
+}
