@@ -1,0 +1,13 @@
+{
+  "discovered_at": "2026-08-17T00:00:00Z",
+  "discovery_method": "MANUAL",
+  "id": "document-43935096cc1bfe10",
+  "notes": "Source-metadata review only: official UN symbol, title, publication date, mandate attribution and stable UN document URL were checked for candidate creation. No mandate-holder conclusion or legal characterization has been human-approved.",
+  "publication_date": "2024-10-01",
+  "source_document_id": "A/79/384",
+  "source_organization": "United Nations Special Procedures",
+  "source_registry_id": "un-special-procedures-opt",
+  "source_url": "https://docs.un.org/en/A/79/384",
+  "status": "CANDIDATES_CREATED",
+  "title": "Genocide as colonial erasure: Report of the Special Rapporteur on the situation of human rights in the Palestinian territories occupied since 1967"
+}
