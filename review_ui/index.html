@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Open Evidence Ledger Review</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="eyebrow">Open Evidence Ledger</div>
+        <h1>Review queue</h1>
+        <p>Local-only human review. Nothing here can publish a record.</p>
+      </div>
+      <div class="sidebar-tools">
+        <input id="search" type="search" placeholder="Filter candidates…" autocomplete="off">
+        <label class="compact-field">
+          Reviewer
+          <input id="reviewer" type="text" placeholder="GitHub handle or name" autocomplete="name">
+        </label>
+      </div>
+      <div id="candidate-list" class="candidate-list" aria-live="polite"></div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div>
+          <div id="position" class="eyebrow">No candidate selected</div>
+          <h2 id="candidate-title">Select a candidate</h2>
+        </div>
+        <div class="nav-buttons">
+          <button id="previous" class="secondary" type="button">Previous</button>
+          <button id="next" class="secondary" type="button">Next</button>
+        </div>
+      </header>
+
+      <div id="empty-state" class="empty-state">
+        <h3>Choose a candidate from the queue.</h3>
+        <p>The review UI shows source provenance, review flags, overlap context and the final record fields required for verification.</p>
+      </div>
+
+      <form id="review-form" class="review-form hidden">
+        <section class="card source-card">
+          <div class="card-heading">
+            <div>
+              <div class="eyebrow">Primary source</div>
+              <h3 id="source-title"></h3>
+            </div>
+            <a id="open-source" class="button-link" target="_blank" rel="noopener noreferrer">Open official source</a>
+          </div>
+          <div class="meta-grid">
+            <div><span>Organization</span><strong id="source-org"></strong></div>
+            <div><span>Document ID</span><strong id="source-doc"></strong></div>
+            <div><span>Publication date</span><strong id="publication-date"></strong></div>
+            <div><span>Pinpoint</span><strong id="pinpoint-label"></strong></div>
+          </div>
+        </section>
+
+        <section class="card">
+          <div class="card-heading">
+            <div>
+              <div class="eyebrow">Candidate</div>
+              <h3>Bounded claim</h3>
+            </div>
+            <span id="status-badge" class="status"></span>
+          </div>
+
+          <label>
+            Proposed claim
+            <textarea id="proposed-claim" rows="4"></textarea>
+            <small>Changing the claim changes the deterministic candidate ID.</small>
+          </label>
+
+          <div class="two-column">
+            <label>
+              Category
+              <select id="proposed-category"></select>
+            </label>
+            <label>
+              Legal status
+              <select id="proposed-legal-status"></select>
+            </label>
+          </div>
+
+          <div class="two-column">
+            <label>
+              Event date
+              <input id="proposed-event-date" type="date">
+            </label>
+            <label>
+              Source page / paragraph
+              <input id="source-page" type="text" placeholder="e.g. para. 104">
+            </label>
+          </div>
+
+          <label>
+            Supporting passage
+            <textarea id="supporting-passage" rows="4" placeholder="Exact source text when useful"></textarea>
+          </label>
+
+          <label>
+            Extraction notes
+            <textarea id="extraction-notes" rows="4"></textarea>
+          </label>
+
+          <label>
+            Related published record IDs
+            <textarea id="related-record-ids" rows="2" placeholder="One per line or comma-separated"></textarea>
+          </label>
+
+          <div>
+            <div class="field-label">Review flags</div>
+            <div id="review-flags" class="flag-grid"></div>
+          </div>
+        </section>
+
+        <section id="overlap-card" class="card hidden">
+          <div class="eyebrow">Published overlap</div>
+          <h3>Related ledger records</h3>
+          <div id="related-records" class="related-list"></div>
+        </section>
+
+        <section class="card">
+          <div class="card-heading">
+            <div>
+              <div class="eyebrow">Human decision</div>
+              <h3>Review notes</h3>
+            </div>
+          </div>
+          <label>
+            Substantive review notes
+            <textarea id="review-notes" rows="4" placeholder="What you checked, why the claim is accurate, or why it should be rejected"></textarea>
+          </label>
+        </section>
+
+        <section class="card final-record-card">
+          <div class="card-heading">
+            <div>
+              <div class="eyebrow">Required only for verification</div>
+              <h3>Final published-record draft</h3>
+            </div>
+            <span class="muted">Still not published</span>
+          </div>
+          <p class="section-help">Source metadata, claim, category, legal status, related records and timestamps are locked to the reviewed candidate when you verify.</p>
+
+          <div class="two-column">
+            <label>
+              Record ID
+              <input id="record-id" type="text" placeholder="lowercase-hyphenated-id">
+            </label>
+            <label>
+              Record title
+              <input id="record-title" type="text">
+            </label>
+          </div>
+
+          <div class="three-column">
+            <label>
+              Location(s)
+              <textarea id="record-location" rows="3" placeholder="One per line"></textarea>
+            </label>
+            <label>
+              Actor(s)
+              <textarea id="record-actors" rows="3" placeholder="One per line"></textarea>
+            </label>
+            <label>
+              Affected population
+              <textarea id="record-population" rows="3" placeholder="One per line"></textarea>
+            </label>
+          </div>
+
+          <label>
+            Summary
+            <textarea id="record-summary" rows="4"></textarea>
+          </label>
+
+          <label>
+            Legal characterization
+            <textarea id="record-legal-characterization" rows="3" placeholder="Keep attribution and procedural posture explicit"></textarea>
+          </label>
+
+          <div>
+            <div class="field-label">Evidence type</div>
+            <div id="evidence-types" class="flag-grid"></div>
+          </div>
+
+          <label>
+            Source quote
+            <textarea id="record-source-quote" rows="3" maxlength="500" placeholder="Optional exact quote, max 500 characters"></textarea>
+          </label>
+
+          <label>
+            Verification notes
+            <textarea id="record-verification-notes" rows="4" placeholder="How the final record was verified and any important limitations"></textarea>
+          </label>
+
+          <label>
+            Tags
+            <textarea id="record-tags" rows="2" placeholder="One per line or comma-separated"></textarea>
+          </label>
+        </section>
+
+        <div id="message" class="message hidden" role="status"></div>
+
+        <footer class="actions">
+          <div class="left-actions">
+            <button id="save" class="secondary" type="button">Save review edits</button>
+            <button id="needs-review" class="secondary" type="button">Keep needs review</button>
+            <button id="reopen" class="secondary hidden" type="button">Reopen review</button>
+          </div>
+          <div class="right-actions">
+            <button id="reject" class="danger" type="button">Reject</button>
+            <button id="verify" class="primary" type="button">Verify candidate</button>
+          </div>
+        </footer>
+      </form>
+    </main>
+  </div>
+  <script src="/app.js"></script>
+</body>
+</html>
