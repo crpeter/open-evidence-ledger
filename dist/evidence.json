@@ -835,48 +835,6 @@
     "updated_at": "2026-08-16T00:00:00Z"
   },
   {
-    "id": "un-coi-hamas-military-hospital-use-2024-09-11",
-    "title": "UN Commission finds indications of Hamas military use of a hospital",
-    "event_date": null,
-    "publication_date": "2024-09-11",
-    "location": [
-      "Gaza Strip",
-      "Israel"
-    ],
-    "actors": [
-      "Hamas and other Palestinian armed groups"
-    ],
-    "affected_population": [
-      "Palestinians in the Gaza Strip"
-    ],
-    "category": "civilian-infrastructure",
-    "summary": "The Commission considered claims concerning use of Gaza hospitals by Palestinian armed groups.",
-    "claim": "The Commission found indications that Hamas military wings used a hospital for military purposes, but stated that it could not verify broader claims about command-and-control centres in hospitals.",
-    "legal_characterization": "Finding of a United Nations commission of inquiry; not a court judgment.",
-    "legal_status": "UN_FINDING",
-    "evidence_type": [
-      "official-report",
-      "witness-interview"
-    ],
-    "source_organization": "United Nations Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
-    "source_title": "Report of the Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
-    "source_url": "https://docs.un.org/en/A/79/232",
-    "source_document_id": "A/79/232",
-    "source_page": "paras. 45-48",
-    "source_quote": null,
-    "verification_notes": "Verified against the cited paragraphs and attributed only to the Commission. Qualified language is preserved where the Commission could not verify broader claims.",
-    "related_records": [
-      "un-coi-gaza-healthcare-destruction-policy-2024-09-11"
-    ],
-    "tags": [
-      "un-commission-of-inquiry",
-      "gaza",
-      "hospitals"
-    ],
-    "created_at": "2026-08-17T00:00:00Z",
-    "updated_at": "2026-08-17T00:00:00Z"
-  },
-  {
     "id": "un-coi-hamas-school-military-use-2025-05-06",
     "title": "UN Commission finding on Hamas military use of a Gaza school",
     "event_date": null,
@@ -1021,6 +979,49 @@
     ],
     "created_at": "2026-08-16T00:00:00Z",
     "updated_at": "2026-08-16T00:00:00Z"
+  },
+  {
+    "id": "un-coi-shifa-exchanges-fire-2024-09-11",
+    "title": "UN Commission documents exchanges of fire on Shifa Hospital premises",
+    "event_date": null,
+    "publication_date": "2024-09-11",
+    "location": [
+      "Gaza Strip"
+    ],
+    "actors": [
+      "Israeli security forces",
+      "Palestinian armed groups"
+    ],
+    "affected_population": [
+      "Palestinians in the Gaza Strip"
+    ],
+    "category": "civilian-infrastructure",
+    "summary": "The Commission documented exchanges of fire involving Israeli security forces and Palestinian armed groups at Shifa Hospital while preserving its inability to verify broader military-use claims.",
+    "claim": "The Commission documented exchanges of fire between Israeli security forces and Palestinian armed groups on the premises of Shifa Hospital.",
+    "legal_characterization": "Finding of a United Nations commission of inquiry; not a court judgment.",
+    "legal_status": "UN_FINDING",
+    "evidence_type": [
+      "official-report",
+      "video"
+    ],
+    "source_organization": "United Nations Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+    "source_title": "Report of the Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+    "source_url": "https://docs.un.org/en/A/79/232",
+    "source_document_id": "A/79/232",
+    "source_page": "paras. 27-29",
+    "source_quote": null,
+    "verification_notes": "Verified against paras. 27-29 and attributed only to the Commission. The report did not conclude that Hamas used Shifa or Nasr Hospitals for military purposes and expressly stated that it could not independently verify broader Israeli claims concerning military use of those hospitals and tunnels.",
+    "related_records": [
+      "un-coi-gaza-healthcare-destruction-policy-2024-09-11"
+    ],
+    "tags": [
+      "un-commission-of-inquiry",
+      "gaza",
+      "hospitals",
+      "attacks-on-civilians"
+    ],
+    "created_at": "2026-08-17T00:00:00Z",
+    "updated_at": "2026-08-17T00:00:00Z"
   },
   {
     "id": "un-sg-attacks-schools-hospitals-2023-2024-06-03",
@@ -2443,48 +2444,6 @@
     "updated_at": "2026-08-17T00:00:00Z"
   },
   {
-    "id": "un-sr-starvation-conditions-life-2024-03-25",
-    "title": "Special Rapporteur concludes starvation-related conduct met an underlying genocidal act",
-    "event_date": null,
-    "publication_date": "2024-03-25",
-    "location": [
-      "Gaza Strip"
-    ],
-    "actors": [
-      "State of Israel",
-      "Israeli forces"
-    ],
-    "affected_population": [
-      "Palestinians in the Gaza Strip"
-    ],
-    "category": "humanitarian-aid",
-    "summary": "The Special Rapporteur evaluated the siege and deprivation of necessities under the Genocide Convention.",
-    "claim": "The Special Rapporteur concluded that the nature and scale of the imposed deprivation of food, water, fuel and humanitarian assistance indicated the intentional infliction of conditions of life calculated to bring about the physical destruction of Palestinians as a group.",
-    "legal_characterization": "Conclusion of an independent UN Special Rapporteur; not an ICJ merits judgment or a criminal conviction.",
-    "legal_status": "UN_FINDING",
-    "evidence_type": [
-      "official-report",
-      "expert-analysis"
-    ],
-    "source_organization": "Special Rapporteur on the situation of human rights in the Palestinian territories occupied since 1967",
-    "source_title": "Anatomy of a Genocide: Report of the Special Rapporteur on the situation of human rights in the Palestinian territories occupied since 1967",
-    "source_url": "https://docs.un.org/en/A/HRC/55/73",
-    "source_document_id": "A/HRC/55/73",
-    "source_page": "para. 93",
-    "source_quote": null,
-    "verification_notes": "Verified against the cited conclusion and attributed specifically to the Special Rapporteur. The mandate holder’s conclusion is not relabeled as a court judgment.",
-    "related_records": [
-      "icj-provisional-measures-2024-01-26"
-    ],
-    "tags": [
-      "un-special-procedures",
-      "gaza",
-      "starvation"
-    ],
-    "created_at": "2026-08-17T00:00:00Z",
-    "updated_at": "2026-08-17T00:00:00Z"
-  },
-  {
     "id": "icc-warrant-al-masri-hostage-taking-2024-11-21",
     "title": "ICC chamber issues Al-Masri warrant on hostage-taking allegation",
     "event_date": null,
@@ -2514,7 +2473,7 @@
     "source_document_id": "ICC-2024-11-21-Palestine-warrant-Al-Masri",
     "source_page": "Web release, section headed “The warrant of arrest”",
     "source_quote": null,
-    "verification_notes": "Verified against the ICC’s official warrant announcement and its stated reasonable-grounds threshold. The record does not treat the warrant as a conviction.",
+    "verification_notes": "Verified against the ICC’s official warrant announcement and its stated reasonable-grounds threshold. The record does not treat the warrant as a conviction. ICC Pre-Trial Chamber I subsequently terminated the proceedings against Al-Masri on 26 February 2025 following notification of his death (ICC-01/18-417); the 21 November 2024 warrant claim is retained only as a historical procedural allegation and is not presented as an active current proceeding.",
     "related_records": [
       "icc-warrants-netanyahu-gallant-2024-11-21"
     ],
@@ -2557,7 +2516,7 @@
     "source_document_id": "ICC-2024-11-21-Palestine-warrant-Al-Masri",
     "source_page": "Web release, section headed “The warrant of arrest”",
     "source_quote": null,
-    "verification_notes": "Verified against the ICC’s official warrant announcement and its stated reasonable-grounds threshold. The record does not treat the warrant as a conviction.",
+    "verification_notes": "Verified against the ICC’s official warrant announcement and its stated reasonable-grounds threshold. The record does not treat the warrant as a conviction. ICC Pre-Trial Chamber I subsequently terminated the proceedings against Al-Masri on 26 February 2025 following notification of his death (ICC-01/18-417); the 21 November 2024 warrant claim is retained only as a historical procedural allegation and is not presented as an active current proceeding.",
     "related_records": [
       "icc-warrants-netanyahu-gallant-2024-11-21"
     ],
@@ -2601,7 +2560,7 @@
     "source_document_id": "ICC-2024-11-21-Palestine-warrant-Al-Masri",
     "source_page": "Web release, section headed “The warrant of arrest”",
     "source_quote": null,
-    "verification_notes": "Verified against the ICC’s official warrant announcement and its stated reasonable-grounds threshold. The record does not treat the warrant as a conviction.",
+    "verification_notes": "Verified against the ICC’s official warrant announcement and its stated reasonable-grounds threshold. The record does not treat the warrant as a conviction. ICC Pre-Trial Chamber I subsequently terminated the proceedings against Al-Masri on 26 February 2025 following notification of his death (ICC-01/18-417); the 21 November 2024 warrant claim is retained only as a historical procedural allegation and is not presented as an active current proceeding.",
     "related_records": [
       "icc-warrants-netanyahu-gallant-2024-11-21"
     ],
@@ -2644,7 +2603,7 @@
     "source_document_id": "ICC-2024-11-21-Palestine-warrant-Al-Masri",
     "source_page": "Web release, section headed “The warrant of arrest”",
     "source_quote": null,
-    "verification_notes": "Verified against the ICC’s official warrant announcement and its stated reasonable-grounds threshold. The record does not treat the warrant as a conviction.",
+    "verification_notes": "Verified against the ICC’s official warrant announcement and its stated reasonable-grounds threshold. The record does not treat the warrant as a conviction. ICC Pre-Trial Chamber I subsequently terminated the proceedings against Al-Masri on 26 February 2025 following notification of his death (ICC-01/18-417); the 21 November 2024 warrant claim is retained only as a historical procedural allegation and is not presented as an active current proceeding.",
     "related_records": [
       "icc-warrants-netanyahu-gallant-2024-11-21"
     ],
