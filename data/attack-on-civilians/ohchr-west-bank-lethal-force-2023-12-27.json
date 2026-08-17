@@ -1,0 +1,43 @@
+{
+  "id": "ohchr-west-bank-lethal-force-2023-12-27",
+  "title": "OHCHR documents sharp increase in West Bank killings",
+  "event_date": null,
+  "publication_date": "2023-12-27",
+  "location": [
+    "West Bank",
+    "East Jerusalem"
+  ],
+  "actors": [
+    "Israeli security forces",
+    "Israeli settlers"
+  ],
+  "affected_population": [
+    "Palestinians in the occupied West Bank"
+  ],
+  "category": "attack-on-civilians",
+  "summary": "OHCHR documented a sharp rise in Palestinians killed by Israeli security forces and settlers after 7 October.",
+  "claim": "OHCHR documented that Israeli security forces increasingly used military tactics and weapons in law-enforcement contexts in the occupied West Bank, raising serious concerns about unnecessary or disproportionate lethal force.",
+  "legal_characterization": "Evidence and accounts documented by OHCHR; not a judicial finding.",
+  "legal_status": "DOCUMENTED_EVIDENCE",
+  "evidence_type": [
+    "official-report",
+    "witness-interview"
+  ],
+  "source_organization": "Office of the United Nations High Commissioner for Human Rights",
+  "source_title": "The human rights situation in the occupied West Bank including East Jerusalem, 7 October – 20 November 2023",
+  "source_url": "https://www.ohchr.org/sites/default/files/2023-12/Flash-Report-on-the-Human-Rights-Situation-in-the-Occupied-West-Bank-including-East-Jerusalem.pdf",
+  "source_document_id": "OHCHR-OPT-West-Bank-Flash-Report-2023-12-27",
+  "source_page": "pp. 4-7, section “Killings and injuries”",
+  "source_quote": null,
+  "verification_notes": "Verified against the cited thematic section. Where the source reports allegations, the claim retains that qualification rather than converting them into findings.",
+  "related_records": [
+    "icj-settler-violence-protection-2024-07-19"
+  ],
+  "tags": [
+    "ohchr",
+    "west-bank",
+    "lethal-force"
+  ],
+  "created_at": "2026-08-17T00:00:00Z",
+  "updated_at": "2026-08-17T00:00:00Z"
+}

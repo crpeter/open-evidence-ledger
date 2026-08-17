@@ -1,5 +1,91 @@
 [
   {
+    "id": "ohchr-west-bank-lethal-force-2023-12-27",
+    "title": "OHCHR documents sharp increase in West Bank killings",
+    "event_date": null,
+    "publication_date": "2023-12-27",
+    "location": [
+      "West Bank",
+      "East Jerusalem"
+    ],
+    "actors": [
+      "Israeli security forces",
+      "Israeli settlers"
+    ],
+    "affected_population": [
+      "Palestinians in the occupied West Bank"
+    ],
+    "category": "attack-on-civilians",
+    "summary": "OHCHR documented a sharp rise in Palestinians killed by Israeli security forces and settlers after 7 October.",
+    "claim": "OHCHR documented that Israeli security forces increasingly used military tactics and weapons in law-enforcement contexts in the occupied West Bank, raising serious concerns about unnecessary or disproportionate lethal force.",
+    "legal_characterization": "Evidence and accounts documented by OHCHR; not a judicial finding.",
+    "legal_status": "DOCUMENTED_EVIDENCE",
+    "evidence_type": [
+      "official-report",
+      "witness-interview"
+    ],
+    "source_organization": "Office of the United Nations High Commissioner for Human Rights",
+    "source_title": "The human rights situation in the occupied West Bank including East Jerusalem, 7 October – 20 November 2023",
+    "source_url": "https://www.ohchr.org/sites/default/files/2023-12/Flash-Report-on-the-Human-Rights-Situation-in-the-Occupied-West-Bank-including-East-Jerusalem.pdf",
+    "source_document_id": "OHCHR-OPT-West-Bank-Flash-Report-2023-12-27",
+    "source_page": "pp. 4-7, section “Killings and injuries”",
+    "source_quote": null,
+    "verification_notes": "Verified against the cited thematic section. Where the source reports allegations, the claim retains that qualification rather than converting them into findings.",
+    "related_records": [
+      "icj-settler-violence-protection-2024-07-19"
+    ],
+    "tags": [
+      "ohchr",
+      "west-bank",
+      "lethal-force"
+    ],
+    "created_at": "2026-08-17T00:00:00Z",
+    "updated_at": "2026-08-17T00:00:00Z"
+  },
+  {
+    "id": "ohchr-west-bank-settler-violence-2023-12-27",
+    "title": "OHCHR documents intensified settler violence after 7 October",
+    "event_date": null,
+    "publication_date": "2023-12-27",
+    "location": [
+      "West Bank",
+      "East Jerusalem"
+    ],
+    "actors": [
+      "Israeli security forces",
+      "Israeli settlers"
+    ],
+    "affected_population": [
+      "Palestinians in the occupied West Bank"
+    ],
+    "category": "attack-on-civilians",
+    "summary": "OHCHR documented settler attacks against Palestinians and their property during the reporting period.",
+    "claim": "OHCHR documented a significant increase in settler violence, frequently accompanied or supported by Israeli security forces, against Palestinians in the occupied West Bank.",
+    "legal_characterization": "Evidence and accounts documented by OHCHR; not a judicial finding.",
+    "legal_status": "DOCUMENTED_EVIDENCE",
+    "evidence_type": [
+      "official-report",
+      "witness-interview"
+    ],
+    "source_organization": "Office of the United Nations High Commissioner for Human Rights",
+    "source_title": "The human rights situation in the occupied West Bank including East Jerusalem, 7 October – 20 November 2023",
+    "source_url": "https://www.ohchr.org/sites/default/files/2023-12/Flash-Report-on-the-Human-Rights-Situation-in-the-Occupied-West-Bank-including-East-Jerusalem.pdf",
+    "source_document_id": "OHCHR-OPT-West-Bank-Flash-Report-2023-12-27",
+    "source_page": "pp. 8-11, section “Settler violence”",
+    "source_quote": null,
+    "verification_notes": "Verified against the cited thematic section. Where the source reports allegations, the claim retains that qualification rather than converting them into findings.",
+    "related_records": [
+      "icj-settler-violence-protection-2024-07-19"
+    ],
+    "tags": [
+      "ohchr",
+      "west-bank",
+      "settler-violence"
+    ],
+    "created_at": "2026-08-17T00:00:00Z",
+    "updated_at": "2026-08-17T00:00:00Z"
+  },
+  {
     "id": "un-coi-civilian-homes-7-october-2024-06-12",
     "title": "UN Commission finding on attacks at civilian locations",
     "event_date": "2023-10-07",
@@ -149,6 +235,132 @@
     "updated_at": "2026-08-16T00:00:00Z"
   },
   {
+    "id": "un-sr-killing-genocidal-act-2024-03-25",
+    "title": "Special Rapporteur concludes killing threshold was met",
+    "event_date": null,
+    "publication_date": "2024-03-25",
+    "location": [
+      "Gaza Strip"
+    ],
+    "actors": [
+      "State of Israel",
+      "Israeli forces"
+    ],
+    "affected_population": [
+      "Palestinians in the Gaza Strip"
+    ],
+    "category": "attack-on-civilians",
+    "summary": "The report assessed reported deaths in Gaza under the Convention’s enumerated acts.",
+    "claim": "The Special Rapporteur concluded that the act of killing members of the protected group under article II (a) of the Genocide Convention had been committed.",
+    "legal_characterization": "Conclusion of an independent UN Special Rapporteur; not an ICJ merits judgment or a criminal conviction.",
+    "legal_status": "UN_FINDING",
+    "evidence_type": [
+      "official-report",
+      "expert-analysis"
+    ],
+    "source_organization": "Special Rapporteur on the situation of human rights in the Palestinian territories occupied since 1967",
+    "source_title": "Anatomy of a Genocide: Report of the Special Rapporteur on the situation of human rights in the Palestinian territories occupied since 1967",
+    "source_url": "https://docs.un.org/en/A/HRC/55/73",
+    "source_document_id": "A/HRC/55/73",
+    "source_page": "paras. 24-25 and 93",
+    "source_quote": null,
+    "verification_notes": "Verified against the cited conclusion and attributed specifically to the Special Rapporteur. The mandate holder’s conclusion is not relabeled as a court judgment.",
+    "related_records": [
+      "icj-provisional-measures-2024-01-26"
+    ],
+    "tags": [
+      "un-special-procedures",
+      "gaza",
+      "attacks-on-civilians"
+    ],
+    "created_at": "2026-08-17T00:00:00Z",
+    "updated_at": "2026-08-17T00:00:00Z"
+  },
+  {
+    "id": "un-sr-serious-harm-genocidal-act-2024-03-25",
+    "title": "Special Rapporteur concludes serious-harm threshold was met",
+    "event_date": null,
+    "publication_date": "2024-03-25",
+    "location": [
+      "Gaza Strip"
+    ],
+    "actors": [
+      "State of Israel",
+      "Israeli forces"
+    ],
+    "affected_population": [
+      "Palestinians in the Gaza Strip"
+    ],
+    "category": "attack-on-civilians",
+    "summary": "The report assessed physical and psychological harm under the Convention’s enumerated acts.",
+    "claim": "The Special Rapporteur concluded that the act of causing serious bodily or mental harm to members of the protected group under article II (b) had been committed.",
+    "legal_characterization": "Conclusion of an independent UN Special Rapporteur; not an ICJ merits judgment or a criminal conviction.",
+    "legal_status": "UN_FINDING",
+    "evidence_type": [
+      "official-report",
+      "expert-analysis"
+    ],
+    "source_organization": "Special Rapporteur on the situation of human rights in the Palestinian territories occupied since 1967",
+    "source_title": "Anatomy of a Genocide: Report of the Special Rapporteur on the situation of human rights in the Palestinian territories occupied since 1967",
+    "source_url": "https://docs.un.org/en/A/HRC/55/73",
+    "source_document_id": "A/HRC/55/73",
+    "source_page": "paras. 26-31 and 93",
+    "source_quote": null,
+    "verification_notes": "Verified against the cited conclusion and attributed specifically to the Special Rapporteur. The mandate holder’s conclusion is not relabeled as a court judgment.",
+    "related_records": [
+      "icj-provisional-measures-2024-01-26"
+    ],
+    "tags": [
+      "un-special-procedures",
+      "gaza",
+      "genocide-convention"
+    ],
+    "created_at": "2026-08-17T00:00:00Z",
+    "updated_at": "2026-08-17T00:00:00Z"
+  },
+  {
+    "id": "un-coi-child-detainee-abuse-2024-09-11",
+    "title": "UN Commission finds abuse of Palestinian child detainees",
+    "event_date": null,
+    "publication_date": "2024-09-11",
+    "location": [
+      "Gaza Strip",
+      "Israel"
+    ],
+    "actors": [
+      "Israeli security forces"
+    ],
+    "affected_population": [
+      "Palestinians in the Gaza Strip"
+    ],
+    "category": "children",
+    "summary": "The Commission examined treatment of Palestinian children held by Israeli authorities.",
+    "claim": "The Commission found that Palestinian child detainees were subjected to severe mistreatment, including physical and psychological violence.",
+    "legal_characterization": "Finding of a United Nations commission of inquiry; not a court judgment.",
+    "legal_status": "UN_FINDING",
+    "evidence_type": [
+      "official-report",
+      "witness-interview"
+    ],
+    "source_organization": "United Nations Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+    "source_title": "Report of the Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+    "source_url": "https://docs.un.org/en/A/79/232",
+    "source_document_id": "A/79/232",
+    "source_page": "paras. 78-80 and 108",
+    "source_quote": null,
+    "verification_notes": "Verified against the cited paragraphs and attributed only to the Commission. Qualified language is preserved where the Commission could not verify broader claims.",
+    "related_records": [
+      "un-coi-gaza-healthcare-destruction-policy-2024-09-11"
+    ],
+    "tags": [
+      "un-commission-of-inquiry",
+      "gaza",
+      "child-detention"
+    ],
+    "created_at": "2026-08-17T00:00:00Z",
+    "updated_at": "2026-08-17T00:00:00Z"
+  },
+  {
     "id": "un-coi-children-killed-7-october-2024-06-12",
     "title": "UN Commission finding on children killed on 7 October",
     "event_date": "2023-10-07",
@@ -291,6 +503,134 @@
     ],
     "created_at": "2026-08-16T00:00:00Z",
     "updated_at": "2026-08-16T00:00:00Z"
+  },
+  {
+    "id": "un-sg-palestinian-groups-child-recruitment-2023-2024-06-03",
+    "title": "UN verifies recruitment or use of children by Palestinian armed groups",
+    "event_date": null,
+    "publication_date": "2024-06-03",
+    "location": [
+      "Israel",
+      "Occupied Palestinian Territory"
+    ],
+    "actors": [
+      "Israeli forces",
+      "Hamas and other Palestinian armed groups"
+    ],
+    "affected_population": [
+      "Palestinian children",
+      "Israeli children"
+    ],
+    "category": "children",
+    "summary": "The report records verified recruitment and use of children as a grave violation.",
+    "claim": "The United Nations verified cases of recruitment or use of Palestinian children by Palestinian armed groups during 2023.",
+    "legal_characterization": "UN-verified grave-violation evidence attributed to the Secretary-General’s reporting mechanism; not a court judgment.",
+    "legal_status": "DOCUMENTED_EVIDENCE",
+    "evidence_type": [
+      "official-report"
+    ],
+    "source_organization": "United Nations Secretary-General",
+    "source_title": "Children and armed conflict in Israel and the Occupied Palestinian Territory",
+    "source_url": "https://docs.un.org/en/S/2024/384",
+    "source_document_id": "S/2024/384",
+    "source_page": "paras. 24-26",
+    "source_quote": null,
+    "verification_notes": "Verified against the cited section of the Secretary-General’s dedicated report. Wording preserves the report’s verification posture and does not attribute unverified incidents.",
+    "related_records": [
+      "un-coi-gaza-child-casualties-2024-06-12"
+    ],
+    "tags": [
+      "children",
+      "united-nations",
+      "child-recruitment"
+    ],
+    "created_at": "2026-08-17T00:00:00Z",
+    "updated_at": "2026-08-17T00:00:00Z"
+  },
+  {
+    "id": "un-sg-verified-child-killings-2023-2024-06-03",
+    "title": "UN verifies killings and maiming of children in Israel and occupied Palestinian territory",
+    "event_date": null,
+    "publication_date": "2024-06-03",
+    "location": [
+      "Israel",
+      "Occupied Palestinian Territory"
+    ],
+    "actors": [
+      "Israeli forces",
+      "Hamas and other Palestinian armed groups"
+    ],
+    "affected_population": [
+      "Palestinian children",
+      "Israeli children"
+    ],
+    "category": "children",
+    "summary": "The Secretary-General’s report presents UN-verified grave violations during 2023.",
+    "claim": "The United Nations verified thousands of instances of killing and maiming of Palestinian and Israeli children in 2023, with most occurring after 7 October.",
+    "legal_characterization": "UN-verified grave-violation evidence attributed to the Secretary-General’s reporting mechanism; not a court judgment.",
+    "legal_status": "DOCUMENTED_EVIDENCE",
+    "evidence_type": [
+      "official-report"
+    ],
+    "source_organization": "United Nations Secretary-General",
+    "source_title": "Children and armed conflict in Israel and the Occupied Palestinian Territory",
+    "source_url": "https://docs.un.org/en/S/2024/384",
+    "source_document_id": "S/2024/384",
+    "source_page": "paras. 12-19",
+    "source_quote": null,
+    "verification_notes": "Verified against the cited section of the Secretary-General’s dedicated report. Wording preserves the report’s verification posture and does not attribute unverified incidents.",
+    "related_records": [
+      "un-coi-gaza-child-casualties-2024-06-12"
+    ],
+    "tags": [
+      "children",
+      "united-nations",
+      "killing-and-maiming"
+    ],
+    "created_at": "2026-08-17T00:00:00Z",
+    "updated_at": "2026-08-17T00:00:00Z"
+  },
+  {
+    "id": "un-coi-ambulance-attacks-health-system-2024-09-11",
+    "title": "UN Commission finds deliberate attacks on ambulances",
+    "event_date": null,
+    "publication_date": "2024-09-11",
+    "location": [
+      "Gaza Strip",
+      "Israel"
+    ],
+    "actors": [
+      "Israeli security forces"
+    ],
+    "affected_population": [
+      "Palestinians in the Gaza Strip"
+    ],
+    "category": "civilian-infrastructure",
+    "summary": "The Commission assessed attacks on medical transport as part of its health-care investigation.",
+    "claim": "The Commission found that Israeli forces deliberately attacked ambulances and medical vehicles, contributing to destruction of Gaza’s health-care system.",
+    "legal_characterization": "Finding of a United Nations commission of inquiry; not a court judgment.",
+    "legal_status": "UN_FINDING",
+    "evidence_type": [
+      "official-report",
+      "witness-interview"
+    ],
+    "source_organization": "United Nations Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+    "source_title": "Report of the Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+    "source_url": "https://docs.un.org/en/A/79/232",
+    "source_document_id": "A/79/232",
+    "source_page": "paras. 89-90",
+    "source_quote": null,
+    "verification_notes": "Verified against the cited paragraphs and attributed only to the Commission. Qualified language is preserved where the Commission could not verify broader claims.",
+    "related_records": [
+      "un-coi-gaza-healthcare-destruction-policy-2024-09-11"
+    ],
+    "tags": [
+      "un-commission-of-inquiry",
+      "gaza",
+      "ambulances"
+    ],
+    "created_at": "2026-08-17T00:00:00Z",
+    "updated_at": "2026-08-17T00:00:00Z"
   },
   {
     "id": "un-coi-gaza-education-system-destruction-2025-05-06",
@@ -641,6 +981,92 @@
     "updated_at": "2026-08-16T00:00:00Z"
   },
   {
+    "id": "un-coi-shifa-exchanges-fire-2024-09-11",
+    "title": "UN Commission documents exchanges of fire on Shifa Hospital premises",
+    "event_date": null,
+    "publication_date": "2024-09-11",
+    "location": [
+      "Gaza Strip"
+    ],
+    "actors": [
+      "Israeli security forces",
+      "Palestinian armed groups"
+    ],
+    "affected_population": [
+      "Palestinians in the Gaza Strip"
+    ],
+    "category": "civilian-infrastructure",
+    "summary": "The Commission documented exchanges of fire involving Israeli security forces and Palestinian armed groups at Shifa Hospital while preserving its inability to verify broader military-use claims.",
+    "claim": "The Commission documented exchanges of fire between Israeli security forces and Palestinian armed groups on the premises of Shifa Hospital.",
+    "legal_characterization": "Finding of a United Nations commission of inquiry; not a court judgment.",
+    "legal_status": "UN_FINDING",
+    "evidence_type": [
+      "official-report",
+      "video"
+    ],
+    "source_organization": "United Nations Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+    "source_title": "Report of the Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+    "source_url": "https://docs.un.org/en/A/79/232",
+    "source_document_id": "A/79/232",
+    "source_page": "paras. 27-29",
+    "source_quote": null,
+    "verification_notes": "Verified against paras. 27-29 and attributed only to the Commission. The report did not conclude that Hamas used Shifa or Nasr Hospitals for military purposes and expressly stated that it could not independently verify broader Israeli claims concerning military use of those hospitals and tunnels.",
+    "related_records": [
+      "un-coi-gaza-healthcare-destruction-policy-2024-09-11"
+    ],
+    "tags": [
+      "un-commission-of-inquiry",
+      "gaza",
+      "hospitals",
+      "attacks-on-civilians"
+    ],
+    "created_at": "2026-08-17T00:00:00Z",
+    "updated_at": "2026-08-17T00:00:00Z"
+  },
+  {
+    "id": "un-sg-attacks-schools-hospitals-2023-2024-06-03",
+    "title": "UN verifies attacks on schools and hospitals affecting children",
+    "event_date": null,
+    "publication_date": "2024-06-03",
+    "location": [
+      "Israel",
+      "Occupied Palestinian Territory"
+    ],
+    "actors": [
+      "Israeli forces",
+      "Hamas and other Palestinian armed groups"
+    ],
+    "affected_population": [
+      "Palestinian children",
+      "Israeli children"
+    ],
+    "category": "civilian-infrastructure",
+    "summary": "The report records verified attacks on protected civilian facilities in Israel and the occupied Palestinian territory.",
+    "claim": "The United Nations verified attacks on schools and hospitals by parties to the conflict during 2023.",
+    "legal_characterization": "UN-verified grave-violation evidence attributed to the Secretary-General’s reporting mechanism; not a court judgment.",
+    "legal_status": "DOCUMENTED_EVIDENCE",
+    "evidence_type": [
+      "official-report"
+    ],
+    "source_organization": "United Nations Secretary-General",
+    "source_title": "Children and armed conflict in Israel and the Occupied Palestinian Territory",
+    "source_url": "https://docs.un.org/en/S/2024/384",
+    "source_document_id": "S/2024/384",
+    "source_page": "paras. 27-30",
+    "source_quote": null,
+    "verification_notes": "Verified against the cited section of the Secretary-General’s dedicated report. Wording preserves the report’s verification posture and does not attribute unverified incidents.",
+    "related_records": [
+      "un-coi-gaza-child-casualties-2024-06-12"
+    ],
+    "tags": [
+      "children",
+      "united-nations",
+      "schools"
+    ],
+    "created_at": "2026-08-17T00:00:00Z",
+    "updated_at": "2026-08-17T00:00:00Z"
+  },
+  {
     "id": "ohchr-detention-gaza-hostilities-2024-07-31",
     "title": "OHCHR report on detention in the context of Gaza hostilities",
     "event_date": null,
@@ -780,6 +1206,134 @@
     "updated_at": "2026-08-16T00:00:00Z"
   },
   {
+    "id": "ohchr-west-bank-detainee-ill-treatment-2023-12-27",
+    "title": "OHCHR documents alleged ill-treatment of West Bank detainees",
+    "event_date": null,
+    "publication_date": "2023-12-27",
+    "location": [
+      "West Bank",
+      "East Jerusalem"
+    ],
+    "actors": [
+      "Israeli security forces",
+      "Israeli settlers"
+    ],
+    "affected_population": [
+      "Palestinians in the occupied West Bank"
+    ],
+    "category": "detention",
+    "summary": "OHCHR received accounts and material concerning detainee treatment after arrest.",
+    "claim": "OHCHR documented allegations of beatings, humiliation and other ill-treatment of Palestinians arrested in the occupied West Bank.",
+    "legal_characterization": "Evidence and accounts documented by OHCHR; not a judicial finding.",
+    "legal_status": "DOCUMENTED_EVIDENCE",
+    "evidence_type": [
+      "official-report",
+      "witness-interview"
+    ],
+    "source_organization": "Office of the United Nations High Commissioner for Human Rights",
+    "source_title": "The human rights situation in the occupied West Bank including East Jerusalem, 7 October – 20 November 2023",
+    "source_url": "https://www.ohchr.org/sites/default/files/2023-12/Flash-Report-on-the-Human-Rights-Situation-in-the-Occupied-West-Bank-including-East-Jerusalem.pdf",
+    "source_document_id": "OHCHR-OPT-West-Bank-Flash-Report-2023-12-27",
+    "source_page": "pp. 13-15, section “Arbitrary detention and ill-treatment”",
+    "source_quote": null,
+    "verification_notes": "Verified against the cited thematic section. Where the source reports allegations, the claim retains that qualification rather than converting them into findings.",
+    "related_records": [
+      "icj-settler-violence-protection-2024-07-19"
+    ],
+    "tags": [
+      "ohchr",
+      "west-bank",
+      "ill-treatment"
+    ],
+    "created_at": "2026-08-17T00:00:00Z",
+    "updated_at": "2026-08-17T00:00:00Z"
+  },
+  {
+    "id": "ohchr-west-bank-mass-arrests-2023-12-27",
+    "title": "OHCHR documents mass arrests in the West Bank",
+    "event_date": null,
+    "publication_date": "2023-12-27",
+    "location": [
+      "West Bank",
+      "East Jerusalem"
+    ],
+    "actors": [
+      "Israeli security forces",
+      "Israeli settlers"
+    ],
+    "affected_population": [
+      "Palestinians in the occupied West Bank"
+    ],
+    "category": "detention",
+    "summary": "OHCHR documented a surge in arrests of Palestinians after 7 October.",
+    "claim": "OHCHR documented mass arrests by Israeli security forces across the occupied West Bank, including East Jerusalem, during the reporting period.",
+    "legal_characterization": "Evidence and accounts documented by OHCHR; not a judicial finding.",
+    "legal_status": "DOCUMENTED_EVIDENCE",
+    "evidence_type": [
+      "official-report",
+      "witness-interview"
+    ],
+    "source_organization": "Office of the United Nations High Commissioner for Human Rights",
+    "source_title": "The human rights situation in the occupied West Bank including East Jerusalem, 7 October – 20 November 2023",
+    "source_url": "https://www.ohchr.org/sites/default/files/2023-12/Flash-Report-on-the-Human-Rights-Situation-in-the-Occupied-West-Bank-including-East-Jerusalem.pdf",
+    "source_document_id": "OHCHR-OPT-West-Bank-Flash-Report-2023-12-27",
+    "source_page": "pp. 13-15, section “Arbitrary detention and ill-treatment”",
+    "source_quote": null,
+    "verification_notes": "Verified against the cited thematic section. Where the source reports allegations, the claim retains that qualification rather than converting them into findings.",
+    "related_records": [
+      "icj-settler-violence-protection-2024-07-19"
+    ],
+    "tags": [
+      "ohchr",
+      "west-bank",
+      "arbitrary-detention"
+    ],
+    "created_at": "2026-08-17T00:00:00Z",
+    "updated_at": "2026-08-17T00:00:00Z"
+  },
+  {
+    "id": "un-coi-detainee-deaths-custody-2024-09-11",
+    "title": "UN Commission finds deaths in Israeli custody were linked to abuse or neglect",
+    "event_date": null,
+    "publication_date": "2024-09-11",
+    "location": [
+      "Gaza Strip",
+      "Israel"
+    ],
+    "actors": [
+      "Israeli security forces"
+    ],
+    "affected_population": [
+      "Palestinians in the Gaza Strip"
+    ],
+    "category": "detention",
+    "summary": "The Commission examined reported deaths of Palestinian detainees held by Israeli authorities.",
+    "claim": "The Commission found that deaths of Palestinian detainees in Israeli custody resulted from abuse or neglect, including denial of medical attention.",
+    "legal_characterization": "Finding of a United Nations commission of inquiry; not a court judgment.",
+    "legal_status": "UN_FINDING",
+    "evidence_type": [
+      "official-report",
+      "witness-interview"
+    ],
+    "source_organization": "United Nations Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+    "source_title": "Report of the Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+    "source_url": "https://docs.un.org/en/A/79/232",
+    "source_document_id": "A/79/232",
+    "source_page": "paras. 64-69 and 108",
+    "source_quote": null,
+    "verification_notes": "Verified against the cited paragraphs and attributed only to the Commission. Qualified language is preserved where the Commission could not verify broader claims.",
+    "related_records": [
+      "un-coi-gaza-healthcare-destruction-policy-2024-09-11"
+    ],
+    "tags": [
+      "un-commission-of-inquiry",
+      "gaza",
+      "deaths-in-custody"
+    ],
+    "created_at": "2026-08-17T00:00:00Z",
+    "updated_at": "2026-08-17T00:00:00Z"
+  },
+  {
     "id": "un-coi-detainees-human-shields-2024-09-11",
     "title": "UN Commission finding on detainees used as human shields",
     "event_date": null,
@@ -874,6 +1428,48 @@
     ],
     "created_at": "2026-08-16T00:00:00Z",
     "updated_at": "2026-08-16T00:00:00Z"
+  },
+  {
+    "id": "un-coi-medical-personnel-detained-2024-09-11",
+    "title": "UN Commission finds medical personnel were detained and mistreated",
+    "event_date": null,
+    "publication_date": "2024-09-11",
+    "location": [
+      "Gaza Strip",
+      "Israel"
+    ],
+    "actors": [
+      "Israeli security forces"
+    ],
+    "affected_population": [
+      "Palestinians in the Gaza Strip"
+    ],
+    "category": "detention",
+    "summary": "The Commission investigated detention of health-care workers during attacks on Gaza medical facilities.",
+    "claim": "The Commission found that Israeli security forces deliberately killed, detained and tortured medical personnel and targeted medical vehicles.",
+    "legal_characterization": "Finding of a United Nations commission of inquiry; not a court judgment.",
+    "legal_status": "UN_FINDING",
+    "evidence_type": [
+      "official-report",
+      "witness-interview"
+    ],
+    "source_organization": "United Nations Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+    "source_title": "Report of the Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+    "source_url": "https://docs.un.org/en/A/79/232",
+    "source_document_id": "A/79/232",
+    "source_page": "paras. 90 and 93",
+    "source_quote": null,
+    "verification_notes": "Verified against the cited paragraphs and attributed only to the Commission. Qualified language is preserved where the Commission could not verify broader claims.",
+    "related_records": [
+      "un-coi-gaza-healthcare-destruction-policy-2024-09-11"
+    ],
+    "tags": [
+      "un-commission-of-inquiry",
+      "gaza",
+      "medical-personnel"
+    ],
+    "created_at": "2026-08-17T00:00:00Z",
+    "updated_at": "2026-08-17T00:00:00Z"
   },
   {
     "id": "un-coi-palestinian-detainee-sexualized-torture-2024-09-11",
@@ -974,6 +1570,49 @@
     "updated_at": "2026-08-16T00:00:00Z"
   },
   {
+    "id": "un-sg-child-detention-2023-2024-06-03",
+    "title": "UN verifies detention of Palestinian children by Israeli forces",
+    "event_date": null,
+    "publication_date": "2024-06-03",
+    "location": [
+      "Israel",
+      "Occupied Palestinian Territory"
+    ],
+    "actors": [
+      "Israeli forces",
+      "Hamas and other Palestinian armed groups"
+    ],
+    "affected_population": [
+      "Palestinian children",
+      "Israeli children"
+    ],
+    "category": "detention",
+    "summary": "The report addresses Palestinian children detained for alleged security offences.",
+    "claim": "The United Nations verified that Israeli forces detained Palestinian children in the occupied West Bank, including East Jerusalem, during the reporting period.",
+    "legal_characterization": "UN-verified grave-violation evidence attributed to the Secretary-General’s reporting mechanism; not a court judgment.",
+    "legal_status": "DOCUMENTED_EVIDENCE",
+    "evidence_type": [
+      "official-report"
+    ],
+    "source_organization": "United Nations Secretary-General",
+    "source_title": "Children and armed conflict in Israel and the Occupied Palestinian Territory",
+    "source_url": "https://docs.un.org/en/S/2024/384",
+    "source_document_id": "S/2024/384",
+    "source_page": "paras. 34-38",
+    "source_quote": null,
+    "verification_notes": "Verified against the cited section of the Secretary-General’s dedicated report. Wording preserves the report’s verification posture and does not attribute unverified incidents.",
+    "related_records": [
+      "un-coi-gaza-child-casualties-2024-06-12"
+    ],
+    "tags": [
+      "children",
+      "united-nations",
+      "child-detention"
+    ],
+    "created_at": "2026-08-17T00:00:00Z",
+    "updated_at": "2026-08-17T00:00:00Z"
+  },
+  {
     "id": "icj-rafah-offensive-order-2024-05-24",
     "title": "ICJ provisional measure concerning the Rafah offensive",
     "event_date": "2024-05-24",
@@ -1016,6 +1655,49 @@
     ],
     "created_at": "2026-08-16T00:00:00Z",
     "updated_at": "2026-08-16T00:00:00Z"
+  },
+  {
+    "id": "ohchr-west-bank-herding-displacement-2023-12-27",
+    "title": "OHCHR documents displacement of Palestinian herding communities",
+    "event_date": null,
+    "publication_date": "2023-12-27",
+    "location": [
+      "West Bank",
+      "East Jerusalem"
+    ],
+    "actors": [
+      "Israeli security forces",
+      "Israeli settlers"
+    ],
+    "affected_population": [
+      "Palestinians in the occupied West Bank"
+    ],
+    "category": "displacement",
+    "summary": "The report links coercive settler violence and access restrictions to displacement.",
+    "claim": "OHCHR documented the forced displacement of Palestinian herding and Bedouin communities amid settler violence and restrictions on access to grazing land.",
+    "legal_characterization": "Evidence and accounts documented by OHCHR; not a judicial finding.",
+    "legal_status": "DOCUMENTED_EVIDENCE",
+    "evidence_type": [
+      "official-report",
+      "witness-interview"
+    ],
+    "source_organization": "Office of the United Nations High Commissioner for Human Rights",
+    "source_title": "The human rights situation in the occupied West Bank including East Jerusalem, 7 October – 20 November 2023",
+    "source_url": "https://www.ohchr.org/sites/default/files/2023-12/Flash-Report-on-the-Human-Rights-Situation-in-the-Occupied-West-Bank-including-East-Jerusalem.pdf",
+    "source_document_id": "OHCHR-OPT-West-Bank-Flash-Report-2023-12-27",
+    "source_page": "pp. 10-12, sections on settler violence and forced displacement",
+    "source_quote": null,
+    "verification_notes": "Verified against the cited thematic section. Where the source reports allegations, the claim retains that qualification rather than converting them into findings.",
+    "related_records": [
+      "icj-settler-violence-protection-2024-07-19"
+    ],
+    "tags": [
+      "ohchr",
+      "west-bank",
+      "forcible-transfer"
+    ],
+    "created_at": "2026-08-17T00:00:00Z",
+    "updated_at": "2026-08-17T00:00:00Z"
   },
   {
     "id": "un-coi-forcible-transfer-gaza-2024-06-12",
@@ -1414,6 +2096,91 @@
     "updated_at": "2026-08-16T00:00:00Z"
   },
   {
+    "id": "un-coi-hostages-in-tunnels-2024-09-11",
+    "title": "UN Commission documents hostages held in tunnels with little food",
+    "event_date": null,
+    "publication_date": "2024-09-11",
+    "location": [
+      "Gaza Strip",
+      "Israel"
+    ],
+    "actors": [
+      "Hamas and other Palestinian armed groups"
+    ],
+    "affected_population": [
+      "hostages held in the Gaza Strip"
+    ],
+    "category": "hostages",
+    "summary": "The Commission documented released-hostage accounts concerning conditions of captivity.",
+    "claim": "The Commission documented accounts that some hostages held by Palestinian armed groups in Gaza tunnels received little food and were held in poor conditions.",
+    "legal_characterization": "Finding of a United Nations commission of inquiry; not a court judgment.",
+    "legal_status": "UN_FINDING",
+    "evidence_type": [
+      "official-report",
+      "witness-interview"
+    ],
+    "source_organization": "United Nations Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+    "source_title": "Report of the Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+    "source_url": "https://docs.un.org/en/A/79/232",
+    "source_document_id": "A/79/232",
+    "source_page": "paras. 73-76",
+    "source_quote": null,
+    "verification_notes": "Verified against the cited paragraphs and attributed only to the Commission. Qualified language is preserved where the Commission could not verify broader claims.",
+    "related_records": [
+      "un-coi-gaza-healthcare-destruction-policy-2024-09-11"
+    ],
+    "tags": [
+      "un-commission-of-inquiry",
+      "gaza",
+      "hostage-treatment"
+    ],
+    "created_at": "2026-08-17T00:00:00Z",
+    "updated_at": "2026-08-17T00:00:00Z"
+  },
+  {
+    "id": "un-sg-children-abducted-7-october-2024-06-03",
+    "title": "UN verifies abduction of children on 7 October",
+    "event_date": null,
+    "publication_date": "2024-06-03",
+    "location": [
+      "Israel",
+      "Occupied Palestinian Territory"
+    ],
+    "actors": [
+      "Israeli forces",
+      "Hamas and other Palestinian armed groups"
+    ],
+    "affected_population": [
+      "Palestinian children",
+      "Israeli children"
+    ],
+    "category": "hostages",
+    "summary": "The report records child abductions during the Hamas-led attack in Israel.",
+    "claim": "The United Nations verified the abduction of Israeli children by Hamas and other Palestinian armed groups on 7 October 2023.",
+    "legal_characterization": "UN-verified grave-violation evidence attributed to the Secretary-General’s reporting mechanism; not a court judgment.",
+    "legal_status": "DOCUMENTED_EVIDENCE",
+    "evidence_type": [
+      "official-report"
+    ],
+    "source_organization": "United Nations Secretary-General",
+    "source_title": "Children and armed conflict in Israel and the Occupied Palestinian Territory",
+    "source_url": "https://docs.un.org/en/S/2024/384",
+    "source_document_id": "S/2024/384",
+    "source_page": "paras. 20-23",
+    "source_quote": null,
+    "verification_notes": "Verified against the cited section of the Secretary-General’s dedicated report. Wording preserves the report’s verification posture and does not attribute unverified incidents.",
+    "related_records": [
+      "un-coi-gaza-child-casualties-2024-06-12"
+    ],
+    "tags": [
+      "children",
+      "united-nations",
+      "abduction"
+    ],
+    "created_at": "2026-08-17T00:00:00Z",
+    "updated_at": "2026-08-17T00:00:00Z"
+  },
+  {
     "id": "icj-famine-setting-in-2024-03-28",
     "title": "ICJ interim assessment that famine was setting in",
     "event_date": "2024-03-28",
@@ -1543,6 +2310,49 @@
     "updated_at": "2026-08-16T00:00:00Z"
   },
   {
+    "id": "ohchr-west-bank-movement-restrictions-2023-12-27",
+    "title": "OHCHR documents intensified West Bank movement restrictions",
+    "event_date": null,
+    "publication_date": "2023-12-27",
+    "location": [
+      "West Bank",
+      "East Jerusalem"
+    ],
+    "actors": [
+      "Israeli security forces",
+      "Israeli settlers"
+    ],
+    "affected_population": [
+      "Palestinians in the occupied West Bank"
+    ],
+    "category": "humanitarian-aid",
+    "summary": "The report describes closures and movement barriers affecting access to services and livelihoods.",
+    "claim": "OHCHR documented intensified movement restrictions across the occupied West Bank that impeded Palestinian access to essential services and livelihoods.",
+    "legal_characterization": "Evidence and accounts documented by OHCHR; not a judicial finding.",
+    "legal_status": "DOCUMENTED_EVIDENCE",
+    "evidence_type": [
+      "official-report",
+      "witness-interview"
+    ],
+    "source_organization": "Office of the United Nations High Commissioner for Human Rights",
+    "source_title": "The human rights situation in the occupied West Bank including East Jerusalem, 7 October – 20 November 2023",
+    "source_url": "https://www.ohchr.org/sites/default/files/2023-12/Flash-Report-on-the-Human-Rights-Situation-in-the-Occupied-West-Bank-including-East-Jerusalem.pdf",
+    "source_document_id": "OHCHR-OPT-West-Bank-Flash-Report-2023-12-27",
+    "source_page": "pp. 15-17, section on movement restrictions",
+    "source_quote": null,
+    "verification_notes": "Verified against the cited thematic section. Where the source reports allegations, the claim retains that qualification rather than converting them into findings.",
+    "related_records": [
+      "icj-settler-violence-protection-2024-07-19"
+    ],
+    "tags": [
+      "ohchr",
+      "west-bank",
+      "movement-restrictions"
+    ],
+    "created_at": "2026-08-17T00:00:00Z",
+    "updated_at": "2026-08-17T00:00:00Z"
+  },
+  {
     "id": "un-coi-gaza-siege-starvation-2024-06-12",
     "title": "UN Commission finding on siege and starvation in Gaza",
     "event_date": null,
@@ -1589,6 +2399,223 @@
     ],
     "created_at": "2026-08-16T00:00:00Z",
     "updated_at": "2026-08-16T00:00:00Z"
+  },
+  {
+    "id": "un-sg-denial-humanitarian-access-children-2023-2024-06-03",
+    "title": "UN verifies denial of humanitarian access for children",
+    "event_date": null,
+    "publication_date": "2024-06-03",
+    "location": [
+      "Israel",
+      "Occupied Palestinian Territory"
+    ],
+    "actors": [
+      "Israeli forces",
+      "Hamas and other Palestinian armed groups"
+    ],
+    "affected_population": [
+      "Palestinian children",
+      "Israeli children"
+    ],
+    "category": "humanitarian-aid",
+    "summary": "The report treats denial of humanitarian access as one of the six grave violations against children.",
+    "claim": "The United Nations verified incidents of denial of humanitarian access for children in the occupied Palestinian territory during 2023.",
+    "legal_characterization": "UN-verified grave-violation evidence attributed to the Secretary-General’s reporting mechanism; not a court judgment.",
+    "legal_status": "DOCUMENTED_EVIDENCE",
+    "evidence_type": [
+      "official-report"
+    ],
+    "source_organization": "United Nations Secretary-General",
+    "source_title": "Children and armed conflict in Israel and the Occupied Palestinian Territory",
+    "source_url": "https://docs.un.org/en/S/2024/384",
+    "source_document_id": "S/2024/384",
+    "source_page": "paras. 39-41",
+    "source_quote": null,
+    "verification_notes": "Verified against the cited section of the Secretary-General’s dedicated report. Wording preserves the report’s verification posture and does not attribute unverified incidents.",
+    "related_records": [
+      "un-coi-gaza-child-casualties-2024-06-12"
+    ],
+    "tags": [
+      "children",
+      "united-nations",
+      "humanitarian-access"
+    ],
+    "created_at": "2026-08-17T00:00:00Z",
+    "updated_at": "2026-08-17T00:00:00Z"
+  },
+  {
+    "id": "icc-warrant-al-masri-hostage-taking-2024-11-21",
+    "title": "ICC chamber issues Al-Masri warrant on hostage-taking allegation",
+    "event_date": null,
+    "publication_date": "2024-11-21",
+    "location": [
+      "Israel",
+      "Gaza Strip"
+    ],
+    "actors": [
+      "Mohammed Diab Ibrahim Al-Masri (Deif)"
+    ],
+    "affected_population": [
+      "civilians in Israel",
+      "hostages held in the Gaza Strip"
+    ],
+    "category": "legal-proceeding",
+    "summary": "The warrant announcement separately identifies hostage-taking among alleged war crimes.",
+    "claim": "The Chamber stated that it found reasonable grounds to believe Al-Masri was responsible for the war crime of taking hostages.",
+    "legal_characterization": "Arrest-warrant allegation at the reasonable-grounds-to-believe threshold; not a conviction.",
+    "legal_status": "COURT_ALLEGATION",
+    "evidence_type": [
+      "arrest-warrant"
+    ],
+    "source_organization": "International Criminal Court",
+    "source_title": "Situation in the State of Palestine: ICC Pre-Trial Chamber I issues warrant of arrest for Mohammed Diab Ibrahim Al-Masri (Deif)",
+    "source_url": "https://www.icc-cpi.int/news/situation-state-palestine-icc-pre-trial-chamber-i-issues-warrant-arrest-mohammed-diab-ibrahim",
+    "source_document_id": "ICC-2024-11-21-Palestine-warrant-Al-Masri",
+    "source_page": "Web release, section headed “The warrant of arrest”",
+    "source_quote": null,
+    "verification_notes": "Verified against the ICC’s official warrant announcement and its stated reasonable-grounds threshold. The record does not treat the warrant as a conviction. ICC Pre-Trial Chamber I subsequently terminated the proceedings against Al-Masri on 26 February 2025 following notification of his death (ICC-01/18-417); the 21 November 2024 warrant claim is retained only as a historical procedural allegation and is not presented as an active current proceeding.",
+    "related_records": [
+      "icc-warrants-netanyahu-gallant-2024-11-21"
+    ],
+    "tags": [
+      "icc",
+      "palestine-situation",
+      "arrest-warrants",
+      "hostage-taking"
+    ],
+    "created_at": "2026-08-17T00:00:00Z",
+    "updated_at": "2026-08-17T00:00:00Z"
+  },
+  {
+    "id": "icc-warrant-al-masri-murder-extermination-2024-11-21",
+    "title": "ICC chamber issues Al-Masri warrant on murder and extermination allegations",
+    "event_date": null,
+    "publication_date": "2024-11-21",
+    "location": [
+      "Israel",
+      "Gaza Strip"
+    ],
+    "actors": [
+      "Mohammed Diab Ibrahim Al-Masri (Deif)"
+    ],
+    "affected_population": [
+      "civilians in Israel",
+      "hostages held in the Gaza Strip"
+    ],
+    "category": "legal-proceeding",
+    "summary": "The Chamber announced a warrant applying the reasonable-grounds threshold to alleged conduct on and after 7 October 2023.",
+    "claim": "The Chamber stated that it found reasonable grounds to believe Al-Masri was responsible for the crimes against humanity of murder and extermination.",
+    "legal_characterization": "Arrest-warrant allegations at the reasonable-grounds-to-believe threshold; not a conviction.",
+    "legal_status": "COURT_ALLEGATION",
+    "evidence_type": [
+      "arrest-warrant"
+    ],
+    "source_organization": "International Criminal Court",
+    "source_title": "Situation in the State of Palestine: ICC Pre-Trial Chamber I issues warrant of arrest for Mohammed Diab Ibrahim Al-Masri (Deif)",
+    "source_url": "https://www.icc-cpi.int/news/situation-state-palestine-icc-pre-trial-chamber-i-issues-warrant-arrest-mohammed-diab-ibrahim",
+    "source_document_id": "ICC-2024-11-21-Palestine-warrant-Al-Masri",
+    "source_page": "Web release, section headed “The warrant of arrest”",
+    "source_quote": null,
+    "verification_notes": "Verified against the ICC’s official warrant announcement and its stated reasonable-grounds threshold. The record does not treat the warrant as a conviction. ICC Pre-Trial Chamber I subsequently terminated the proceedings against Al-Masri on 26 February 2025 following notification of his death (ICC-01/18-417); the 21 November 2024 warrant claim is retained only as a historical procedural allegation and is not presented as an active current proceeding.",
+    "related_records": [
+      "icc-warrants-netanyahu-gallant-2024-11-21"
+    ],
+    "tags": [
+      "icc",
+      "palestine-situation",
+      "arrest-warrants",
+      "murder",
+      "extermination"
+    ],
+    "created_at": "2026-08-17T00:00:00Z",
+    "updated_at": "2026-08-17T00:00:00Z"
+  },
+  {
+    "id": "icc-warrant-al-masri-sexual-violence-2024-11-21",
+    "title": "ICC chamber issues Al-Masri warrant on sexual-violence allegations",
+    "event_date": null,
+    "publication_date": "2024-11-21",
+    "location": [
+      "Israel",
+      "Gaza Strip"
+    ],
+    "actors": [
+      "Mohammed Diab Ibrahim Al-Masri (Deif)"
+    ],
+    "affected_population": [
+      "civilians in Israel",
+      "hostages held in the Gaza Strip"
+    ],
+    "category": "legal-proceeding",
+    "summary": "The warrant announcement identifies alleged sexual and gender-based crimes against captives.",
+    "claim": "The Chamber stated that it found reasonable grounds to believe Al-Masri was responsible for rape and other forms of sexual violence as crimes against humanity and war crimes.",
+    "legal_characterization": "Arrest-warrant allegations at the reasonable-grounds-to-believe threshold; not a conviction.",
+    "legal_status": "COURT_ALLEGATION",
+    "evidence_type": [
+      "arrest-warrant"
+    ],
+    "source_organization": "International Criminal Court",
+    "source_title": "Situation in the State of Palestine: ICC Pre-Trial Chamber I issues warrant of arrest for Mohammed Diab Ibrahim Al-Masri (Deif)",
+    "source_url": "https://www.icc-cpi.int/news/situation-state-palestine-icc-pre-trial-chamber-i-issues-warrant-arrest-mohammed-diab-ibrahim",
+    "source_document_id": "ICC-2024-11-21-Palestine-warrant-Al-Masri",
+    "source_page": "Web release, section headed “The warrant of arrest”",
+    "source_quote": null,
+    "verification_notes": "Verified against the ICC’s official warrant announcement and its stated reasonable-grounds threshold. The record does not treat the warrant as a conviction. ICC Pre-Trial Chamber I subsequently terminated the proceedings against Al-Masri on 26 February 2025 following notification of his death (ICC-01/18-417); the 21 November 2024 warrant claim is retained only as a historical procedural allegation and is not presented as an active current proceeding.",
+    "related_records": [
+      "icc-warrants-netanyahu-gallant-2024-11-21"
+    ],
+    "tags": [
+      "icc",
+      "palestine-situation",
+      "arrest-warrants",
+      "sexual-violence"
+    ],
+    "created_at": "2026-08-17T00:00:00Z",
+    "updated_at": "2026-08-17T00:00:00Z"
+  },
+  {
+    "id": "icc-warrant-al-masri-torture-cruel-treatment-2024-11-21",
+    "title": "ICC chamber issues Al-Masri warrant on captive-treatment allegations",
+    "event_date": null,
+    "publication_date": "2024-11-21",
+    "location": [
+      "Israel",
+      "Gaza Strip"
+    ],
+    "actors": [
+      "Mohammed Diab Ibrahim Al-Masri (Deif)"
+    ],
+    "affected_population": [
+      "civilians in Israel",
+      "hostages held in the Gaza Strip"
+    ],
+    "category": "legal-proceeding",
+    "summary": "The warrant announcement identifies alleged torture and cruel treatment connected to captivity.",
+    "claim": "The Chamber stated that it found reasonable grounds to believe Al-Masri was responsible for torture as a crime against humanity and for the war crimes of torture and cruel treatment.",
+    "legal_characterization": "Arrest-warrant allegations at the reasonable-grounds-to-believe threshold; not a conviction.",
+    "legal_status": "COURT_ALLEGATION",
+    "evidence_type": [
+      "arrest-warrant"
+    ],
+    "source_organization": "International Criminal Court",
+    "source_title": "Situation in the State of Palestine: ICC Pre-Trial Chamber I issues warrant of arrest for Mohammed Diab Ibrahim Al-Masri (Deif)",
+    "source_url": "https://www.icc-cpi.int/news/situation-state-palestine-icc-pre-trial-chamber-i-issues-warrant-arrest-mohammed-diab-ibrahim",
+    "source_document_id": "ICC-2024-11-21-Palestine-warrant-Al-Masri",
+    "source_page": "Web release, section headed “The warrant of arrest”",
+    "source_quote": null,
+    "verification_notes": "Verified against the ICC’s official warrant announcement and its stated reasonable-grounds threshold. The record does not treat the warrant as a conviction. ICC Pre-Trial Chamber I subsequently terminated the proceedings against Al-Masri on 26 February 2025 following notification of his death (ICC-01/18-417); the 21 November 2024 warrant claim is retained only as a historical procedural allegation and is not presented as an active current proceeding.",
+    "related_records": [
+      "icc-warrants-netanyahu-gallant-2024-11-21"
+    ],
+    "tags": [
+      "icc",
+      "palestine-situation",
+      "arrest-warrants",
+      "torture",
+      "ill-treatment"
+    ],
+    "created_at": "2026-08-17T00:00:00Z",
+    "updated_at": "2026-08-17T00:00:00Z"
   },
   {
     "id": "icc-warrants-netanyahu-gallant-2024-11-21",
@@ -1840,6 +2867,46 @@
     ],
     "created_at": "2026-08-16T00:00:00Z",
     "updated_at": "2026-08-16T00:00:00Z"
+  },
+  {
+    "id": "icj-provisional-measures-reporting-2024-01-26",
+    "title": "ICJ orders Israel to report on provisional measures",
+    "event_date": "2024-01-26",
+    "publication_date": "2024-01-26",
+    "location": [
+      "Gaza Strip"
+    ],
+    "actors": [
+      "State of Israel"
+    ],
+    "affected_population": [
+      "Palestinians in the Gaza Strip"
+    ],
+    "category": "legal-proceeding",
+    "summary": "The reporting direction forms part of the Court’s interim order and does not decide the merits.",
+    "claim": "The Court ordered Israel to submit a report within one month on all measures taken to give effect to the provisional-measures order.",
+    "legal_characterization": "Binding procedural component of an ICJ provisional-measures order; no final merits determination.",
+    "legal_status": "COURT_INTERIM_FINDING",
+    "evidence_type": [
+      "court-order"
+    ],
+    "source_organization": "International Court of Justice",
+    "source_title": "Order of 26 January 2024, Application of the Genocide Convention in the Gaza Strip (South Africa v. Israel)",
+    "source_url": "https://www.icj-cij.org/sites/default/files/case-related/192/192-20240126-ord-01-00-en.pdf",
+    "source_document_id": "ICJ-General-List-192-Order-2024-01-26",
+    "source_page": "p. 30, para. 86, operative clause 6",
+    "source_quote": null,
+    "verification_notes": "Verified against the operative clause. This is a reporting requirement at the provisional-measures stage, not a merits judgment.",
+    "related_records": [
+      "icj-provisional-measures-2024-01-26"
+    ],
+    "tags": [
+      "icj",
+      "provisional-measures",
+      "genocide-convention"
+    ],
+    "created_at": "2026-08-17T00:00:00Z",
+    "updated_at": "2026-08-17T00:00:00Z"
   },
   {
     "id": "icj-settlements-violate-international-law-2024-07-19",
@@ -2194,6 +3261,48 @@
     "updated_at": "2026-08-16T00:00:00Z"
   },
   {
+    "id": "un-sr-reasonable-grounds-genocide-2024-03-25",
+    "title": "Special Rapporteur reports reasonable grounds for genocide conclusion",
+    "event_date": null,
+    "publication_date": "2024-03-25",
+    "location": [
+      "Gaza Strip"
+    ],
+    "actors": [
+      "State of Israel",
+      "Israeli forces"
+    ],
+    "affected_population": [
+      "Palestinians in the Gaza Strip"
+    ],
+    "category": "legal-proceeding",
+    "summary": "The mandate holder stated her conclusion under a reasonable-grounds standard and called for protective action.",
+    "claim": "The Special Rapporteur concluded that there were reasonable grounds to believe that the threshold indicating the commission of genocide had been met.",
+    "legal_characterization": "Conclusion of an independent UN Special Rapporteur; not an ICJ merits judgment or a criminal conviction.",
+    "legal_status": "UN_FINDING",
+    "evidence_type": [
+      "official-report",
+      "expert-analysis"
+    ],
+    "source_organization": "Special Rapporteur on the situation of human rights in the Palestinian territories occupied since 1967",
+    "source_title": "Anatomy of a Genocide: Report of the Special Rapporteur on the situation of human rights in the Palestinian territories occupied since 1967",
+    "source_url": "https://docs.un.org/en/A/HRC/55/73",
+    "source_document_id": "A/HRC/55/73",
+    "source_page": "para. 93",
+    "source_quote": null,
+    "verification_notes": "Verified against the cited conclusion and attributed specifically to the Special Rapporteur. The mandate holder’s conclusion is not relabeled as a court judgment.",
+    "related_records": [
+      "icj-provisional-measures-2024-01-26"
+    ],
+    "tags": [
+      "un-special-procedures",
+      "gaza",
+      "genocide-convention"
+    ],
+    "created_at": "2026-08-17T00:00:00Z",
+    "updated_at": "2026-08-17T00:00:00Z"
+  },
+  {
     "id": "un-coi-incitement-genocide-officials-2025-09-16",
     "title": "UN Commission finding on incitement to genocide by Israeli officials",
     "event_date": null,
@@ -2240,5 +3349,47 @@
     ],
     "created_at": "2026-08-16T00:00:00Z",
     "updated_at": "2026-08-16T00:00:00Z"
+  },
+  {
+    "id": "un-sr-humanitarian-camouflage-conclusion-2024-03-25",
+    "title": "Special Rapporteur concludes humanitarian-law language was used to legitimize violence",
+    "event_date": null,
+    "publication_date": "2024-03-25",
+    "location": [
+      "Gaza Strip"
+    ],
+    "actors": [
+      "State of Israel",
+      "Israeli forces"
+    ],
+    "affected_population": [
+      "Palestinians in the Gaza Strip"
+    ],
+    "category": "statement",
+    "summary": "The report examined official framing and the application of humanitarian-law concepts.",
+    "claim": "The Special Rapporteur concluded that Israel had invoked international humanitarian law terminology as “humanitarian camouflage” to legitimize genocidal violence in Gaza.",
+    "legal_characterization": "Conclusion of an independent UN Special Rapporteur; not an ICJ merits judgment or a criminal conviction.",
+    "legal_status": "UN_FINDING",
+    "evidence_type": [
+      "official-report",
+      "expert-analysis"
+    ],
+    "source_organization": "Special Rapporteur on the situation of human rights in the Palestinian territories occupied since 1967",
+    "source_title": "Anatomy of a Genocide: Report of the Special Rapporteur on the situation of human rights in the Palestinian territories occupied since 1967",
+    "source_url": "https://docs.un.org/en/A/HRC/55/73",
+    "source_document_id": "A/HRC/55/73",
+    "source_page": "paras. 94-95",
+    "source_quote": null,
+    "verification_notes": "Verified against the cited conclusion and attributed specifically to the Special Rapporteur. The mandate holder’s conclusion is not relabeled as a court judgment.",
+    "related_records": [
+      "icj-provisional-measures-2024-01-26"
+    ],
+    "tags": [
+      "un-special-procedures",
+      "gaza",
+      "statements"
+    ],
+    "created_at": "2026-08-17T00:00:00Z",
+    "updated_at": "2026-08-17T00:00:00Z"
   }
 ]

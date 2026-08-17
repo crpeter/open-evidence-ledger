@@ -1,0 +1,42 @@
+{
+  "id": "un-sr-serious-harm-genocidal-act-2024-03-25",
+  "title": "Special Rapporteur concludes serious-harm threshold was met",
+  "event_date": null,
+  "publication_date": "2024-03-25",
+  "location": [
+    "Gaza Strip"
+  ],
+  "actors": [
+    "State of Israel",
+    "Israeli forces"
+  ],
+  "affected_population": [
+    "Palestinians in the Gaza Strip"
+  ],
+  "category": "attack-on-civilians",
+  "summary": "The report assessed physical and psychological harm under the Convention’s enumerated acts.",
+  "claim": "The Special Rapporteur concluded that the act of causing serious bodily or mental harm to members of the protected group under article II (b) had been committed.",
+  "legal_characterization": "Conclusion of an independent UN Special Rapporteur; not an ICJ merits judgment or a criminal conviction.",
+  "legal_status": "UN_FINDING",
+  "evidence_type": [
+    "official-report",
+    "expert-analysis"
+  ],
+  "source_organization": "Special Rapporteur on the situation of human rights in the Palestinian territories occupied since 1967",
+  "source_title": "Anatomy of a Genocide: Report of the Special Rapporteur on the situation of human rights in the Palestinian territories occupied since 1967",
+  "source_url": "https://docs.un.org/en/A/HRC/55/73",
+  "source_document_id": "A/HRC/55/73",
+  "source_page": "paras. 26-31 and 93",
+  "source_quote": null,
+  "verification_notes": "Verified against the cited conclusion and attributed specifically to the Special Rapporteur. The mandate holder’s conclusion is not relabeled as a court judgment.",
+  "related_records": [
+    "icj-provisional-measures-2024-01-26"
+  ],
+  "tags": [
+    "un-special-procedures",
+    "gaza",
+    "genocide-convention"
+  ],
+  "created_at": "2026-08-17T00:00:00Z",
+  "updated_at": "2026-08-17T00:00:00Z"
+}

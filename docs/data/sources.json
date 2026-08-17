@@ -6,14 +6,33 @@
     "source_url": "https://docs.un.org/en/A/79/232",
     "publication_date": "2024-09-11",
     "record_ids": [
+      "un-coi-ambulance-attacks-health-system-2024-09-11",
+      "un-coi-child-detainee-abuse-2024-09-11",
+      "un-coi-detainee-deaths-custody-2024-09-11",
       "un-coi-detainees-human-shields-2024-09-11",
       "un-coi-gaza-healthcare-destruction-policy-2024-09-11",
       "un-coi-gaza-hospital-attacks-war-crimes-2024-09-11",
       "un-coi-hind-rajab-ambulance-attack-2024-09-11",
       "un-coi-hostage-mistreatment-2024-09-11",
       "un-coi-hostage-war-crimes-2024-09-11",
+      "un-coi-hostages-in-tunnels-2024-09-11",
+      "un-coi-medical-personnel-detained-2024-09-11",
       "un-coi-palestinian-detainee-sexualized-torture-2024-09-11",
-      "un-coi-released-detainees-forced-displacement-2024-09-11"
+      "un-coi-released-detainees-forced-displacement-2024-09-11",
+      "un-coi-shifa-exchanges-fire-2024-09-11"
+    ]
+  },
+  {
+    "source_document_id": "A/HRC/55/73",
+    "source_organization": "Special Rapporteur on the situation of human rights in the Palestinian territories occupied since 1967",
+    "source_title": "Anatomy of a Genocide: Report of the Special Rapporteur on the situation of human rights in the Palestinian territories occupied since 1967",
+    "source_url": "https://docs.un.org/en/A/HRC/55/73",
+    "publication_date": "2024-03-25",
+    "record_ids": [
+      "un-sr-humanitarian-camouflage-conclusion-2024-03-25",
+      "un-sr-killing-genocidal-act-2024-03-25",
+      "un-sr-reasonable-grounds-genocide-2024-03-25",
+      "un-sr-serious-harm-genocidal-act-2024-03-25"
     ]
   },
   {
@@ -75,6 +94,19 @@
     ]
   },
   {
+    "source_document_id": "ICC-2024-11-21-Palestine-warrant-Al-Masri",
+    "source_organization": "International Criminal Court",
+    "source_title": "Situation in the State of Palestine: ICC Pre-Trial Chamber I issues warrant of arrest for Mohammed Diab Ibrahim Al-Masri (Deif)",
+    "source_url": "https://www.icc-cpi.int/news/situation-state-palestine-icc-pre-trial-chamber-i-issues-warrant-arrest-mohammed-diab-ibrahim",
+    "publication_date": "2024-11-21",
+    "record_ids": [
+      "icc-warrant-al-masri-hostage-taking-2024-11-21",
+      "icc-warrant-al-masri-murder-extermination-2024-11-21",
+      "icc-warrant-al-masri-sexual-violence-2024-11-21",
+      "icc-warrant-al-masri-torture-cruel-treatment-2024-11-21"
+    ]
+  },
+  {
     "source_document_id": "ICC-2024-11-21-Palestine-warrants-Netanyahu-Gallant",
     "source_organization": "International Criminal Court",
     "source_title": "Situation in the State of Palestine: ICC Pre-Trial Chamber I rejects the State of Israel's challenges to jurisdiction and issues warrants of arrest for Benjamin Netanyahu and Yoav Gallant",
@@ -108,7 +140,8 @@
     "source_url": "https://www.icj-cij.org/sites/default/files/case-related/192/192-20240126-ord-01-00-en.pdf",
     "publication_date": "2024-01-26",
     "record_ids": [
-      "icj-provisional-measures-2024-01-26"
+      "icj-provisional-measures-2024-01-26",
+      "icj-provisional-measures-reporting-2024-01-26"
     ]
   },
   {
@@ -144,6 +177,36 @@
       "ohchr-gaza-detainees-incommunicado-2024-07-31",
       "ohchr-hostage-treatment-2024-07-31",
       "ohchr-palestinian-detainee-treatment-2024-07-31"
+    ]
+  },
+  {
+    "source_document_id": "OHCHR-OPT-West-Bank-Flash-Report-2023-12-27",
+    "source_organization": "Office of the United Nations High Commissioner for Human Rights",
+    "source_title": "The human rights situation in the occupied West Bank including East Jerusalem, 7 October – 20 November 2023",
+    "source_url": "https://www.ohchr.org/sites/default/files/2023-12/Flash-Report-on-the-Human-Rights-Situation-in-the-Occupied-West-Bank-including-East-Jerusalem.pdf",
+    "publication_date": "2023-12-27",
+    "record_ids": [
+      "ohchr-west-bank-detainee-ill-treatment-2023-12-27",
+      "ohchr-west-bank-herding-displacement-2023-12-27",
+      "ohchr-west-bank-lethal-force-2023-12-27",
+      "ohchr-west-bank-mass-arrests-2023-12-27",
+      "ohchr-west-bank-movement-restrictions-2023-12-27",
+      "ohchr-west-bank-settler-violence-2023-12-27"
+    ]
+  },
+  {
+    "source_document_id": "S/2024/384",
+    "source_organization": "United Nations Secretary-General",
+    "source_title": "Children and armed conflict in Israel and the Occupied Palestinian Territory",
+    "source_url": "https://docs.un.org/en/S/2024/384",
+    "publication_date": "2024-06-03",
+    "record_ids": [
+      "un-sg-attacks-schools-hospitals-2023-2024-06-03",
+      "un-sg-child-detention-2023-2024-06-03",
+      "un-sg-children-abducted-7-october-2024-06-03",
+      "un-sg-denial-humanitarian-access-children-2023-2024-06-03",
+      "un-sg-palestinian-groups-child-recruitment-2023-2024-06-03",
+      "un-sg-verified-child-killings-2023-2024-06-03"
     ]
   }
 ]

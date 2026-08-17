@@ -4,7 +4,7 @@ Open Evidence Ledger is an open, machine-readable repository of carefully scoped
 
 ## Status and scope
 
-The ledger currently contains 48 carefully scoped primary-source records that collectively exercise five legitimate statuses: `COURT_INTERIM_FINDING`, `COURT_FINAL_FINDING`, `COURT_ALLEGATION`, `UN_FINDING`, and `DOCUMENTED_EVIDENCE`. A record reports only what its named source supports. See [METHODOLOGY.md](METHODOLOGY.md) before interpreting or contributing data.
+The ledger currently contains 75 carefully scoped primary-source records that collectively exercise five legitimate statuses: `COURT_INTERIM_FINDING`, `COURT_FINAL_FINDING`, `COURT_ALLEGATION`, `UN_FINDING`, and `DOCUMENTED_EVIDENCE`. A record reports only what its named source supports. See [METHODOLOGY.md](METHODOLOGY.md) before interpreting or contributing data.
 
 ## Repository map
 

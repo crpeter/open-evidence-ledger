@@ -1,0 +1,42 @@
+{
+  "id": "un-coi-detainee-deaths-custody-2024-09-11",
+  "title": "UN Commission finds deaths in Israeli custody were linked to abuse or neglect",
+  "event_date": null,
+  "publication_date": "2024-09-11",
+  "location": [
+    "Gaza Strip",
+    "Israel"
+  ],
+  "actors": [
+    "Israeli security forces"
+  ],
+  "affected_population": [
+    "Palestinians in the Gaza Strip"
+  ],
+  "category": "detention",
+  "summary": "The Commission examined reported deaths of Palestinian detainees held by Israeli authorities.",
+  "claim": "The Commission found that deaths of Palestinian detainees in Israeli custody resulted from abuse or neglect, including denial of medical attention.",
+  "legal_characterization": "Finding of a United Nations commission of inquiry; not a court judgment.",
+  "legal_status": "UN_FINDING",
+  "evidence_type": [
+    "official-report",
+    "witness-interview"
+  ],
+  "source_organization": "United Nations Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+  "source_title": "Report of the Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+  "source_url": "https://docs.un.org/en/A/79/232",
+  "source_document_id": "A/79/232",
+  "source_page": "paras. 64-69 and 108",
+  "source_quote": null,
+  "verification_notes": "Verified against the cited paragraphs and attributed only to the Commission. Qualified language is preserved where the Commission could not verify broader claims.",
+  "related_records": [
+    "un-coi-gaza-healthcare-destruction-policy-2024-09-11"
+  ],
+  "tags": [
+    "un-commission-of-inquiry",
+    "gaza",
+    "deaths-in-custody"
+  ],
+  "created_at": "2026-08-17T00:00:00Z",
+  "updated_at": "2026-08-17T00:00:00Z"
+}

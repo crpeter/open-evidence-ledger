@@ -1,0 +1,43 @@
+{
+  "id": "un-coi-shifa-exchanges-fire-2024-09-11",
+  "title": "UN Commission documents exchanges of fire on Shifa Hospital premises",
+  "event_date": null,
+  "publication_date": "2024-09-11",
+  "location": [
+    "Gaza Strip"
+  ],
+  "actors": [
+    "Israeli security forces",
+    "Palestinian armed groups"
+  ],
+  "affected_population": [
+    "Palestinians in the Gaza Strip"
+  ],
+  "category": "civilian-infrastructure",
+  "summary": "The Commission documented exchanges of fire involving Israeli security forces and Palestinian armed groups at Shifa Hospital while preserving its inability to verify broader military-use claims.",
+  "claim": "The Commission documented exchanges of fire between Israeli security forces and Palestinian armed groups on the premises of Shifa Hospital.",
+  "legal_characterization": "Finding of a United Nations commission of inquiry; not a court judgment.",
+  "legal_status": "UN_FINDING",
+  "evidence_type": [
+    "official-report",
+    "video"
+  ],
+  "source_organization": "United Nations Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+  "source_title": "Report of the Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel",
+  "source_url": "https://docs.un.org/en/A/79/232",
+  "source_document_id": "A/79/232",
+  "source_page": "paras. 27-29",
+  "source_quote": null,
+  "verification_notes": "Verified against paras. 27-29 and attributed only to the Commission. The report did not conclude that Hamas used Shifa or Nasr Hospitals for military purposes and expressly stated that it could not independently verify broader Israeli claims concerning military use of those hospitals and tunnels.",
+  "related_records": [
+    "un-coi-gaza-healthcare-destruction-policy-2024-09-11"
+  ],
+  "tags": [
+    "un-commission-of-inquiry",
+    "gaza",
+    "hospitals",
+    "attacks-on-civilians"
+  ],
+  "created_at": "2026-08-17T00:00:00Z",
+  "updated_at": "2026-08-17T00:00:00Z"
+}
