@@ -103,6 +103,15 @@ def validate_review(root=ROOT) -> list[str]:
             rid = candidate.get("published_record_id")
             if rid not in published:
                 errors.append(f"{label}: PUBLISHED must identify an actual published record")
+            if not all(candidate.get(k) for k in ("reviewed_at", "reviewed_by", "review_notes")):
+                errors.append(f"{label}: PUBLISHED must retain reviewed_at, reviewed_by, and review_notes")
+            proposed = candidate.get("proposed_record")
+            if not isinstance(proposed, dict):
+                errors.append(f"{label}: PUBLISHED requires the reviewed proposed_record")
+            elif rid != proposed.get("id"):
+                errors.append(f"{label}: published_record_id must equal proposed_record.id")
+            elif rid in published and published[rid] != proposed:
+                errors.append(f"{label}: published record differs from the reviewed proposed_record")
         elif candidate.get("published_record_id") is not None:
             errors.append(f"{label}: only PUBLISHED may set published_record_id")
         if status in ("CANDIDATE", "NEEDS_REVIEW") and any(candidate.get(k) for k in ("reviewed_at", "reviewed_by")):

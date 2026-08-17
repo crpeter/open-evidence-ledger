@@ -162,6 +162,30 @@ class ReviewPipelineTests(unittest.TestCase):
             with self.assertRaisesRegex(PromotionError, "no valid.*provenance"):
                 promote(path, root=root, approve=True)
 
+    def test_published_candidates_retain_review_and_exact_record_identity(self) -> None:
+        mutations = ("missing-reviewer", "unrelated-record", "changed-record")
+        for mutation in mutations:
+            with self.subTest(mutation=mutation), tempfile.TemporaryDirectory() as tmp:
+                root = Path(tmp); path, _ = self.candidate_and_record(root)
+                destination = promote(path, root=root, approve=True)
+                candidate = json.loads(path.read_text())
+                if mutation == "missing-reviewer":
+                    candidate["reviewed_by"] = None
+                    expected = "PUBLISHED must retain reviewed_at, reviewed_by, and review_notes"
+                elif mutation == "unrelated-record":
+                    unrelated = json.loads(destination.read_text())
+                    unrelated["id"] = "unrelated-existing-record"
+                    (destination.parent / "unrelated-existing-record.json").write_text(canonical_json(unrelated))
+                    candidate["published_record_id"] = unrelated["id"]
+                    expected = "published_record_id must equal proposed_record.id"
+                else:
+                    published = json.loads(destination.read_text())
+                    published["claim"] = "The published record now contains a different bounded synthetic claim."
+                    destination.write_text(canonical_json(published))
+                    expected = "published record differs from the reviewed proposed_record"
+                path.write_text(canonical_json(candidate))
+                self.assertTrue(any(expected in error for error in validate_review(root)), validate_review(root))
+
     def test_candidates_cannot_enter_public_exports_or_html(self) -> None:
         public = b"".join(path.read_bytes() for directory in (ROOT / "dist", ROOT / "docs/data", ROOT / "docs/records") for path in directory.glob("*" ) if path.is_file())
         for path in (ROOT / "review/candidates").glob("*.json"):
