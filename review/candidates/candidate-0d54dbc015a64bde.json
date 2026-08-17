@@ -1,6 +1,6 @@
 {
   "created_at": "2026-08-17T01:35:07Z",
-  "extraction_notes": "This is the Special Rapporteur’s framing in the report Summary, not a finding of the United Nations as a whole or a court judgment. Human review must confirm the extract against the official document, assess whether 'UN_FINDING' is the appropriate proposed status for a mandate-holder analysis, and evaluate overlap with published Special Rapporteur material.",
+  "extraction_notes": "This is the Special Rapporteur’s framing in paragraph 1, not a finding of the United Nations as a whole or a court judgment. Human review must confirm the precise scope against the official document, assess whether 'UN_FINDING' is the appropriate proposed status for a mandate-holder analysis, and evaluate overlap with published Special Rapporteur material.",
   "id": "candidate-0d54dbc015a64bde",
   "proposed_category": "displacement",
   "proposed_claim": "The Special Rapporteur situated the Gaza assault within a decades-long process of territorial expansion and ethnic cleansing aimed at eliminating the Palestinian presence in Palestine.",
@@ -23,8 +23,8 @@
   "reviewed_by": null,
   "source_document_id": "A/79/384",
   "source_organization": "United Nations Special Procedures",
-  "source_page": "Summary (p. 2)",
+  "source_page": "para. 1",
   "source_title": "Genocide as colonial erasure: Report of the Special Rapporteur on the situation of human rights in the Palestinian territories occupied since 1967",
   "source_url": "https://docs.un.org/en/A/79/384",
-  "supporting_passage": "The report contextualizes the current situation within the decades-long process of territorial expansion and ethnic cleansing aimed at liquidating the Palestinian presence in Palestine."
+  "supporting_passage": null
 }
